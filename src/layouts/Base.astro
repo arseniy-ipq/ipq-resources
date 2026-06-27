@@ -24,6 +24,7 @@ const org = {
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />
@@ -38,7 +39,7 @@ const org = {
   </head>
   <body>
     <header class="site-head">
-      <a href="/" class="brand"><span class="diamond"></span> IPQ<span class="brand-dim">media</span></a>
+      <a href="/" class="brand"><img src="/ipqmedia-logo.png" alt="IPQmedia" class="logo" width="1668" height="468" /></a>
       <a href="https://ipqmedia.com/book-a-call" class="cta">Book a call</a>
     </header>
     <main class="wrap">
@@ -72,10 +73,10 @@ const org = {
         display: flex; align-items: center; justify-content: space-between;
         max-width: 820px; margin: 0 auto; padding: 18px 24px;
       }
-      .brand { font-weight: 800; letter-spacing: -0.02em; text-decoration: none; color: var(--ink); font-size: 20px; display: inline-flex; align-items: center; gap: 8px; }
-      .brand-dim { color: var(--faint); font-weight: 700; }
-      .diamond { width: 12px; height: 12px; background: var(--red); transform: rotate(45deg); display: inline-block; border-radius: 2px; }
+      .brand { display: inline-flex; align-items: center; }
+      .logo { height: 26px; width: auto; display: block; }
       .cta { text-decoration: none; background: var(--red); color: #fff; font-weight: 600; font-size: 14px; padding: 9px 16px; border-radius: 8px; }
+      .cta-block { display: inline-block; text-decoration: none; background: var(--red); color: #fff; font-weight: 600; font-size: 16px; padding: 13px 24px; border-radius: 10px; margin-top: 8px; }
       .wrap { max-width: 760px; margin: 0 auto; padding: 24px 24px 64px; }
       h1 { font-size: 40px; line-height: 1.1; letter-spacing: -0.03em; margin: 18px 0 14px; }
       h2 { font-size: 26px; line-height: 1.2; letter-spacing: -0.02em; margin: 40px 0 12px; }
