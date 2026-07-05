@@ -1,10 +1,15 @@
 ---
 // SEO base layout — every page gets clean <head> meta, canonical, OG, and sitewide
 // Organization JSON-LD. Content ships as static HTML so Google AND AI crawlers can read it.
+// Article pages (any page passing `published`) also get: kicker + byline row (updated date,
+// reading time) injected around their existing <h1>/lede, plus Article JSON-LD.
 const {
   title,
   description,
   canonical = Astro.url.pathname,
+  published,
+  updated,
+  kicker = 'The IPQ Field Guide',
 } = Astro.props;
 const site = 'https://resources.ipqmedia.com';
 const canonicalUrl = new URL(canonical, site).href;
@@ -17,6 +22,46 @@ const org = {
     'Lead generation and client acquisition for US architecture firms.',
   sameAs: ['https://www.linkedin.com/company/ipqmedia'],
 };
+
+// Render the page content to a string so we can compute reading time and
+// inject the article header without touching the page files themselves.
+let body = await Astro.slots.render('default');
+const words = body.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().split(' ').length;
+const mins = Math.max(2, Math.round(words / 220));
+const fmt = (d) =>
+  new Date(d + 'T00:00:00Z').toLocaleDateString('en-US', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+    timeZone: 'UTC',
+  });
+
+let article = null;
+if (published) {
+  const byline = `<div class="byline"><span class="by-brand">IPQmedia</span><span class="dot">·</span><span>Updated ${fmt(updated || published)}</span><span class="dot">·</span><span>${mins} min read</span></div>`;
+  body = body.replace(/<h1([^>]*)>/, `<p class="kicker">${kicker}</p><h1$1>`);
+  if (/<p class="lede">/.test(body)) {
+    body = body.replace(/(<p class="lede">[\s\S]*?<\/p>)/, `$1${byline}`);
+  } else {
+    body = body.replace(/<\/h1>/, `</h1>${byline}`);
+  }
+  article = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: title.replace(/ \| IPQmedia$/, ''),
+    description,
+    author: { '@type': 'Organization', name: 'IPQmedia', url: 'https://ipqmedia.com' },
+    publisher: {
+      '@type': 'Organization',
+      name: 'IPQmedia',
+      url: 'https://ipqmedia.com',
+      logo: { '@type': 'ImageObject', url: `${site}/ipqmedia-logo.png` },
+    },
+    datePublished: published,
+    dateModified: updated || published,
+    mainEntityOfPage: canonicalUrl,
+  };
+}
 ---
 
 <!doctype html>
@@ -28,14 +73,13 @@ const org = {
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={published ? 'article' : 'website'} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
     <meta name="robots" content="index,follow" />
-    <set:html
-      set:html={`<script type="application/ld+json">${JSON.stringify(org)}</script>`}
-    />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(org)} />
+    {article && <script is:inline type="application/ld+json" set:html={JSON.stringify(article)} />}
   </head>
   <body>
     <header class="site-head">
@@ -43,7 +87,7 @@ const org = {
       <a href="https://ipqmedia.com/book-a-call" class="cta">Book a call</a>
     </header>
     <main class="wrap">
-      <slot />
+      <Fragment set:html={body} />
     </main>
     <footer class="site-foot">
       <span>© IPQmedia. Client acquisition for US architecture firms.</span>
@@ -52,12 +96,13 @@ const org = {
     <style is:global>
       :root {
         --ink: #16161a;
-        --dim: #5a5a66;
+        --dim: #52525e;
         --faint: #8a8a96;
         --red: #ea4942;
         --line: #e8e8ee;
         --bg: #ffffff;
         --soft: #faf9fb;
+        --serif: Charter, 'Iowan Old Style', 'Palatino Linotype', Cambria, Georgia, serif;
       }
       * { box-sizing: border-box; }
       html { scroll-behavior: smooth; }
@@ -79,22 +124,28 @@ const org = {
       .cta { text-decoration: none; background: var(--red); color: #fff; font-weight: 600; font-size: 14px; padding: 9px 16px; border-radius: 8px; }
       .cta-block { display: inline-block; text-decoration: none; background: var(--red); color: #fff; font-weight: 600; font-size: 16px; padding: 13px 24px; border-radius: 10px; margin-top: 8px; }
       .wrap { max-width: 680px; margin: 0 auto; padding: 24px 24px 72px; }
-      h1 { font-size: 40px; line-height: 1.12; letter-spacing: -0.03em; margin: 20px 0 16px; }
-      h2 { font-size: 27px; line-height: 1.22; letter-spacing: -0.02em; margin: 64px 0 16px; }
+      h1, h2, h3 { font-family: var(--serif); font-weight: 600; }
+      h1 { font-size: 46px; line-height: 1.12; letter-spacing: -0.015em; margin: 22px 0 18px; }
+      h2 { font-size: 29px; line-height: 1.25; letter-spacing: -0.01em; margin: 60px 0 16px; }
       h2::before { content: ''; display: block; width: 34px; height: 3px; background: var(--red); border-radius: 2px; margin-bottom: 18px; }
-      h3 { font-size: 20px; margin: 36px 0 10px; }
+      h3 { font-size: 21px; margin: 36px 0 10px; }
       p { margin: 0 0 22px; }
       ul, ol { margin: 0 0 22px; padding-left: 24px; }
       li { margin-bottom: 12px; }
+      li::marker { color: var(--red); }
       a { color: var(--red); text-underline-offset: 3px; text-decoration-thickness: 1px; }
-      .lede { font-size: 21px; line-height: 1.6; color: var(--dim); margin-bottom: 28px; }
-      @media (max-width: 640px) {
-        body { font-size: 17px; }
-        h1 { font-size: 31px; }
-        h2 { font-size: 24px; margin-top: 52px; }
-        .lede { font-size: 19px; }
-        .wrap { padding: 16px 20px 56px; }
+      .lede { font-family: var(--serif); font-size: 22px; line-height: 1.55; color: var(--dim); margin: 0 0 20px; }
+      .kicker { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--red); margin: 26px 0 0; }
+      .kicker + h1 { margin-top: 10px; }
+      .byline {
+        display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+        font-size: 14px; color: var(--faint);
+        border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+        padding: 12px 2px; margin: 8px 0 42px;
       }
+      .byline .by-brand { color: var(--ink); font-weight: 600; }
+      .byline .dot { color: var(--line); }
+      blockquote { margin: 0 0 22px; padding: 2px 0 2px 20px; border-left: 3px solid var(--red); font-family: var(--serif); font-size: 19px; color: var(--dim); }
       .card-grid { display: grid; gap: 14px; margin: 24px 0; }
       .card { border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; text-decoration: none; color: var(--ink); background: var(--soft); transition: border-color .15s; }
       .card:hover { border-color: var(--red); }
@@ -102,6 +153,14 @@ const org = {
       .card p { margin: 0; color: var(--dim); font-size: 15px; }
       .site-foot { border-top: 1px solid var(--line); margin-top: 40px; font-size: 13px; color: var(--faint); }
       .site-foot a { color: var(--faint); }
+      @media (max-width: 640px) {
+        body { font-size: 17px; }
+        h1 { font-size: 33px; }
+        h2 { font-size: 25px; margin-top: 50px; }
+        h3 { font-size: 20px; }
+        .lede { font-size: 20px; }
+        .wrap { padding: 16px 20px 56px; }
+      }
     </style>
   </body>
 </html>
