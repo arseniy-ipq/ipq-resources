@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-11T05:00:00Z",
+  "updated_at": "2026-07-11T05:30:00Z",
   "site": "https://resources.ipqmedia.com",
   "kpis": {
     "keywords_tracked": 7,
@@ -16,51 +16,244 @@
     "weeks_tracked": 1
   },
   "rank_history": [
-    { "date": "2026-07-05", "keywords_top100": 0, "keywords_top10": 0, "indexed_pages": 0 },
-    { "date": "2026-07-06", "keywords_top100": 0, "keywords_top10": 0, "indexed_pages": 3 },
-    { "date": "2026-07-11", "keywords_top100": 0, "keywords_top10": 0, "indexed_pages": 7 }
+    {
+      "date": "2026-07-05",
+      "keywords_top100": 0,
+      "keywords_top10": 0,
+      "indexed_pages": 0
+    },
+    {
+      "date": "2026-07-06",
+      "keywords_top100": 0,
+      "keywords_top10": 0,
+      "indexed_pages": 3
+    },
+    {
+      "date": "2026-07-11",
+      "keywords_top100": 0,
+      "keywords_top10": 0,
+      "indexed_pages": 7
+    }
   ],
   "keywords": [
-    { "keyword": "architecture marketing", "position": null, "top_organic": "aia.org", "ai_overview_present": true, "cited_in_ai_overview": false },
-    { "keyword": "architecture firm marketing", "position": null, "top_organic": "aia.org", "ai_overview_present": true, "cited_in_ai_overview": false },
-    { "keyword": "lead generation for architects", "position": null, "top_organic": "archmarketing.org", "ai_overview_present": true, "cited_in_ai_overview": false },
-    { "keyword": "marketing for architects", "position": null, "top_organic": "marketingarchitects.com", "ai_overview_present": true, "cited_in_ai_overview": false },
-    { "keyword": "seo for architects", "position": null, "top_organic": "seo-arch.com", "ai_overview_present": true, "cited_in_ai_overview": false },
-    { "keyword": "facebook ads for architects", "position": null, "top_organic": "reddit.com", "ai_overview_present": false, "cited_in_ai_overview": false },
-    { "keyword": "how to market an architecture firm", "position": null, "top_organic": "archmarketing.org", "ai_overview_present": true, "cited_in_ai_overview": false }
+    {
+      "keyword": "architecture marketing",
+      "position": null,
+      "top_organic": "aia.org",
+      "ai_overview_present": true,
+      "cited_in_ai_overview": false
+    },
+    {
+      "keyword": "architecture firm marketing",
+      "position": null,
+      "top_organic": "aia.org",
+      "ai_overview_present": true,
+      "cited_in_ai_overview": false
+    },
+    {
+      "keyword": "lead generation for architects",
+      "position": null,
+      "top_organic": "archmarketing.org",
+      "ai_overview_present": true,
+      "cited_in_ai_overview": false
+    },
+    {
+      "keyword": "marketing for architects",
+      "position": null,
+      "top_organic": "marketingarchitects.com",
+      "ai_overview_present": true,
+      "cited_in_ai_overview": false
+    },
+    {
+      "keyword": "seo for architects",
+      "position": null,
+      "top_organic": "seo-arch.com",
+      "ai_overview_present": true,
+      "cited_in_ai_overview": false
+    },
+    {
+      "keyword": "facebook ads for architects",
+      "position": null,
+      "top_organic": "reddit.com",
+      "ai_overview_present": false,
+      "cited_in_ai_overview": false
+    },
+    {
+      "keyword": "how to market an architecture firm",
+      "position": null,
+      "top_organic": "archmarketing.org",
+      "ai_overview_present": true,
+      "cited_in_ai_overview": false
+    }
   ],
   "content": [
-    { "slug": "architecture-marketing", "title": "Architecture marketing (pillar)", "status": "live", "published": "2026-06-29", "indexed": true },
-    { "slug": "lead-generation-for-architects", "title": "Lead generation for architects", "status": "live", "published": "2026-06-27", "indexed": false },
-    { "slug": "meta-ads-for-architects", "title": "Meta ads for architects", "status": "live", "published": "2026-06-27", "indexed": false },
-    { "slug": "marketing-for-residential-architects", "title": "Marketing for residential architects", "status": "live", "published": "2026-06-27", "indexed": true },
-    { "slug": "marketing-for-commercial-architects", "title": "Marketing for commercial architects", "status": "live", "published": "2026-06-27", "indexed": false },
-    { "slug": "seo-for-architects", "title": "SEO for architects", "status": "live", "published": "2026-06-30", "indexed": true },
-    { "slug": "email-marketing-for-architects", "title": "Email marketing for architects", "status": "live", "published": "2026-07-01", "indexed": false },
-    { "slug": "website-design-for-architects", "title": "Website design for architects", "status": "live", "published": "2026-07-02", "indexed": false },
-    { "slug": "google-ads-for-architects", "title": "Google Ads for architects", "status": "live", "published": "2026-07-03", "indexed": true },
-    { "slug": "referral-systems-for-architects", "title": "Referral systems for architects", "status": "live", "published": "2026-07-04", "indexed": false },
-    { "slug": "google-business-profile-for-architects", "title": "Google Business Profile for architects", "status": "live", "published": "2026-07-05", "indexed": true },
-    { "slug": "content-marketing-for-architects", "title": "Content marketing for architects", "status": "live", "published": "2026-07-06", "indexed": true },
-    { "slug": "linkedin-for-architects", "title": "LinkedIn for architects", "status": "live", "published": "2026-07-07", "indexed": false },
-    { "slug": "direct-mail-for-architects", "title": "Direct mail for architects", "status": "live", "published": "2026-07-08", "indexed": false },
-    { "slug": "pr-and-press-for-architects", "title": "PR and press for architects", "status": "live", "published": "2026-07-09", "indexed": false },
-    { "slug": "partnerships-for-architects", "title": "Partnerships for architects", "status": "live", "published": "2026-07-10", "indexed": false }
+    {
+      "slug": "architecture-marketing",
+      "title": "Architecture marketing (pillar)",
+      "status": "live",
+      "published": "2026-06-29",
+      "indexed": true
+    },
+    {
+      "slug": "lead-generation-for-architects",
+      "title": "Lead generation for architects",
+      "status": "live",
+      "published": "2026-06-27",
+      "indexed": false
+    },
+    {
+      "slug": "meta-ads-for-architects",
+      "title": "Meta ads for architects",
+      "status": "live",
+      "published": "2026-06-27",
+      "indexed": false
+    },
+    {
+      "slug": "marketing-for-residential-architects",
+      "title": "Marketing for residential architects",
+      "status": "live",
+      "published": "2026-06-27",
+      "indexed": true
+    },
+    {
+      "slug": "marketing-for-commercial-architects",
+      "title": "Marketing for commercial architects",
+      "status": "live",
+      "published": "2026-06-27",
+      "indexed": false
+    },
+    {
+      "slug": "seo-for-architects",
+      "title": "SEO for architects",
+      "status": "live",
+      "published": "2026-06-30",
+      "indexed": true
+    },
+    {
+      "slug": "email-marketing-for-architects",
+      "title": "Email marketing for architects",
+      "status": "live",
+      "published": "2026-07-01",
+      "indexed": false
+    },
+    {
+      "slug": "website-design-for-architects",
+      "title": "Website design for architects",
+      "status": "live",
+      "published": "2026-07-02",
+      "indexed": false
+    },
+    {
+      "slug": "google-ads-for-architects",
+      "title": "Google Ads for architects",
+      "status": "live",
+      "published": "2026-07-03",
+      "indexed": true
+    },
+    {
+      "slug": "referral-systems-for-architects",
+      "title": "Referral systems for architects",
+      "status": "live",
+      "published": "2026-07-04",
+      "indexed": false
+    },
+    {
+      "slug": "google-business-profile-for-architects",
+      "title": "Google Business Profile for architects",
+      "status": "live",
+      "published": "2026-07-05",
+      "indexed": true
+    },
+    {
+      "slug": "content-marketing-for-architects",
+      "title": "Content marketing for architects",
+      "status": "live",
+      "published": "2026-07-06",
+      "indexed": true
+    },
+    {
+      "slug": "linkedin-for-architects",
+      "title": "LinkedIn for architects",
+      "status": "live",
+      "published": "2026-07-07",
+      "indexed": false
+    },
+    {
+      "slug": "direct-mail-for-architects",
+      "title": "Direct mail for architects",
+      "status": "live",
+      "published": "2026-07-08",
+      "indexed": false
+    },
+    {
+      "slug": "pr-and-press-for-architects",
+      "title": "PR and press for architects",
+      "status": "live",
+      "published": "2026-07-09",
+      "indexed": false
+    },
+    {
+      "slug": "partnerships-for-architects",
+      "title": "Partnerships for architects",
+      "status": "live",
+      "published": "2026-07-10",
+      "indexed": false
+    }
   ],
   "pipeline": [
-    { "title": "Video marketing for architects", "status": "next", "note": "waiting on Arseniy's voice-note answers, drafts this week" },
-    { "title": "Branding for architects", "status": "queued" },
-    { "title": "Networking and events for architects", "status": "queued" },
-    { "title": "Architecture Firm Marketing Benchmark Report", "status": "blocked", "note": "needs real anonymized IPQ campaign numbers" }
+    {
+      "title": "Video marketing for architects",
+      "status": "next",
+      "note": "waiting on Arseniy's voice-note answers, drafts this week"
+    },
+    {
+      "title": "Branding for architects",
+      "status": "queued"
+    },
+    {
+      "title": "Networking and events for architects",
+      "status": "queued"
+    },
+    {
+      "title": "Architecture Firm Marketing Benchmark Report",
+      "status": "blocked",
+      "note": "needs real anonymized IPQ campaign numbers"
+    }
   ],
   "offsite": [
-    { "title": "Reddit playbook", "status": "in_progress", "due": "2026-07-11" },
-    { "title": "Reviews kit: Clutch / GoodFirms / DesignRush", "status": "queued", "due": "2026-07-12" },
-    { "title": "UGC seeding plan (LinkedIn / Reddit / Quora)", "status": "queued", "due": "2026-07-13" },
-    { "title": "Content pattern study", "status": "queued", "due": "2026-07-14" },
-    { "title": "Best-agency listicle outreach", "status": "queued" },
-    { "title": "Wikidata entity for IPQmedia", "status": "queued" },
-    { "title": "Benchmark report (backlink magnet)", "status": "blocked" }
+    {
+      "title": "Reddit playbook",
+      "status": "done",
+      "due": "2026-07-11",
+      "note": "delivered 2026-07-11; execution = weekly human posting, Pheme drafts"
+    },
+    {
+      "title": "Reviews kit: Clutch / GoodFirms / DesignRush",
+      "status": "queued",
+      "due": "2026-07-12"
+    },
+    {
+      "title": "UGC seeding plan (LinkedIn / Reddit / Quora)",
+      "status": "queued",
+      "due": "2026-07-13"
+    },
+    {
+      "title": "Content pattern study",
+      "status": "queued",
+      "due": "2026-07-14"
+    },
+    {
+      "title": "Best-agency listicle outreach",
+      "status": "queued"
+    },
+    {
+      "title": "Wikidata entity for IPQmedia",
+      "status": "queued"
+    },
+    {
+      "title": "Benchmark report (backlink magnet)",
+      "status": "blocked"
+    }
   ],
   "technical": {
     "https": true,
@@ -71,14 +264,38 @@
     "technical_audit_score": null
   },
   "asks": [
-    { "what": "GSC: Request indexing for 6 not-yet-indexed URLs", "status": "pending", "minutes": 3 },
-    { "what": "Send a headshot for the article byline", "status": "pending", "minutes": 1 },
-    { "what": "Voice note: answer question set #1 (Meta numbers, client stories)", "status": "pending", "minutes": 3 }
+    {
+      "what": "GSC: Request indexing for 6 not-yet-indexed URLs",
+      "status": "pending",
+      "minutes": 3
+    },
+    {
+      "what": "Send a headshot for the article byline",
+      "status": "pending",
+      "minutes": 1
+    },
+    {
+      "what": "Voice note: answer question set #1 (Meta numbers, client stories)",
+      "status": "pending",
+      "minutes": 3
+    }
   ],
   "milestones": [
-    { "label": "Month 1 (mid Aug)", "target": "everything indexed, first top-100 on spoke terms" },
-    { "label": "Month 3 (mid Oct)", "target": "wedge terms top 10-30, several spokes top 10" },
-    { "label": "Month 6 (mid Jan)", "target": "wedge terms top 3-5, head term top 10" },
-    { "label": "Month 12 (Jul 2027)", "target": "top 1-3 across the cluster incl. head term" }
+    {
+      "label": "Month 1 (mid Aug)",
+      "target": "everything indexed, first top-100 on spoke terms"
+    },
+    {
+      "label": "Month 3 (mid Oct)",
+      "target": "wedge terms top 10-30, several spokes top 10"
+    },
+    {
+      "label": "Month 6 (mid Jan)",
+      "target": "wedge terms top 3-5, head term top 10"
+    },
+    {
+      "label": "Month 12 (Jul 2027)",
+      "target": "top 1-3 across the cluster incl. head term"
+    }
   ]
 }
