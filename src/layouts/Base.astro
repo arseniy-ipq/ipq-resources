@@ -13,6 +13,13 @@ const {
 } = Astro.props;
 const site = 'https://resources.ipqmedia.com';
 const canonicalUrl = new URL(canonical, site).href;
+const author = {
+  '@type': 'Person',
+  name: 'Arseniy Volosevich',
+  jobTitle: 'Founder',
+  worksFor: { '@type': 'Organization', name: 'IPQmedia', url: 'https://ipqmedia.com' },
+  url: 'https://ipqmedia.com',
+};
 const org = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
@@ -20,6 +27,7 @@ const org = {
   url: 'https://ipqmedia.com',
   description:
     'Lead generation and client acquisition for US architecture firms.',
+  founder: author,
   sameAs: ['https://www.linkedin.com/company/ipqmedia'],
 };
 
@@ -38,7 +46,7 @@ const fmt = (d) =>
 
 let article = null;
 if (published) {
-  const byline = `<div class="byline"><span class="by-brand">IPQmedia</span><span class="dot">·</span><span>Updated ${fmt(updated || published)}</span><span class="dot">·</span><span>${mins} min read</span></div>`;
+  const byline = `<div class="byline"><span class="by-brand">Arseniy Volosevich</span><span class="by-role">Founder, IPQmedia</span><span class="dot">·</span><span>Updated ${fmt(updated || published)}</span><span class="dot">·</span><span>${mins} min read</span></div>`;
   body = body.replace(/<h1([^>]*)>/, `<p class="kicker">${kicker}</p><h1$1>`);
   if (/<p class="lede">/.test(body)) {
     body = body.replace(/(<p class="lede">[\s\S]*?<\/p>)/, `$1${byline}`);
@@ -50,7 +58,7 @@ if (published) {
     '@type': 'Article',
     headline: title.replace(/ \| IPQmedia$/, ''),
     description,
-    author: { '@type': 'Organization', name: 'IPQmedia', url: 'https://ipqmedia.com' },
+    author,
     publisher: {
       '@type': 'Organization',
       name: 'IPQmedia',
@@ -144,6 +152,7 @@ if (published) {
         padding: 12px 2px; margin: 8px 0 42px;
       }
       .byline .by-brand { color: var(--ink); font-weight: 600; }
+      .byline .by-role { color: var(--faint); }
       .byline .dot { color: var(--line); }
       blockquote { margin: 0 0 22px; padding: 2px 0 2px 20px; border-left: 3px solid var(--red); font-family: var(--serif); font-size: 19px; color: var(--dim); }
       .card-grid { display: grid; gap: 14px; margin: 24px 0; }
