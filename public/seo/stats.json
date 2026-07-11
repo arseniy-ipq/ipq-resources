@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-11T05:30:00Z",
+  "updated_at": "2026-07-11T07:05:00Z",
   "site": "https://resources.ipqmedia.com",
   "kpis": {
     "keywords_tracked": 7,
@@ -229,8 +229,9 @@
     },
     {
       "title": "Reviews kit: Clutch / GoodFirms / DesignRush",
-      "status": "queued",
-      "due": "2026-07-12"
+      "status": "done",
+      "due": "2026-07-12",
+      "note": "kit delivered 2026-07-11, a day early; profile creation + review asks = Arseniy's hands (~60 min)"
     },
     {
       "title": "UGC seeding plan (LinkedIn / Reddit / Quora)",
@@ -278,6 +279,11 @@
       "what": "Voice note: answer question set #1 (Meta numbers, client stories)",
       "status": "pending",
       "minutes": 3
+    },
+    {
+      "what": "Reviews kit: send identity block, create Clutch/GoodFirms/DesignRush profiles, pick 6-8 clients",
+      "status": "pending",
+      "minutes": 60
     }
   ],
   "milestones": [
