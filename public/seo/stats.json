@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-11T07:05:00Z",
+  "updated_at": "2026-07-12T07:00:00Z",
   "site": "https://resources.ipqmedia.com",
   "kpis": {
     "keywords_tracked": 7,
@@ -235,13 +235,14 @@
     },
     {
       "title": "UGC seeding plan (LinkedIn / Reddit / Quora)",
-      "status": "queued",
-      "due": "2026-07-13"
+      "status": "done",
+      "due": "2026-07-13",
+      "note": "delivered 2026-07-12, a day early; 2 LinkedIn articles + 3 posts + 3 Quora answers paste-ready, posting = Arseniy's hands (~20-30 min/wk)"
     },
     {
       "title": "Content pattern study",
-      "status": "queued",
-      "due": "2026-07-14"
+      "status": "next",
+      "due": "2026-07-13"
     },
     {
       "title": "Best-agency listicle outreach",
@@ -284,6 +285,11 @@
       "what": "Reviews kit: send identity block, create Clutch/GoodFirms/DesignRush profiles, pick 6-8 clients",
       "status": "pending",
       "minutes": 60
+    },
+    {
+      "what": "UGC plan: post piece A (flagship LinkedIn article) from the seeding plan",
+      "status": "pending",
+      "minutes": 10
     }
   ],
   "milestones": [
