@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-12T07:00:00Z",
+  "updated_at": "2026-07-13T07:00:00Z",
   "site": "https://resources.ipqmedia.com",
   "kpis": {
     "keywords_tracked": 7,
@@ -204,7 +204,12 @@
     {
       "title": "Video marketing for architects",
       "status": "next",
-      "note": "waiting on Arseniy's voice-note answers, drafts this week"
+      "note": "waiting on Arseniy's voice-note answers; if none, retrofit pass runs first"
+    },
+    {
+      "title": "Pattern-retrofit pass on 16 live pages",
+      "status": "queued",
+      "note": "answer blocks, internal links, comparison tables, FAQ phrasing; from the 2026-07-13 pattern study; approval-gated"
     },
     {
       "title": "Branding for architects",
@@ -241,8 +246,9 @@
     },
     {
       "title": "Content pattern study",
-      "status": "next",
-      "due": "2026-07-13"
+      "status": "done",
+      "due": "2026-07-13",
+      "note": "delivered 2026-07-13; 8 rules from Backlinko/Ahrefs/Zapier/Healthline/NerdWallet/Shopify, HubSpot anti-pattern, archmarketing teardown; retrofit pass queued"
     },
     {
       "title": "Best-agency listicle outreach",
