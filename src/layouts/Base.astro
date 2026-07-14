@@ -155,6 +155,14 @@ if (published) {
       .byline .by-role { color: var(--faint); }
       .byline .dot { color: var(--line); }
       blockquote { margin: 0 0 22px; padding: 2px 0 2px 20px; border-left: 3px solid var(--red); font-family: var(--serif); font-size: 19px; color: var(--dim); }
+      .answer { border: 1px solid var(--line); border-left: 3px solid var(--red); border-radius: 10px; background: var(--soft); padding: 16px 20px 4px; margin: 0 0 26px; }
+      .answer .answer-label { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.09em; color: var(--red); margin: 0 0 8px; }
+      .answer p { margin-bottom: 14px; }
+      table { width: 100%; border-collapse: collapse; margin: 4px 0 26px; font-size: 15.5px; line-height: 1.5; }
+      th { text-align: left; font-size: 12.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--dim); padding: 8px 12px 8px 0; border-bottom: 2px solid var(--ink); }
+      td { padding: 10px 12px 10px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+      td:first-child { font-weight: 600; }
+      @media (max-width: 640px) { table { font-size: 14px; } th, td { padding-right: 8px; } }
       .card-grid { display: grid; gap: 14px; margin: 24px 0; }
       .card { border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; text-decoration: none; color: var(--ink); background: var(--soft); transition: border-color .15s; }
       .card:hover { border-color: var(--red); }

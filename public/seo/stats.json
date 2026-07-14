@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-13T07:00:00Z",
+  "updated_at": "2026-07-14T02:30:00Z",
   "site": "https://resources.ipqmedia.com",
   "kpis": {
     "keywords_tracked": 7,
@@ -204,12 +204,12 @@
     {
       "title": "Video marketing for architects",
       "status": "next",
-      "note": "waiting on Arseniy's voice-note answers; if none, retrofit pass runs first"
+      "note": "next cycle; waiting on Arseniy voice-note answers (question set sent Jul 11)"
     },
     {
       "title": "Pattern-retrofit pass on 16 live pages",
-      "status": "queued",
-      "note": "answer blocks, internal links, comparison tables, FAQ phrasing; from the 2026-07-13 pattern study; approval-gated"
+      "status": "awaiting approval",
+      "note": "DONE + committed 2026-07-14: answer blocks on all 16 pages, internal links now 8+ per spoke, 4 comparison tables, FAQ phrasing matched to real searches; goes live on Arseniy approval"
     },
     {
       "title": "Branding for architects",
@@ -272,6 +272,11 @@
     "technical_audit_score": null
   },
   "asks": [
+    {
+      "title": "Approve the retrofit batch (answer blocks + links + tables on all 16 pages)",
+      "effort": "5-10 min",
+      "why": "ships the pattern-study upgrades live"
+    },
     {
       "what": "GSC: Request indexing for 6 not-yet-indexed URLs",
       "status": "pending",
