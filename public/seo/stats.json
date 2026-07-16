@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-15T05:10:00Z",
+  "updated_at": "2026-07-16T06:15:00Z",
   "site": "https://resources.ipqmedia.com",
   "kpis": {
     "keywords_tracked": 7,
@@ -8,9 +8,9 @@
     "keywords_top10": 0,
     "avg_position": 18,
     "indexed_pages": 10,
-    "total_pages": 17,
-    "content_pages_live": 16,
-    "pages_pending_approval": 1,
+    "total_pages": 19,
+    "content_pages_live": 18,
+    "pages_pending_approval": 0,
     "ai_citations": 0,
     "technical_health": null,
     "weeks_tracked": 1
@@ -204,22 +204,26 @@
       "status": "live",
       "published": "2026-07-10",
       "indexed": false
+    },
+    {
+      "slug": "video-marketing-for-architects",
+      "title": "Video marketing for architects",
+      "status": "live",
+      "published": "2026-07-15",
+      "indexed": false
+    },
+    {
+      "slug": "best-marketing-agencies-for-architects",
+      "title": "Top marketing agencies for architecture firms (ranked)",
+      "status": "live",
+      "published": "2026-07-16",
+      "indexed": false
     }
   ],
   "pipeline": [
     {
-      "title": "Video marketing for architects",
-      "status": "awaiting approval",
-      "note": "written + committed 2026-07-15 without his video stories (question set still open); goes live on approval"
-    },
-    {
-      "title": "Pattern-retrofit pass on 16 live pages",
-      "status": "awaiting approval",
-      "note": "DONE + committed 2026-07-14: answer blocks on all 16 pages, internal links now 8+ per spoke, 4 comparison tables, FAQ phrasing matched to real searches; goes live on Arseniy approval"
-    },
-    {
       "title": "Branding for architects",
-      "status": "queued"
+      "status": "next"
     },
     {
       "title": "Networking and events for architects",
@@ -279,9 +283,9 @@
   },
   "asks": [
     {
-      "title": "Approve the retrofit batch (answer blocks + links + tables on all 16 pages)",
-      "effort": "5-10 min",
-      "why": "ships the pattern-study upgrades live"
+      "what": "GSC: Request indexing for the 2 new pages (video, top-agencies) + 7 still-unindexed",
+      "status": "pending",
+      "minutes": 4
     },
     {
       "what": "GSC: Request indexing for 6 not-yet-indexed URLs",
