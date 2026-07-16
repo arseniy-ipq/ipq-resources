@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "updated_at": "2026-07-14T02:30:00Z",
+  "updated_at": "2026-07-15T05:10:00Z",
   "site": "https://resources.ipqmedia.com",
   "kpis": {
     "keywords_tracked": 7,
-    "keywords_top100": 0,
+    "keywords_top100": 1,
     "keywords_top10": 0,
-    "avg_position": null,
-    "indexed_pages": 7,
+    "avg_position": 18,
+    "indexed_pages": 10,
     "total_pages": 17,
     "content_pages_live": 16,
-    "pages_pending_approval": 0,
+    "pages_pending_approval": 1,
     "ai_citations": 0,
     "technical_health": null,
     "weeks_tracked": 1
@@ -33,6 +33,12 @@
       "keywords_top100": 0,
       "keywords_top10": 0,
       "indexed_pages": 7
+    },
+    {
+      "date": "2026-07-15",
+      "keywords_top100": 1,
+      "keywords_top10": 0,
+      "indexed_pages": 10
     }
   ],
   "keywords": [
@@ -40,7 +46,7 @@
       "keyword": "architecture marketing",
       "position": null,
       "top_organic": "aia.org",
-      "ai_overview_present": true,
+      "ai_overview_present": false,
       "cited_in_ai_overview": false
     },
     {
@@ -73,8 +79,8 @@
     },
     {
       "keyword": "facebook ads for architects",
-      "position": null,
-      "top_organic": "reddit.com",
+      "position": 18,
+      "top_organic": "insidea.com",
       "ai_overview_present": false,
       "cited_in_ai_overview": false
     },
@@ -99,14 +105,14 @@
       "title": "Lead generation for architects",
       "status": "live",
       "published": "2026-06-27",
-      "indexed": false
+      "indexed": true
     },
     {
       "slug": "meta-ads-for-architects",
       "title": "Meta ads for architects",
       "status": "live",
       "published": "2026-06-27",
-      "indexed": false
+      "indexed": true
     },
     {
       "slug": "marketing-for-residential-architects",
@@ -120,7 +126,7 @@
       "title": "Marketing for commercial architects",
       "status": "live",
       "published": "2026-06-27",
-      "indexed": false
+      "indexed": true
     },
     {
       "slug": "seo-for-architects",
@@ -203,8 +209,8 @@
   "pipeline": [
     {
       "title": "Video marketing for architects",
-      "status": "next",
-      "note": "next cycle; waiting on Arseniy voice-note answers (question set sent Jul 11)"
+      "status": "awaiting approval",
+      "note": "written + committed 2026-07-15 without his video stories (question set still open); goes live on approval"
     },
     {
       "title": "Pattern-retrofit pass on 16 live pages",
