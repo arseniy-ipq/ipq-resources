@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://resources.ipqmedia.com/sitemap-index.xml
