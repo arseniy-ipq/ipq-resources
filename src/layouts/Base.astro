@@ -11,6 +11,8 @@ const {
   updated,
   kicker = 'The IPQ Field Guide',
 } = Astro.props;
+// ⚠ build-time internal form — publish.sh canonicalizes to https://ipqmedia.com/resources
+// at deploy. Do NOT append /resources here: new URL(pathname, site) drops subpaths.
 const site = 'https://resources.ipqmedia.com';
 const canonicalUrl = new URL(canonical, site).href;
 const author = {
