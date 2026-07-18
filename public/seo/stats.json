@@ -283,44 +283,21 @@
  },
  "asks": [
   {
-   "what": "GSC: verify ipqmedia.com as a new property (the content moved there tonight)",
-   "status": "pending",
-   "minutes": 5,
-   "steps": [
-    "Open search.google.com/search-console → property dropdown (top-left) → Add property.",
-    "Choose \"Domain\" and enter: ipqmedia.com",
-    "Copy the TXT value Google shows you.",
-    "Squarespace DNS (same panel as tonight) → add a record: type TXT, host @, value = what you copied. Save.",
-    "Back in GSC click Verify. If it fails, wait 2-3 min and retry - TXT records take a moment.",
-    "Alternative if you prefer no DNS: choose \"URL prefix\" https://ipqmedia.com/ → HTML tag method → send the content=\"...\" token to @IPQtest2bot and it goes on the site, then click Verify."
-   ]
-  },
-  {
-   "what": "GSC: submit the resources sitemap on the new ipqmedia.com property",
+   "what": "GSC: submit the resources sitemap (the ipqmedia.com domain property already covers everything - no verification needed)",
    "status": "pending",
    "minutes": 1,
    "steps": [
-    "In the new ipqmedia.com property → Sitemaps (left menu).",
-    "Submit: https://ipqmedia.com/resources/sitemap-index.xml"
+    "In Search Console (the ipqmedia.com property) → Sitemaps (left menu).",
+    "Submit: https://ipqmedia.com/resources/sitemap-index.xml",
+    "If an old resources.ipqmedia.com sitemap is listed, leave it - it redirects."
    ]
   },
   {
-   "what": "GSC: Change of Address - resources.ipqmedia.com → ipqmedia.com",
-   "status": "pending",
-   "minutes": 2,
-   "steps": [
-    "Property dropdown → pick the OLD resources.ipqmedia.com property.",
-    "Settings (gear, bottom-left) → Change of Address.",
-    "Pick ipqmedia.com as the new site. Google validates the redirects (already live) and submits the move.",
-    "This makes Google process the move much faster than waiting for it to discover the redirects."
-   ]
-  },
-  {
-   "what": "GSC: request indexing for the 10 priority moved URLs (do AFTER the property is verified)",
+   "what": "GSC: request indexing for the 10 priority moved URLs",
    "status": "pending",
    "minutes": 6,
    "steps": [
-    "In the ipqmedia.com property, paste each URL into the inspection bar at the top, hit Enter.",
+    "Top search bar (\"Inspect any URL\") → paste each URL, Enter.",
     "When the report loads click \"Request indexing\" (~20s each). The URLs:",
     "→ https://ipqmedia.com/resources/",
     "→ https://ipqmedia.com/resources/architecture-marketing",
