@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-07-16T06:15:00Z",
+ "updated_at": "2026-07-18T03:55:00Z",
  "site": "https://ipqmedia.com/resources",
  "kpis": {
   "keywords_tracked": 7,
@@ -283,32 +283,45 @@
  },
  "asks": [
   {
-   "what": "GSC: submit the resources sitemap (the ipqmedia.com domain property already covers everything - no verification needed)",
+   "what": "GSC: submit the resources sitemap - skip and tell me if you already did this tonight",
    "status": "pending",
    "minutes": 1,
    "steps": [
-    "In Search Console (the ipqmedia.com property) → Sitemaps (left menu).",
-    "Submit: https://ipqmedia.com/resources/sitemap-index.xml",
-    "If an old resources.ipqmedia.com sitemap is listed, leave it - it redirects."
+    "Search Console (ipqmedia.com property) → Sitemaps (left menu).",
+    "Submit: https://ipqmedia.com/resources/sitemap-index.xml"
    ]
   },
   {
-   "what": "GSC: request indexing for the 10 priority moved URLs",
+   "what": "Reddit: comment in \"Marketing investments for small architecture firms\" (r/Architects, ranks #1 on the money query)",
    "status": "pending",
-   "minutes": 6,
+   "minutes": 10,
    "steps": [
-    "Top search bar (\"Inspect any URL\") → paste each URL, Enter.",
-    "When the report loads click \"Request indexing\" (~20s each). The URLs:",
-    "→ https://ipqmedia.com/resources/",
-    "→ https://ipqmedia.com/resources/architecture-marketing",
-    "→ https://ipqmedia.com/resources/lead-generation-for-architects",
-    "→ https://ipqmedia.com/resources/meta-ads-for-architects",
-    "→ https://ipqmedia.com/resources/best-marketing-agencies-for-architects",
-    "→ https://ipqmedia.com/resources/seo-for-architects",
-    "→ https://ipqmedia.com/resources/marketing-for-residential-architects",
-    "→ https://ipqmedia.com/resources/marketing-for-commercial-architects",
-    "→ https://ipqmedia.com/resources/google-ads-for-architects",
-    "→ https://ipqmedia.com/resources/video-marketing-for-architects"
+    "Open: https://reddit.com/r/Architects/comments/1p7q0oi",
+    "Post from YOUR real personal Reddit account (never a new/burner account - instant ban-bait, and never an IPQmedia-branded one). Rephrase in your own words, skim the thread first, keep the disclosure line. No links.",
+    "PASTE-READY DRAFT (edit to taste):",
+    "Ran ads for architecture firms for a while now so I have a biased seat, but here's what I see actually move the needle for small firms.\nThe order most firms spend in: website redesign, then a logo refresh, then maybe some boosted Instagram posts. The order that actually produces clients is close to the reverse. Your website only converts people who already found you, and a prettier portfolio doesn't change how many people find you. It's a filter, not a source.\nThe honest split I'd suggest: something that predictably puts you in front of people planning a project (paid ads do this, so does showing up where they already ask questions), a simple follow-up system because most enquiries die from silence, and only then cosmetics. Firms wildly overrate the portfolio and underrate the boring pipe.\nOne more thing nobody says out loud: referrals feel free but they're not a plan. You can't scale word of mouth and you can't schedule it. Treat referrals as a bonus layer, not the strategy.\n(Disclosure: I run IPQmedia, we do paid ads for architecture firms, so factor that bias in. The referral point stands either way.)"
+   ]
+  },
+  {
+   "what": "Reddit: comment in \"Is there a reason architecture communities avoid marketing\" (r/Architects)",
+   "status": "pending",
+   "minutes": 8,
+   "steps": [
+    "Open: https://reddit.com/r/Architects/comments/1p51r5v",
+    "Post from YOUR real personal Reddit account (never a new/burner account - instant ban-bait, and never an IPQmedia-branded one). Rephrase in your own words, skim the thread first, keep the disclosure line. No links.",
+    "PASTE-READY DRAFT (edit to taste):",
+    "Architecture school teaches that good work speaks for itself, and the profession's culture treats selling as slightly beneath the craft. Then everyone graduates into a market where the firms that eat well are rarely the best designers, they're the best at being found.\nThe result is a weird equilibrium: most firms rely on referrals, referrals reward whoever's been around longest, and younger or smaller firms conclude \"marketing doesn't work for architecture\" because nobody around them does it. It's not that it doesn't work. It's that almost nobody tries, which is exactly why it works unreasonably well for the few who do.\nI work on the marketing side with architecture firms, and the pattern is consistent: the resistance isn't strategic, it's cultural. The firms that get over it don't become salesy, they just stop being invisible."
+   ]
+  },
+  {
+   "what": "Reddit: comment in \"How did you find clients?\" (r/Architects, top 5 on the money query)",
+   "status": "pending",
+   "minutes": 8,
+   "steps": [
+    "Open: https://reddit.com/r/Architects/comments/1p0m6u8",
+    "Post from YOUR real personal Reddit account (never a new/burner account - instant ban-bait, and never an IPQmedia-branded one). Rephrase in your own words, skim the thread first, keep the disclosure line. No links.",
+    "PASTE-READY DRAFT (edit to taste - it has a [slot] for a real number, fill or delete):",
+    "Watching this from the agency side (we run lead gen for architecture firms), the honest pattern across firms I've seen:\nFirst clients are almost always warm: former employer's overflow, friends of family, one builder who likes you. That gets you to maybe year two. The firms that stall are the ones that treat that warm layer as the permanent plan.\nThe ones that grow add exactly two things. Some repeatable way strangers find them (ads, genuinely useful content, a builder/realtor partnership that's an actual arrangement rather than a hope). And fast follow-up, because a homeowner or developer who enquires is talking to 2-3 other firms, and the first competent response wins more often than the best portfolio does. [if you have your real response-time or show-rate number, drop it here]\nNobody's ever hired a firm they didn't know exists. That's the whole game."
    ]
   },
   {
@@ -327,12 +340,16 @@
    "minutes": 60
   },
   {
-   "what": "UGC plan: post piece A (flagship LinkedIn article) from the seeding plan",
+   "what": "LinkedIn: publish piece A from the UGC plan - reply 'linkedin draft' to @ipqseobot and it pastes the full text",
    "status": "pending",
    "minutes": 10
   }
  ],
  "milestones": [
+  {
+   "label": "Site move (Jul 17-18)",
+   "target": "content moved to ipqmedia.com/resources - 10 pages indexed under the OLD urls (verified live via site: query Jul 18), transferring via 301s; all 19 new urls submitted for indexing Jul 18. Index counts may dip then recover over 1-3 weeks - that is the move processing, not lost rankings."
+  },
   {
    "label": "Month 1 (mid Aug)",
    "target": "everything indexed, first top-100 on spoke terms"
