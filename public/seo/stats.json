@@ -1,19 +1,19 @@
 {
  "version": 1,
- "updated_at": "2026-07-18T03:55:00Z",
+ "updated_at": "2026-07-18T08:20:00Z",
  "site": "https://ipqmedia.com/resources",
  "kpis": {
   "keywords_tracked": 7,
   "keywords_top100": 1,
   "keywords_top10": 0,
   "avg_position": 18,
-  "indexed_pages": 10,
+  "indexed_pages": 11,
   "total_pages": 19,
   "content_pages_live": 18,
   "pages_pending_approval": 0,
   "ai_citations": 0,
   "technical_health": null,
-  "weeks_tracked": 1
+  "weeks_tracked": 2
  },
  "rank_history": [
   {
@@ -39,14 +39,20 @@
    "keywords_top100": 1,
    "keywords_top10": 0,
    "indexed_pages": 10
+  },
+  {
+   "date": "2026-07-18",
+   "keywords_top100": 1,
+   "keywords_top10": 0,
+   "indexed_pages": 11
   }
  ],
  "keywords": [
   {
    "keyword": "architecture marketing",
    "position": null,
-   "top_organic": "aia.org",
-   "ai_overview_present": false,
+   "top_organic": "archmarketing.org",
+   "ai_overview_present": true,
    "cited_in_ai_overview": false
   },
   {
@@ -66,7 +72,7 @@
   {
    "keyword": "marketing for architects",
    "position": null,
-   "top_organic": "marketingarchitects.com",
+   "top_organic": "aia.org",
    "ai_overview_present": true,
    "cited_in_ai_overview": false
   },
@@ -217,7 +223,7 @@
    "title": "Top marketing agencies for architecture firms (ranked)",
    "status": "live",
    "published": "2026-07-16",
-   "indexed": false
+   "indexed": true
   }
  ],
  "pipeline": [
@@ -262,7 +268,8 @@
   },
   {
    "title": "Best-agency listicle outreach",
-   "status": "queued"
+   "status": "done",
+   "note": "targets verified + paste-ready pitches delivered 2026-07-18; 3 emails (Ravetree, Siana, Nover) + free Semrush Agency profile = Arseniy, ~45-60 min"
   },
   {
    "title": "Wikidata entity for IPQmedia",
@@ -343,6 +350,11 @@
    "what": "LinkedIn: publish piece A from the UGC plan - reply 'linkedin draft' to @ipqseobot and it pastes the full text",
    "status": "pending",
    "minutes": 10
+  },
+  {
+   "what": "Listicle outreach: send 3 short emails (Ravetree, Siana, Nover) - reply 'outreach drafts' to @ipqseobot and it pastes the ready-to-send text",
+   "status": "pending",
+   "minutes": 20
   }
  ],
  "milestones": [
