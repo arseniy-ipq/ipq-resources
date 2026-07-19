@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-07-18T17:20:00Z",
+ "updated_at": "2026-07-19T21:52:00Z",
  "site": "https://ipqmedia.com/resources",
  "kpis": {
   "keywords_tracked": 7,
@@ -8,8 +8,8 @@
   "keywords_top10": 0,
   "avg_position": 18,
   "indexed_pages": 11,
-  "total_pages": 19,
-  "content_pages_live": 18,
+  "total_pages": 20,
+  "content_pages_live": 19,
   "pages_pending_approval": 0,
   "ai_citations": 1,
   "technical_health": null,
@@ -224,13 +224,16 @@
    "status": "live",
    "published": "2026-07-16",
    "indexed": true
+  },
+  {
+   "slug": "branding-for-architects",
+   "title": "Branding for architects",
+   "status": "live",
+   "published": "2026-07-16",
+   "indexed": false
   }
  ],
  "pipeline": [
-  {
-   "title": "Branding for architects",
-   "status": "next"
-  },
   {
    "title": "Networking and events for architects",
    "status": "queued"
@@ -290,15 +293,6 @@
  },
  "asks": [
   {
-   "what": "GSC: submit the resources sitemap - skip and tell me if you already did this tonight",
-   "status": "pending",
-   "minutes": 1,
-   "steps": [
-    "Search Console (ipqmedia.com property) → Sitemaps (left menu).",
-    "Submit: https://ipqmedia.com/resources/sitemap-index.xml"
-   ]
-  },
-  {
    "what": "Reddit: comment in \"Marketing investments for small architecture firms\" (r/Architects, ranks #1 on the money query)",
    "status": "pending",
    "minutes": 10,
@@ -337,18 +331,8 @@
    "minutes": 1
   },
   {
-   "what": "Approve the 2 humanized rewrites waiting in @ipqseobot chat (lead-generation + the pillar) - you answered the questions Jul 16, the rewrites are done, they deploy on your approve",
-   "status": "pending",
-   "minutes": 10,
-   "steps": [
-    "Open the @ipqseobot chat - the full rewritten texts were sent Jul 16.",
-    "Reply approve (or send edits) per article.",
-    "On approve they go live; then it sends the question set for article #3 (meta-ads)."
-   ]
-  },
-  {
-   "what": "Reviews kit: send identity block, create Clutch/GoodFirms/DesignRush profiles, pick 6-8 clients",
-   "status": "pending",
+   "what": "Directory listings (Clutch/GoodFirms/DesignRush): PARKED by you until 10 diehard PPS clients. Running now instead: private testimonials, LinkedIn recs, brand mentions, detractor list",
+   "status": "parked",
    "minutes": 60
   },
   {
@@ -363,6 +347,10 @@
   }
  ],
  "milestones": [
+  {
+   "label": "Reputation gate",
+   "target": "10 diehard PPS clients -> directory launch week (his 07-19 call)"
+  },
   {
    "label": "Site move (Jul 17-18)",
    "target": "content moved to ipqmedia.com/resources - 10 pages indexed under the OLD urls (verified live via site: query Jul 18), transferring via 301s; all 19 new urls submitted for indexing Jul 18. Index counts may dip then recover over 1-3 weeks - that is the move processing, not lost rankings."
