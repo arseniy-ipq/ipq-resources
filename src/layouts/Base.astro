@@ -15,6 +15,7 @@ const {
 // at deploy. Do NOT append /resources here: new URL(pathname, site) drops subpaths.
 const site = 'https://resources.ipqmedia.com';
 const canonicalUrl = new URL(canonical, site).href;
+const ogImage = `${site}/og-card.png`;
 const author = {
   '@type': 'Person',
   name: 'Arseniy Volosevich',
@@ -70,6 +71,7 @@ if (published) {
     datePublished: published,
     dateModified: updated || published,
     mainEntityOfPage: canonicalUrl,
+    image: [ogImage],
   };
 }
 ---
@@ -87,6 +89,15 @@ if (published) {
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:site_name" content="IPQmedia" />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="IPQmedia. The IPQ Field Guide: marketing and client acquisition guides for architecture firms." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
     <meta name="robots" content="index,follow" />
     <script is:inline type="application/ld+json" set:html={JSON.stringify(org)} />
     {article && <script is:inline type="application/ld+json" set:html={JSON.stringify(article)} />}
