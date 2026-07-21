@@ -20,6 +20,7 @@ const author = {
   '@type': 'Person',
   name: 'Arseniy Volosevich',
   jobTitle: 'Founder',
+  image: `${site}/author-arseniy.jpg`,
   worksFor: { '@type': 'Organization', name: 'IPQmedia', url: 'https://ipqmedia.com' },
   url: 'https://ipqmedia.com',
 };
@@ -49,7 +50,7 @@ const fmt = (d) =>
 
 let article = null;
 if (published) {
-  const byline = `<div class="byline"><span class="by-brand">Arseniy Volosevich</span><span class="by-role">Founder, IPQmedia</span><span class="dot">·</span><span>Updated ${fmt(updated || published)}</span><span class="dot">·</span><span>${mins} min read</span></div>`;
+  const byline = `<div class="byline"><img class="by-avatar" src="/author-arseniy.jpg" width="44" height="44" alt="Arseniy Volosevich" loading="lazy" decoding="async" /><span class="by-brand">Arseniy Volosevich</span><span class="by-role">Founder, IPQmedia</span><span class="dot">·</span><span>Updated ${fmt(updated || published)}</span><span class="dot">·</span><span>${mins} min read</span></div>`;
   body = body.replace(/<h1([^>]*)>/, `<p class="kicker">${kicker}</p><h1$1>`);
   if (/<p class="lede">/.test(body)) {
     body = body.replace(/(<p class="lede">[\s\S]*?<\/p>)/, `$1${byline}`);
@@ -164,6 +165,7 @@ if (published) {
         border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
         padding: 12px 2px; margin: 8px 0 42px;
       }
+      .byline .by-avatar { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; margin-right: 2px; }
       .byline .by-brand { color: var(--ink); font-weight: 600; }
       .byline .by-role { color: var(--faint); }
       .byline .dot { color: var(--line); }
