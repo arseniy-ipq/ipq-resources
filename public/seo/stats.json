@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-07-19T21:52:00Z",
+ "updated_at": "2026-07-21T00:52:00Z",
  "site": "https://ipqmedia.com/resources",
  "kpis": {
   "keywords_tracked": 7,
@@ -326,11 +326,6 @@
    ]
   },
   {
-   "what": "Send a headshot for the article byline",
-   "status": "pending",
-   "minutes": 1
-  },
-  {
    "what": "Directory listings (Clutch/GoodFirms/DesignRush): PARKED by you until 10 diehard PPS clients. Running now instead: private testimonials, LinkedIn recs, brand mentions, detractor list",
    "status": "parked",
    "minutes": 60
@@ -347,6 +342,10 @@
   }
  ],
  "milestones": [
+  {
+   "label": "Byline headshot LIVE",
+   "target": "Arseniy's photo + Person author schema on all 20 article bylines (Jul 21)"
+  },
   {
    "label": "Reputation gate",
    "target": "10 diehard PPS clients -> directory launch week (his 07-19 call)"
