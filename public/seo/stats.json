@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-07-21T00:52:00Z",
+ "updated_at": "2026-07-22T00:00:00Z",
  "site": "https://ipqmedia.com/resources",
  "kpis": {
   "keywords_tracked": 7,
@@ -289,7 +289,8 @@
   "robots_ai_bots_allowed": true,
   "llms_txt": true,
   "schema_article_person_author": true,
-  "technical_audit_score": null
+  "technical_audit_score": null,
+  "indexnow": true
  },
  "asks": [
   {
@@ -339,6 +340,16 @@
    "what": "Listicle outreach: send 3 short emails (Ravetree, Siana, Nover) - reply 'outreach drafts' to @ipqseobot and it pastes the ready-to-send text",
    "status": "pending",
    "minutes": 20
+  },
+  {
+   "what": "Bing Webmaster Tools signup (unlocks Copilot/Bing citation telemetry; IndexNow pings already live without it)",
+   "status": "pending",
+   "minutes": 5,
+   "steps": [
+    "Go to bing.com/webmasters, sign in with any Microsoft account",
+    "Pick 'Import from Google Search Console' and approve with arseniy@ipqmedia.com (imports the ipqmedia.com property + sitemap in one step)",
+    "Done. Tell @ipqseobot and I wire Bing AI Performance into the weekly report"
+   ]
   }
  ],
  "milestones": [
