@@ -121,6 +121,43 @@ if (published) {
       <span>© IPQmedia. Client acquisition for US architecture firms.</span>
       <a href="https://ipqmedia.com">ipqmedia.com</a>
     </footer>
+    <script is:inline data-id="ipq-cta-attribution">
+      // Tag every CTA leaving the guides with where the visitor actually came from, so a lead
+      // booked off an article is distinguishable from an ad lead once it lands in Beam/Calendly.
+      // Central on purpose: every current and future page inherits it, no per-page edits.
+      (function () {
+        var SEARCH = /(^|\.)(google|bing|duckduckgo|yahoo|ecosia|brave|baidu|yandex|startpage|qwant)\./i;
+        var AI = /(chatgpt|openai|perplexity|claude|gemini|copilot)\./i;
+        function medium(host) {
+          if (!host) return 'direct';
+          if (SEARCH.test(host)) return 'organic';
+          if (AI.test(host)) return 'ai';
+          if (/ipqmedia\.com$/i.test(host)) return 'internal';
+          return 'referral';
+        }
+        try {
+          var refHost = document.referrer ? new URL(document.referrer).hostname : '';
+          var med = medium(refHost);
+          var slug = location.pathname.replace(/^\/(resources\/)?/, '').replace(/\/$/, '') || 'hub';
+          document.addEventListener('click', function (e) {
+            var a = e.target && e.target.closest ? e.target.closest('a[href*="beam.ipqmedia.com"]') : null;
+            if (!a) return;
+            var u;
+            try { u = new URL(a.href); } catch (err) { return; }
+            if (!u.searchParams.get('utm_source')) {
+              u.searchParams.set('utm_source', 'guides');
+              u.searchParams.set('utm_medium', med);
+              u.searchParams.set('utm_campaign', slug);
+              if (refHost) u.searchParams.set('utm_content', refHost);
+              a.href = u.toString();
+            }
+            if (window.posthog && window.posthog.capture) {
+              window.posthog.capture('cta_click', { cta_text: (a.textContent || '').trim().slice(0, 60), article: slug, source_medium: med, referring_domain: refHost || null, destination: u.origin + u.pathname });
+            }
+          }, true);
+        } catch (err) {}
+      })();
+    </script>
     <style is:global>
       :root {
         --ink: #16161a;
