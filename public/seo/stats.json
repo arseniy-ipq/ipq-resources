@@ -1,19 +1,19 @@
 {
  "version": 1,
- "updated_at": "2026-07-22T00:00:00Z",
+ "updated_at": "2026-07-25T03:34:00Z",
  "site": "https://ipqmedia.com/resources",
  "kpis": {
   "keywords_tracked": 7,
   "keywords_top100": 1,
-  "keywords_top10": 0,
-  "avg_position": 18,
+  "keywords_top10": 1,
+  "avg_position": 8,
   "indexed_pages": 11,
   "total_pages": 20,
   "content_pages_live": 19,
   "pages_pending_approval": 0,
   "ai_citations": 1,
   "technical_health": null,
-  "weeks_tracked": 2
+  "weeks_tracked": 3
  },
  "rank_history": [
   {
@@ -45,6 +45,12 @@
    "keywords_top100": 1,
    "keywords_top10": 0,
    "indexed_pages": 11
+  },
+  {
+   "date": "2026-07-25",
+   "keyword": "facebook ads for architects",
+   "position": 8,
+   "page": "/resources/meta-ads-for-architects"
   }
  ],
  "keywords": [
@@ -353,6 +359,10 @@
   }
  ],
  "milestones": [
+  {
+   "label": "\ud83c\udf89 FIRST PAGE 1",
+   "target": "meta-ads #8 for 'facebook ads for architects' (was #18) \u2014 Jul 25"
+  },
   {
    "label": "Byline headshot LIVE",
    "target": "Arseniy's photo + Person author schema on all 20 article bylines (Jul 21)"
