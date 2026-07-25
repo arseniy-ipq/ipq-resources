@@ -171,6 +171,12 @@ if (published) {
         border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
         padding: 12px 2px; margin: 8px 0 42px;
       }
+      .creatives { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 4px 0 10px; }
+      .creatives figure { margin: 0; }
+      .creatives img { width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--line); display: block; }
+      .creatives figcaption { font-size: 13.5px; line-height: 1.45; color: var(--faint); margin-top: 8px; }
+      .creatives figcaption b { color: var(--ink); font-weight: 600; }
+      @media (max-width: 640px) { .creatives { grid-template-columns: 1fr; gap: 22px; } }
       .byline .by-avatar { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; margin-right: 2px; }
       .byline .by-brand { color: var(--ink); font-weight: 600; }
       .byline .by-role { color: var(--faint); }
