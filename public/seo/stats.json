@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "updated_at": "2026-07-26T12:19:00Z",
+  "updated_at": "2026-07-27T12:19:00Z",
   "site": "https://ipqmedia.com/resources",
   "kpis": {
     "keywords_tracked": 7,
-    "keywords_top100": 3,
-    "keywords_top10": 1,
-    "avg_position": 42,
+    "keywords_top100": 2,
+    "keywords_top10": 0,
+    "avg_position": 62,
     "indexed_pages": 11,
     "total_pages": 20,
     "content_pages_live": 19,
-    "pages_pending_approval": 4,
+    "pages_pending_approval": 5,
     "ai_citations": 1,
     "technical_health": null,
     "weeks_tracked": 3
@@ -55,20 +55,26 @@
     {
       "date": "2026-07-26",
       "keywords_top100": 3,
-      "keywords_top10": 1,
+      "keywords_top10": 0,
+      "indexed_pages": 11
+    },
+    {
+      "date": "2026-07-27",
+      "keywords_top100": 2,
+      "keywords_top10": 0,
       "indexed_pages": 11
     }
   ],
   "keywords": [
     {
       "keyword": "architecture marketing",
-      "position": 55,
+      "position": 58,
       "top_organic": "www.aia.org",
       "ai_overview_present": true,
       "cited_in_ai_overview": false,
-      "impressions": 60,
+      "impressions": 63,
       "clicks": 0,
-      "gsc_position": 70.6
+      "gsc_position": 70.7
     },
     {
       "keyword": "architecture firm marketing",
@@ -79,13 +85,13 @@
     },
     {
       "keyword": "lead generation for architects",
-      "position": 62,
+      "position": 66,
       "top_organic": "archmarketing.org",
       "ai_overview_present": true,
       "cited_in_ai_overview": false,
-      "impressions": 32,
+      "impressions": 36,
       "clicks": 0,
-      "gsc_position": 67.1
+      "gsc_position": 66.8
     },
     {
       "keyword": "marketing for architects",
@@ -103,8 +109,8 @@
     },
     {
       "keyword": "facebook ads for architects",
-      "position": 8,
-      "top_organic": "www.reddit.com",
+      "position": null,
+      "top_organic": "insidea.com",
       "ai_overview_present": false,
       "cited_in_ai_overview": false
     },
@@ -277,6 +283,13 @@
       "status": "pending_approval",
       "published": "2026-07-26",
       "indexed": false
+    },
+    {
+      "slug": "marketing-for-landscape-architects",
+      "title": "Marketing for landscape architects",
+      "status": "pending_approval",
+      "published": "2026-07-27",
+      "indexed": false
     }
   ],
   "pipeline": [
@@ -429,130 +442,136 @@
     }
   ],
   "search": {
-    "window": "2026-06-26 to 2026-07-23",
+    "window": "2026-06-27 to 2026-07-24",
     "source": "Google Search Console",
     "total": {
-      "impressions": 1106,
-      "clicks": 47,
-      "queries": 87,
-      "avg_position": 63.9
+      "impressions": 1252,
+      "clicks": 46,
+      "queries": 93,
+      "avg_position": 64.2
     },
     "brand": {
       "impressions": 78,
-      "clicks": 47,
+      "clicks": 46,
       "queries": 2,
       "avg_position": 1.0
     },
     "non_brand": {
-      "impressions": 1028,
+      "impressions": 1174,
       "clicks": 0,
-      "queries": 85,
-      "avg_position": 68.7
+      "queries": 91,
+      "avg_position": 68.4
     },
     "top_queries": [
       {
         "query": "architecture and marketing",
-        "impressions": 112,
+        "impressions": 118,
         "clicks": 0,
-        "position": 78.2
+        "position": 78.1
       },
       {
         "query": "architect marketing",
-        "impressions": 90,
+        "impressions": 105,
         "clicks": 0,
-        "position": 66.4
+        "position": 65.8
       },
       {
         "query": "marketing architecture",
-        "impressions": 65,
+        "impressions": 75,
         "clicks": 0,
-        "position": 83.3
+        "position": 83.0
       },
       {
         "query": "architecture marketing",
-        "impressions": 60,
+        "impressions": 63,
         "clicks": 0,
-        "position": 70.6
-      },
-      {
-        "query": "marketing and architecture",
-        "impressions": 53,
-        "clicks": 0,
-        "position": 81.2
+        "position": 70.7
       },
       {
         "query": "marketing in architecture",
-        "impressions": 53,
+        "impressions": 59,
         "clicks": 0,
-        "position": 76.2
+        "position": 76.3
+      },
+      {
+        "query": "marketing and architecture",
+        "impressions": 57,
+        "clicks": 0,
+        "position": 81.5
       },
       {
         "query": "marketing agency for architects",
-        "impressions": 43,
+        "impressions": 47,
         "clicks": 0,
-        "position": 52.9
+        "position": 54.0
       },
       {
         "query": "architect marketing agency",
-        "impressions": 36,
+        "impressions": 40,
         "clicks": 0,
-        "position": 48.2
+        "position": 47.5
       },
       {
         "query": "architecture lead generation",
-        "impressions": 32,
+        "impressions": 37,
         "clicks": 0,
-        "position": 67.4
+        "position": 67.3
       },
       {
         "query": "lead generation for architects",
-        "impressions": 32,
+        "impressions": 36,
         "clicks": 0,
-        "position": 67.1
+        "position": 66.8
       },
       {
         "query": "architecture marketing firms",
-        "impressions": 25,
+        "impressions": 29,
         "clicks": 0,
-        "position": 38.5
+        "position": 38
       },
       {
         "query": "leads for architects",
-        "impressions": 24,
+        "impressions": 29,
         "clicks": 0,
-        "position": 63.8
+        "position": 62.4
       }
     ],
     "top_pages": [
       {
         "url": "/resources/best-marketing-agencies-for-architects",
-        "impressions": 353,
+        "impressions": 418,
         "clicks": 0,
-        "position": 57.7
+        "position": 57.4
       },
       {
         "url": "[old] /architecture-marketing/",
-        "impressions": 209,
+        "impressions": 211,
         "clicks": 1,
-        "position": 69.7
+        "position": 69.8
       },
       {
         "url": "[old] /architecture-marketing",
-        "impressions": 180,
+        "impressions": 190,
         "clicks": 1,
-        "position": 72.0
+        "position": 72.7
       },
       {
         "url": "/resources/architecture-marketing/",
-        "impressions": 122,
+        "impressions": 172,
         "clicks": 0,
-        "position": 66.3
+        "position": 67.4
       },
       {
         "url": "[old] /lead-generation-for-architects/",
-        "impressions": 107,
+        "impressions": 135,
         "clicks": 0,
-        "position": 70.0
+        "position": 68.8
+      },
+      {
+        "url": "/resources/lead-generation-for-architects/",
+        "impressions": 85,
+        "clicks": 0,
+        "position": 66.5
       },
       {
         "url": "/resources/lead-generation-for-architects",
@@ -565,12 +584,6 @@
         "impressions": 59,
         "clicks": 0,
         "position": 63.1
-      },
-      {
-        "url": "/resources/lead-generation-for-architects/",
-        "impressions": 55,
-        "clicks": 0,
-        "position": 68.7
       }
     ]
   }
