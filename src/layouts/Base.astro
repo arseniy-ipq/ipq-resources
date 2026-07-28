@@ -14,7 +14,12 @@ const {
 // ⚠ build-time internal form — publish.sh canonicalizes to https://ipqmedia.com/resources
 // at deploy. Do NOT append /resources here: new URL(pathname, site) drops subpaths.
 const site = 'https://resources.ipqmedia.com';
-const canonicalUrl = new URL(canonical, site).href;
+// ⚠ NON-SLASH canonical on purpose. The apex proxies /resources/* to this project via
+// vercel.json rewrites; the trailing-slash rule lives only in the redesign repo and has been
+// wiped by 3 of 3 of its deploys, which served the homepage on every slashed canonical and
+// triggered GSC "Duplicate without user-selected canonical". The non-slash form matches the
+// base rule that always ships, so our canonical URLs survive a redesign deploy.
+const canonicalUrl = new URL(canonical, site).href.replace(/\/$/, '') || site;
 const ogImage = `${site}/og-card.png`;
 const author = {
   '@type': 'Person',

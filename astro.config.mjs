@@ -36,6 +36,8 @@ export default defineConfig({
         const path = new URL(item.url).pathname.replace(/\/$/, '') || '/index';
         const date = pageDates[path];
         if (date) item.lastmod = date;
+        // emit the non-slash URL so the sitemap matches rel=canonical exactly (see Base.astro)
+        item.url = item.url.replace(/\/$/, '') || item.url;
         return item;
       },
     }),
