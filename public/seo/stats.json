@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-07-30T00:19:00Z",
+ "updated_at": "2026-07-30T04:28:00Z",
  "site": "https://ipqmedia.com/resources",
  "kpis": {
   "keywords_tracked": 7,
@@ -8,9 +8,9 @@
   "keywords_top10": 0,
   "avg_position": 54,
   "indexed_pages": 14,
-  "total_pages": 20,
-  "content_pages_live": 19,
-  "pages_pending_approval": 6,
+  "total_pages": 26,
+  "content_pages_live": 25,
+  "pages_pending_approval": 0,
   "ai_citations": 1,
   "technical_health": null,
   "weeks_tracked": 3
@@ -316,11 +316,6 @@
   {
    "title": "Networking and events for architects",
    "status": "queued"
-  },
-  {
-   "title": "Architecture Firm Marketing Benchmark Report",
-   "status": "blocked",
-   "note": "needs real anonymized IPQ campaign numbers"
   }
  ],
  "offsite": [
@@ -432,6 +427,10 @@
   }
  ],
  "milestones": [
+  {
+   "label": "Cluster at 26 pages",
+   "target": "6 approved + shipped Jul 30 incl. the benchmark report (our first original-data citation asset)"
+  },
   {
    "label": "Byline headshot LIVE",
    "target": "Arseniy's photo + Person author schema on all 20 article bylines (Jul 21)"
