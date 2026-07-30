@@ -1,12 +1,12 @@
 {
  "version": 1,
- "updated_at": "2026-07-29T12:20:00Z",
+ "updated_at": "2026-07-30T00:19:00Z",
  "site": "https://ipqmedia.com/resources",
  "kpis": {
   "keywords_tracked": 7,
   "keywords_top100": 2,
   "keywords_top10": 0,
-  "avg_position": 56,
+  "avg_position": 54,
   "indexed_pages": 14,
   "total_pages": 20,
   "content_pages_live": 19,
@@ -80,7 +80,7 @@
  "keywords": [
   {
    "keyword": "architecture marketing",
-   "position": 48,
+   "position": 44,
    "top_organic": "www.aia.org",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
@@ -97,7 +97,7 @@
   },
   {
    "keyword": "lead generation for architects",
-   "position": 63,
+   "position": 65,
    "top_organic": "archmarketing.org",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
