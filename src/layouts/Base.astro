@@ -53,6 +53,75 @@ const fmt = (d) =>
     timeZone: 'UTC',
   });
 
+// ---- Section anchors + "on this page" nav + FAQ schema (council A6, 2026-07-31) ----
+// Built from the already-rendered body so no page file needs touching and every future page
+// inherits it. Anchor ids are what Google's section deep links ("read more" jump links) key
+// off, per its April-2026 guidance: sections must be plain visible text, no accordions, no
+// sticky header eating the scroll target. Ours qualify.
+const stripTags = (s) => s.replace(/<[^>]+>/g, '');
+const decode = (s) =>
+  s
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'");
+const flatten = (s) => decode(stripTags(s)).replace(/\s+/g, ' ').trim();
+const slugify = (s) =>
+  flatten(s)
+    .toLowerCase()
+    .replace(/['’]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 60)
+    .replace(/-+$/, '');
+
+const toc = [];
+let faq = null;
+if (published) {
+  const used = new Set();
+  body = body.replace(/<(h2|h3)([^>]*)>([\s\S]*?)<\/\1>/g, (m, tag, attrs, inner) => {
+    if (/\sid=/.test(attrs)) return m;
+    const base = slugify(inner) || tag;
+    let id = base;
+    let n = 2;
+    while (used.has(id)) id = `${base}-${n++}`;
+    used.add(id);
+    if (tag === 'h2') toc.push({ id, label: stripTags(inner).replace(/\s+/g, ' ').trim() });
+    return `<${tag} id="${id}"${attrs}>${inner}</${tag}>`;
+  });
+
+  // Contents block, injected just before the first section so it sits under the answer block.
+  if (toc.length >= 4) {
+    const items = toc.map((t) => `<li><a href="#${t.id}">${t.label}</a></li>`).join('');
+    const nav = `<nav class="toc" aria-label="On this page"><p class="toc-label">On this page</p><ul>${items}</ul></nav>`;
+    const at = body.search(/<h2[\s>]/);
+    if (at > -1) body = body.slice(0, at) + nav + body.slice(at);
+  }
+
+  // FAQPage JSON-LD off the existing "A few honest answers" section. Google deprecated the FAQ
+  // rich result on 7 May 2026 (the markup itself stays valid and unused schema is harmless), so
+  // this is for machine extraction by AI crawlers, not for a SERP feature.
+  const faqAt = body.search(/<h2[^>]*>\s*(a few honest answers|frequently asked questions)\s*<\/h2>/i);
+  if (faqAt > -1) {
+    let seg = body.slice(faqAt);
+    const end = seg.slice(1).search(/<h2[\s>]/);
+    if (end > -1) seg = seg.slice(0, end + 1);
+    const qa = [];
+    const pair = /<h3[^>]*>([\s\S]*?)<\/h3>([\s\S]*?)(?=<h3[\s>]|$)/g;
+    let m;
+    while ((m = pair.exec(seg))) {
+      const name = flatten(m[1]);
+      const text = flatten(m[2]);
+      if (name && text) {
+        qa.push({ '@type': 'Question', name, acceptedAnswer: { '@type': 'Answer', text } });
+      }
+    }
+    if (qa.length >= 2) faq = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: qa };
+  }
+}
+
 let article = null;
 if (published) {
   const byline = `<div class="byline"><img class="by-avatar" src="/author-arseniy.jpg" width="44" height="44" alt="Arseniy Volosevich" loading="lazy" decoding="async" /><span class="by-brand">Arseniy Volosevich</span><span class="by-role">Founder, IPQmedia</span><span class="dot">·</span><span>Updated ${fmt(updated || published)}</span><span class="dot">·</span><span>${mins} min read</span></div>`;
@@ -113,6 +182,7 @@ if (published) {
     <meta name="robots" content="index,follow" />
     <script is:inline type="application/ld+json" set:html={JSON.stringify(org)} />
     {article && <script is:inline type="application/ld+json" set:html={JSON.stringify(article)} />}
+    {faq && <script is:inline type="application/ld+json" set:html={JSON.stringify(faq)} />}
   </head>
   <body>
     <header class="site-head">
@@ -199,6 +269,13 @@ if (published) {
       h2 { font-size: 31px; line-height: 1.25; letter-spacing: -0.01em; margin: 60px 0 16px; }
       h2::before { content: ''; display: block; width: 34px; height: 3px; background: var(--red); border-radius: 2px; margin-bottom: 18px; }
       h3 { font-size: 23px; margin: 36px 0 10px; }
+      h2, h3 { scroll-margin-top: 20px; }
+      .toc { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 16px 2px 8px; margin: 0 0 6px; }
+      .toc-label { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.09em; color: var(--faint); margin: 0 0 12px; }
+      .toc ul { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 34px; font-size: 16px; line-height: 1.45; }
+      .toc li { margin: 0 0 11px; break-inside: avoid; }
+      .toc a { color: var(--dim); text-decoration: none; }
+      .toc a:hover { color: var(--red); text-decoration: underline; }
       p { margin: 0 0 24px; }
       ul, ol { margin: 0 0 24px; padding-left: 24px; }
       li { margin-bottom: 12px; }
@@ -251,6 +328,7 @@ if (published) {
         h2 { font-size: 25px; margin-top: 50px; }
         h3 { font-size: 20px; }
         .lede { font-size: 20px; }
+        .toc ul { columns: 1; font-size: 15px; }
         .wrap { padding: 16px 20px 56px; }
       }
     </style>
