@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-07-31T12:19:00Z",
+ "updated_at": "2026-07-31T19:16:00Z",
  "site": "https://ipqmedia.com/resources",
  "kpis": {
   "keywords_tracked": 7,
@@ -8,9 +8,9 @@
   "keywords_top10": 0,
   "avg_position": 42,
   "indexed_pages": 14,
-  "total_pages": 26,
-  "content_pages_live": 25,
-  "pages_pending_approval": 1,
+  "total_pages": 27,
+  "content_pages_live": 26,
+  "pages_pending_approval": 0,
   "ai_citations": 1,
   "technical_health": null,
   "weeks_tracked": 3
