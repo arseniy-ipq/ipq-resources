@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updated_at": "2026-08-07T12:19:00Z",
+  "updated_at": "2026-08-09T05:19:00Z",
   "site": "https://ipqmedia.com/resources",
   "kpis": {
     "keywords_tracked": 7,
     "keywords_top100": 2,
     "keywords_top10": 0,
-    "avg_position": 38,
-    "indexed_pages": 14,
+    "avg_position": 46,
+    "indexed_pages": 15,
     "total_pages": 27,
     "content_pages_live": 26,
     "pages_pending_approval": 3,
@@ -129,6 +129,12 @@
       "keywords_top100": 2,
       "keywords_top10": 0,
       "indexed_pages": 14
+    },
+    {
+      "date": "2026-08-09",
+      "keywords_top100": 2,
+      "keywords_top10": 0,
+      "indexed_pages": 14
     }
   ],
   "keywords": [
@@ -138,9 +144,9 @@
       "top_organic": "www.aia.org",
       "ai_overview_present": true,
       "cited_in_ai_overview": false,
-      "impressions": 127,
+      "impressions": 141,
       "clicks": 0,
-      "gsc_position": 61.6
+      "gsc_position": 58.9
     },
     {
       "keyword": "architecture firm marketing",
@@ -151,11 +157,11 @@
     },
     {
       "keyword": "lead generation for architects",
-      "position": 62,
+      "position": 78,
       "top_organic": "archmarketing.org",
       "ai_overview_present": true,
       "cited_in_ai_overview": false,
-      "impressions": 168,
+      "impressions": 204,
       "clicks": 0,
       "gsc_position": 68.6
     },
@@ -180,9 +186,9 @@
       "ai_overview_present": false,
       "cited_in_ai_overview": false,
       "note": "dropped out of top 100 (3 consecutive checks 2026-07-28); GSC shows 0 impressions for this query in 28d",
-      "impressions": 19,
+      "impressions": 26,
       "clicks": 0,
-      "gsc_position": 16.2
+      "gsc_position": 15.9
     },
     {
       "keyword": "how to market an architecture firm",
@@ -430,36 +436,39 @@
     "technical_audit_score": null,
     "indexnow": true,
     "url_form_split_last7d": {
-      "window": "2026-07-27 to 2026-08-03",
-      "apex_canonical_impressions": 1323,
-      "apex_slash_impressions": 626,
-      "old_subdomain_impressions": 171,
-      "slash_share_of_resources_pct": 30,
-      "note": "The slash form returns the apex homepage with no canonical tag. Old subdomain 301s correctly and is decaying. Measured 2026-08-06."
+      "window": "2026-08-03 to 2026-08-09",
+      "apex_canonical_impressions": 1119,
+      "apex_slash_impressions": 282,
+      "old_subdomain_impressions": 76,
+      "slash_share_of_resources_pct": 20,
+      "trend_note": "Slash share is falling on its own as Google recrawls: 39 percent (wk of Jul 20), 35 percent (Jul 27), 20 percent (Aug 3). Each recrawl moves a page onto the correct URL permanently. The pillar finished consolidating this week (201 slash impressions last week, 0 this week).",
+      "note": "The slash form still returns the apex homepage with no canonical tag. The lead generation page is the one still badly stuck: 271 of its 320 impressions this week were on the broken URL. Old subdomain 301s correctly and is decaying (271 to 76 impressions per week since Jul 6). Re-measured 2026-08-09."
     }
   },
   "asks": [
     {
-      "what": "GSC: hit Request indexing on the 10 URLs whose canonical Google still records as the old slash form (that form serves the homepage, and it is now taking a third of all our search impressions)",
+      "what": "GSC: hit Request indexing on the 9 URLs whose canonical Google still records as the old slash form. Two came off this list on their own since last week, so this works",
       "status": "pending",
       "minutes": 2,
       "steps": [
         "Search Console -> URL inspection -> paste each URL -> Request indexing.",
-        "https://ipqmedia.com/resources/lead-generation-for-architects (our wedge page. Last 7 days it got 385 impressions and 100 percent of them were on the broken slash URL. Do this one first.)",
-        "then: branding-for-architects, direct-mail-for-architects, google-ads-for-architects, google-business-profile-for-architects, partnerships-for-architects, video-marketing-for-architects, website-design-for-architects (same prefix)",
-        "Why: Google last crawled these before the Jul 29 canonical fix, so it still treats the slash version as the real URL. One recrawl each and they are fixed for good."
+        "The 9 still stuck (all last crawled Jul 18 to Jul 20, before the Jul 29 canonical fix, so Google has not seen the correction yet): branding-for-architects, direct-mail-for-architects, email-marketing-for-architects, google-ads-for-architects, google-business-profile-for-architects, linkedin-for-architects, marketing-for-commercial-architects, partnerships-for-architects, video-marketing-for-architects",
+        "All under the https://ipqmedia.com/resources/ prefix, no trailing slash.",
+        "Proof it works: lead-generation-for-architects and website-design-for-architects were on this list last week. Google recrawled them (Aug 5 and Jul 28) and both now show Submitted and indexed on the correct URL.",
+        "Separately, lead-generation-for-architects is worth one more request even though it is indexed: Google indexed the right URL but is still serving the broken one for most queries (271 of its 320 impressions this week)."
       ]
     },
     {
-      "what": "Hand Claude One ONE line for the redesign repo's vercel.json. It kills the slash problem permanently and it is costing us a third of all search impressions right now",
+      "what": "Hand Claude One ONE line for the redesign repo vercel.json. The slash problem is shrinking on its own but the wedge page is still stuck on it",
       "status": "pending",
       "minutes": 3,
       "steps": [
-        "Add to the redesign repo's vercel.json (top level, alongside the existing keys): \"trailingSlash\": false",
+        "Add to the redesign repo vercel.json (top level, alongside the existing keys): \"trailingSlash\": false",
         "That is it. Vercel then answers any URL ending in a slash with a 308 redirect to the same URL without it, before any of their routing runs (Vercel docs, trailingSlash section).",
-        "MEASURED COST of not doing it (GSC, 28 Jul to 3 Aug): 626 of our 2,120 search impressions landed on the slash URL, which serves the homepage instead of the article. On the lead generation page that was 385 impressions, all of them.",
-        "It also splits our ranking: across 23 query/page pairs where both URL forms showed, the correct URL ranked better in 21 of 23, by an average of 12.7 positions.",
-        "Why one line instead of the 2 rewrite rules I sent before: it lives in THEIR repo so their deploys stop wiping it (5 wipes so far, latest Aug 1), it covers every path on the apex rather than just /resources, and there is nothing to hand-maintain."
+        "UPDATED MEASUREMENT (GSC, week of Aug 3): the slash share of our search impressions fell from 39 percent to 35 percent to 20 percent over three weeks, because each Google recrawl moves a page onto the correct URL for good. So this is self-healing, slowly.",
+        "What it is still costing: 282 impressions last week landed on a URL that shows the funnel homepage instead of the article. 271 of those were the lead generation page, our wedge page, which is still 85 percent stuck on the broken form.",
+        "It also splits our ranking: across 23 query and page pairs where both URL forms showed, the correct URL ranked better in 21 of 23, by an average of 12.7 positions.",
+        "Why one line instead of the 2 rewrite rules I sent before: it lives in THEIR repo so their deploys stop wiping it, it covers every path on the apex rather than just /resources, and there is nothing to hand-maintain."
       ]
     },
     {
@@ -523,6 +532,10 @@
   ],
   "milestones": [
     {
+      "label": "First clicks on the cluster (Aug)",
+      "target": "The guides have earned 8 search clicks since Jul 6, roughly one a week, including the first on a canonical apex URL (website-design-for-architects, average position 3). Google withholds the queries as anonymized, which is why the weekly query report kept reading 0. Small, but it is the first evidence that a top-of-page-1 position on this cluster converts to a visit."
+    },
+    {
       "label": "First AI-engine #1 (Aug 1)",
       "target": "Perplexity now names IPQmedia the #1 architecture marketing agency and cites our own best-agencies guide. Reproduced on 2 independent runs. Absent from that answer on all 4 engines at the Jul 17 baseline."
     },
@@ -560,112 +573,118 @@
     }
   ],
   "search": {
-    "window": "2026-07-08 to 2026-08-04",
+    "window": "2026-07-10 to 2026-08-06",
     "source": "Google Search Console",
     "total": {
-      "impressions": 3368,
+      "impressions": 3974,
       "clicks": 39,
-      "queries": 122,
-      "avg_position": 63.1
+      "queries": 126,
+      "avg_position": 62.6
     },
     "brand": {
-      "impressions": 71,
+      "impressions": 73,
       "clicks": 39,
       "queries": 2,
-      "avg_position": 1.3
+      "avg_position": 1.9
     },
     "non_brand": {
-      "impressions": 3297,
+      "impressions": 3901,
       "clicks": 0,
-      "queries": 120,
-      "avg_position": 64.4
+      "queries": 124,
+      "avg_position": 63.7
     },
     "top_queries": [
       {
         "query": "architect marketing",
-        "impressions": 246,
+        "impressions": 281,
         "clicks": 0,
-        "position": 52.7
+        "position": 50.4
       },
       {
         "query": "architecture and marketing",
-        "impressions": 214,
+        "impressions": 233,
         "clicks": 0,
-        "position": 65.6
+        "position": 62.1
       },
       {
         "query": "marketing agency for architects",
-        "impressions": 172,
+        "impressions": 211,
         "clicks": 0,
-        "position": 58.8
+        "position": 59.3
       },
       {
         "query": "lead generation for architects",
-        "impressions": 168,
+        "impressions": 204,
         "clicks": 0,
         "position": 68.6
       },
       {
         "query": "architect marketing agency",
-        "impressions": 144,
+        "impressions": 185,
         "clicks": 0,
-        "position": 54.6
+        "position": 54.9
       },
       {
         "query": "architecture lead generation",
-        "impressions": 144,
+        "impressions": 183,
         "clicks": 0,
-        "position": 69.0
-      },
-      {
-        "query": "architecture marketing",
-        "impressions": 127,
-        "clicks": 0,
-        "position": 61.6
+        "position": 69.8
       },
       {
         "query": "leads for architects",
-        "impressions": 123,
+        "impressions": 158,
         "clicks": 0,
-        "position": 63.5
-      },
-      {
-        "query": "marketing architecture",
-        "impressions": 123,
-        "clicks": 0,
-        "position": 79.3
-      },
-      {
-        "query": "marketing architecture firm",
-        "impressions": 117,
-        "clicks": 0,
-        "position": 49.0
+        "position": 63.1
       },
       {
         "query": "architecture marketing agency",
-        "impressions": 110,
+        "impressions": 152,
         "clicks": 0,
-        "position": 62.6
+        "position": 62.3
+      },
+      {
+        "query": "marketing architecture firm",
+        "impressions": 148,
+        "clicks": 0,
+        "position": 48.7
       },
       {
         "query": "architecture marketing firms",
-        "impressions": 108,
+        "impressions": 146,
         "clicks": 0,
-        "position": 50.3
+        "position": 51.5
+      },
+      {
+        "query": "architecture marketing",
+        "impressions": 141,
+        "clicks": 0,
+        "position": 58.9
+      },
+      {
+        "query": "marketing architecture",
+        "impressions": 131,
+        "clicks": 0,
+        "position": 76.9
       }
     ],
     "top_pages": [
       {
         "url": "/resources/best-marketing-agencies-for-architects",
-        "impressions": 1576,
+        "impressions": 1973,
         "clicks": 0,
-        "position": 62.3
+        "position": 62.7
       },
       {
         "url": "/resources/lead-generation-for-architects/",
-        "impressions": 579,
+        "impressions": 698,
         "clicks": 0,
-        "position": 66.6
+        "position": 67.0
+      },
+      {
+        "url": "/resources/architecture-marketing",
+        "impressions": 450,
+        "clicks": 0,
+        "position": 42.7
       },
       {
         "url": "/resources/architecture-marketing/",
@@ -674,16 +693,10 @@
         "position": 67.5
       },
       {
-        "url": "/resources/architecture-marketing",
-        "impressions": 341,
-        "clicks": 0,
-        "position": 43.8
-      },
-      {
         "url": "[old] /architecture-marketing",
-        "impressions": 311,
+        "impressions": 303,
         "clicks": 1,
-        "position": 78.3
+        "position": 79.5
       },
       {
         "url": "[old] /lead-generation-for-architects/",
@@ -693,15 +706,15 @@
       },
       {
         "url": "[old] /architecture-marketing/",
-        "impressions": 145,
+        "impressions": 136,
         "clicks": 0,
-        "position": 69.3
+        "position": 71.8
       },
       {
         "url": "/resources/lead-generation-for-architects",
-        "impressions": 74,
+        "impressions": 93,
         "clicks": 0,
-        "position": 63.3
+        "position": 60.7
       }
     ]
   }
