@@ -1,721 +1,784 @@
 {
-  "version": 1,
-  "updated_at": "2026-08-09T05:19:00Z",
-  "site": "https://ipqmedia.com/resources",
-  "kpis": {
-    "keywords_tracked": 7,
-    "keywords_top100": 2,
-    "keywords_top10": 0,
-    "avg_position": 46,
-    "indexed_pages": 15,
-    "total_pages": 27,
-    "content_pages_live": 26,
-    "pages_pending_approval": 3,
-    "ai_citations": 2,
-    "technical_health": null,
-    "weeks_tracked": 4
+ "version": 1,
+ "updated_at": "2026-08-11T07:06:00Z",
+ "site": "https://ipqmedia.com/resources",
+ "kpis": {
+  "keywords_tracked": 7,
+  "keywords_top100": 2,
+  "keywords_top10": 0,
+  "avg_position": 40,
+  "indexed_pages": 15,
+  "total_pages": 27,
+  "content_pages_live": 26,
+  "pages_pending_approval": 3,
+  "ai_citations": 2,
+  "technical_health": null,
+  "weeks_tracked": 4
+ },
+ "rank_history": [
+  {
+   "date": "2026-07-05",
+   "keywords_top100": 0,
+   "keywords_top10": 0,
+   "indexed_pages": 0
   },
-  "rank_history": [
-    {
-      "date": "2026-07-05",
-      "keywords_top100": 0,
-      "keywords_top10": 0,
-      "indexed_pages": 0
-    },
-    {
-      "date": "2026-07-06",
-      "keywords_top100": 0,
-      "keywords_top10": 0,
-      "indexed_pages": 3
-    },
-    {
-      "date": "2026-07-11",
-      "keywords_top100": 0,
-      "keywords_top10": 0,
-      "indexed_pages": 7
-    },
-    {
-      "date": "2026-07-15",
-      "keywords_top100": 1,
-      "keywords_top10": 0,
-      "indexed_pages": 10
-    },
-    {
-      "date": "2026-07-18",
-      "keywords_top100": 1,
-      "keywords_top10": 0,
-      "indexed_pages": 11
-    },
-    {
-      "date": "2026-07-25",
-      "keywords_top100": 3,
-      "keywords_top10": 1,
-      "indexed_pages": 11
-    },
-    {
-      "date": "2026-07-26",
-      "keywords_top100": 3,
-      "keywords_top10": 0,
-      "indexed_pages": 11
-    },
-    {
-      "date": "2026-07-27",
-      "keywords_top100": 2,
-      "keywords_top10": 0,
-      "indexed_pages": 14
-    },
-    {
-      "date": "2026-07-28",
-      "keywords_top100": 2,
-      "keywords_top10": 0,
-      "indexed_pages": 14
-    },
-    {
-      "date": "2026-07-29",
-      "keywords_top100": 2,
-      "keywords_top10": 0,
-      "indexed_pages": 14
-    },
-    {
-      "date": "2026-07-30",
-      "keywords_top100": 3,
-      "keywords_top10": 0,
-      "indexed_pages": 14
-    },
-    {
-      "date": "2026-07-31",
-      "keywords_top100": 3,
-      "keywords_top10": 0,
-      "indexed_pages": 14
-    },
-    {
-      "date": "2026-08-01",
-      "keywords_top100": 2,
-      "keywords_top10": 0,
-      "indexed_pages": 14
-    },
-    {
-      "date": "2026-08-02",
-      "keywords_top100": 2,
-      "keywords_top10": 0,
-      "indexed_pages": 14
-    },
-    {
-      "date": "2026-08-03",
-      "keywords_top100": 2,
-      "keywords_top10": 0,
-      "indexed_pages": 14
-    },
-    {
-      "date": "2026-08-04",
-      "keywords_top100": 2,
-      "keywords_top10": 0,
-      "indexed_pages": 14
-    },
-    {
-      "date": "2026-08-05",
-      "keywords_top100": 2,
-      "keywords_top10": 0,
-      "indexed_pages": 14
-    },
-    {
-      "date": "2026-08-06",
-      "keywords_top100": 3,
-      "keywords_top10": 0,
-      "indexed_pages": 14
-    },
-    {
-      "date": "2026-08-07",
-      "keywords_top100": 2,
-      "keywords_top10": 0,
-      "indexed_pages": 14
-    },
-    {
-      "date": "2026-08-09",
-      "keywords_top100": 2,
-      "keywords_top10": 0,
-      "indexed_pages": 14
-    }
-  ],
-  "keywords": [
-    {
-      "keyword": "architecture marketing",
-      "position": null,
-      "top_organic": "www.aia.org",
-      "ai_overview_present": true,
-      "cited_in_ai_overview": false,
-      "impressions": 141,
-      "clicks": 0,
-      "gsc_position": 58.9
-    },
-    {
-      "keyword": "architecture firm marketing",
-      "position": null,
-      "top_organic": "www.aia.org",
-      "ai_overview_present": true,
-      "cited_in_ai_overview": false
-    },
-    {
-      "keyword": "lead generation for architects",
-      "position": 78,
-      "top_organic": "archmarketing.org",
-      "ai_overview_present": true,
-      "cited_in_ai_overview": false,
-      "impressions": 204,
-      "clicks": 0,
-      "gsc_position": 68.6
-    },
-    {
-      "keyword": "marketing for architects",
-      "position": null,
-      "top_organic": "www.marketingarchitects.com",
-      "ai_overview_present": true,
-      "cited_in_ai_overview": false
-    },
-    {
-      "keyword": "seo for architects",
-      "position": null,
-      "top_organic": "www.seo-arch.com",
-      "ai_overview_present": true,
-      "cited_in_ai_overview": false
-    },
-    {
-      "keyword": "facebook ads for architects",
-      "position": 14,
-      "top_organic": "insidea.com",
-      "ai_overview_present": false,
-      "cited_in_ai_overview": false,
-      "note": "dropped out of top 100 (3 consecutive checks 2026-07-28); GSC shows 0 impressions for this query in 28d",
-      "impressions": 26,
-      "clicks": 0,
-      "gsc_position": 15.9
-    },
-    {
-      "keyword": "how to market an architecture firm",
-      "position": null,
-      "top_organic": "archmarketing.org",
-      "ai_overview_present": true,
-      "cited_in_ai_overview": false
-    }
-  ],
-  "content": [
-    {
-      "slug": "architecture-marketing",
-      "title": "Architecture marketing (pillar)",
-      "status": "live",
-      "published": "2026-06-29",
-      "indexed": true
-    },
-    {
-      "slug": "lead-generation-for-architects",
-      "title": "Lead generation for architects",
-      "status": "live",
-      "published": "2026-06-27",
-      "indexed": false
-    },
-    {
-      "slug": "meta-ads-for-architects",
-      "title": "Meta ads for architects",
-      "status": "live",
-      "published": "2026-06-27",
-      "indexed": true
-    },
-    {
-      "slug": "marketing-for-residential-architects",
-      "title": "Marketing for residential architects",
-      "status": "live",
-      "published": "2026-06-27",
-      "indexed": true
-    },
-    {
-      "slug": "marketing-for-commercial-architects",
-      "title": "Marketing for commercial architects",
-      "status": "live",
-      "published": "2026-06-27",
-      "indexed": false
-    },
-    {
-      "slug": "seo-for-architects",
-      "title": "SEO for architects",
-      "status": "live",
-      "published": "2026-06-30",
-      "indexed": true
-    },
-    {
-      "slug": "email-marketing-for-architects",
-      "title": "Email marketing for architects",
-      "status": "live",
-      "published": "2026-07-01",
-      "indexed": false
-    },
-    {
-      "slug": "website-design-for-architects",
-      "title": "Website design for architects",
-      "status": "live",
-      "published": "2026-07-02",
-      "indexed": true
-    },
-    {
-      "slug": "google-ads-for-architects",
-      "title": "Google Ads for architects",
-      "status": "live",
-      "published": "2026-07-03",
-      "indexed": false
-    },
-    {
-      "slug": "referral-systems-for-architects",
-      "title": "Referral systems for architects",
-      "status": "live",
-      "published": "2026-07-04",
-      "indexed": true
-    },
-    {
-      "slug": "google-business-profile-for-architects",
-      "title": "Google Business Profile for architects",
-      "status": "live",
-      "published": "2026-07-05",
-      "indexed": false
-    },
-    {
-      "slug": "content-marketing-for-architects",
-      "title": "Content marketing for architects",
-      "status": "live",
-      "published": "2026-07-06",
-      "indexed": true
-    },
-    {
-      "slug": "linkedin-for-architects",
-      "title": "LinkedIn for architects",
-      "status": "live",
-      "published": "2026-07-07",
-      "indexed": false
-    },
-    {
-      "slug": "direct-mail-for-architects",
-      "title": "Direct mail for architects",
-      "status": "live",
-      "published": "2026-07-08",
-      "indexed": false
-    },
-    {
-      "slug": "pr-and-press-for-architects",
-      "title": "PR and press for architects",
-      "status": "live",
-      "published": "2026-07-09",
-      "indexed": true
-    },
-    {
-      "slug": "partnerships-for-architects",
-      "title": "Partnerships for architects",
-      "status": "live",
-      "published": "2026-07-10",
-      "indexed": false
-    },
-    {
-      "slug": "video-marketing-for-architects",
-      "title": "Video marketing for architects",
-      "status": "live",
-      "published": "2026-07-15",
-      "indexed": false
-    },
-    {
-      "slug": "best-marketing-agencies-for-architects",
-      "title": "Top marketing agencies for architecture firms (ranked)",
-      "status": "live",
-      "published": "2026-07-16",
-      "indexed": true
-    },
-    {
-      "slug": "branding-for-architects",
-      "title": "Branding for architects",
-      "status": "live",
-      "published": "2026-07-16",
-      "indexed": false
-    },
-    {
-      "slug": "meta-ads-vs-google-ads-for-architects",
-      "title": "Meta ads vs Google Ads for architects",
-      "status": "live",
-      "published": "2026-07-23",
-      "indexed": true
-    },
-    {
-      "slug": "pay-per-lead-vs-retainer-for-architects",
-      "title": "Pay per lead vs retainer for architects",
-      "status": "live",
-      "published": "2026-07-24",
-      "indexed": false
-    },
-    {
-      "slug": "architecture-marketing-statistics-and-costs-2026",
-      "title": "Architecture marketing statistics and costs (2026)",
-      "status": "live",
-      "published": "2026-07-25",
-      "indexed": true
-    },
-    {
-      "slug": "architecture-marketing-benchmark-report-2026",
-      "title": "Architecture marketing benchmark report 2026",
-      "status": "live",
-      "published": "2026-07-26",
-      "indexed": true
-    },
-    {
-      "slug": "marketing-for-landscape-architects",
-      "title": "Marketing for landscape architects",
-      "status": "live",
-      "published": "2026-07-27",
-      "indexed": true
-    },
-    {
-      "slug": "marketing-for-high-end-residential-architects",
-      "title": "Marketing for high-end residential architects",
-      "status": "live",
-      "published": "2026-07-28",
-      "indexed": true
-    },
-    {
-      "slug": "architecture-client-demand-by-metro-2026",
-      "title": "Architecture client demand by metro (2026)",
-      "status": "pending_approval",
-      "published": "2026-07-30",
-      "indexed": false
-    }
-  ],
-  "pipeline": [
-    {
-      "title": "Networking and events for architects",
-      "status": "queued"
-    }
-  ],
-  "offsite": [
-    {
-      "title": "Reddit playbook",
-      "status": "done",
-      "due": "2026-07-11",
-      "note": "delivered 2026-07-11; execution = weekly human posting, Pheme drafts"
-    },
-    {
-      "title": "Reviews kit: Clutch / GoodFirms / DesignRush",
-      "status": "done",
-      "due": "2026-07-12",
-      "note": "kit delivered 2026-07-11, a day early; profile creation + review asks = Arseniy's hands (~60 min)"
-    },
-    {
-      "title": "UGC seeding plan (LinkedIn / Reddit / Quora)",
-      "status": "done",
-      "due": "2026-07-13",
-      "note": "delivered 2026-07-12, a day early; 2 LinkedIn articles + 3 posts + 3 Quora answers paste-ready, posting = Arseniy's hands (~20-30 min/wk)"
-    },
-    {
-      "title": "Content pattern study",
-      "status": "done",
-      "due": "2026-07-13",
-      "note": "delivered 2026-07-13; 8 rules from Backlinko/Ahrefs/Zapier/Healthline/NerdWallet/Shopify, HubSpot anti-pattern, archmarketing teardown; retrofit pass queued"
-    },
-    {
-      "title": "Best-agency listicle outreach",
-      "status": "done",
-      "note": "targets verified + paste-ready pitches delivered 2026-07-18; 3 emails (Ravetree, Siana, Nover) + free Semrush Agency profile = Arseniy, ~45-60 min"
-    },
-    {
-      "title": "Wikidata entity for IPQmedia",
-      "status": "queued"
-    },
-    {
-      "title": "Benchmark report (backlink magnet)",
-      "status": "blocked"
-    }
-  ],
-  "technical": {
-    "https": true,
-    "sitemap_submitted": true,
-    "robots_ai_bots_allowed": true,
-    "llms_txt": true,
-    "schema_article_person_author": true,
-    "technical_audit_score": null,
-    "indexnow": true,
-    "url_form_split_last7d": {
-      "window": "2026-08-03 to 2026-08-09",
-      "apex_canonical_impressions": 1119,
-      "apex_slash_impressions": 282,
-      "old_subdomain_impressions": 76,
-      "slash_share_of_resources_pct": 20,
-      "trend_note": "Slash share is falling on its own as Google recrawls: 39 percent (wk of Jul 20), 35 percent (Jul 27), 20 percent (Aug 3). Each recrawl moves a page onto the correct URL permanently. The pillar finished consolidating this week (201 slash impressions last week, 0 this week).",
-      "note": "The slash form still returns the apex homepage with no canonical tag. The lead generation page is the one still badly stuck: 271 of its 320 impressions this week were on the broken URL. Old subdomain 301s correctly and is decaying (271 to 76 impressions per week since Jul 6). Re-measured 2026-08-09."
-    }
+  {
+   "date": "2026-07-06",
+   "keywords_top100": 0,
+   "keywords_top10": 0,
+   "indexed_pages": 3
   },
-  "asks": [
-    {
-      "what": "GSC: hit Request indexing on the 9 URLs whose canonical Google still records as the old slash form. Two came off this list on their own since last week, so this works",
-      "status": "pending",
-      "minutes": 2,
-      "steps": [
-        "Search Console -> URL inspection -> paste each URL -> Request indexing.",
-        "The 9 still stuck (all last crawled Jul 18 to Jul 20, before the Jul 29 canonical fix, so Google has not seen the correction yet): branding-for-architects, direct-mail-for-architects, email-marketing-for-architects, google-ads-for-architects, google-business-profile-for-architects, linkedin-for-architects, marketing-for-commercial-architects, partnerships-for-architects, video-marketing-for-architects",
-        "All under the https://ipqmedia.com/resources/ prefix, no trailing slash.",
-        "Proof it works: lead-generation-for-architects and website-design-for-architects were on this list last week. Google recrawled them (Aug 5 and Jul 28) and both now show Submitted and indexed on the correct URL.",
-        "Separately, lead-generation-for-architects is worth one more request even though it is indexed: Google indexed the right URL but is still serving the broken one for most queries (271 of its 320 impressions this week)."
-      ]
-    },
-    {
-      "what": "Hand Claude One ONE line for the redesign repo vercel.json. The slash problem is shrinking on its own but the wedge page is still stuck on it",
-      "status": "pending",
-      "minutes": 3,
-      "steps": [
-        "Add to the redesign repo vercel.json (top level, alongside the existing keys): \"trailingSlash\": false",
-        "That is it. Vercel then answers any URL ending in a slash with a 308 redirect to the same URL without it, before any of their routing runs (Vercel docs, trailingSlash section).",
-        "UPDATED MEASUREMENT (GSC, week of Aug 3): the slash share of our search impressions fell from 39 percent to 35 percent to 20 percent over three weeks, because each Google recrawl moves a page onto the correct URL for good. So this is self-healing, slowly.",
-        "What it is still costing: 282 impressions last week landed on a URL that shows the funnel homepage instead of the article. 271 of those were the lead generation page, our wedge page, which is still 85 percent stuck on the broken form.",
-        "It also splits our ranking: across 23 query and page pairs where both URL forms showed, the correct URL ranked better in 21 of 23, by an average of 12.7 positions.",
-        "Why one line instead of the 2 rewrite rules I sent before: it lives in THEIR repo so their deploys stop wiping it, it covers every path on the apex rather than just /resources, and there is nothing to hand-maintain."
-      ]
-    },
-    {
-      "what": "Reddit: comment in \"Marketing investments for small architecture firms\" (r/Architects, ranks #1 on the money query)",
-      "status": "pending",
-      "minutes": 10,
-      "steps": [
-        "Open: https://reddit.com/r/Architects/comments/1p7q0oi",
-        "Post from YOUR real personal Reddit account (never a new/burner account - instant ban-bait, and never an IPQmedia-branded one). Rephrase in your own words, skim the thread first, keep the disclosure line. No links.",
-        "PASTE-READY DRAFT (edit to taste):",
-        "Ran ads for architecture firms for a while now so I have a biased seat, but here's what I see actually move the needle for small firms.\nThe order most firms spend in: website redesign, then a logo refresh, then maybe some boosted Instagram posts. The order that actually produces clients is close to the reverse. Your website only converts people who already found you, and a prettier portfolio doesn't change how many people find you. It's a filter, not a source.\nThe honest split I'd suggest: something that predictably puts you in front of people planning a project (paid ads do this, so does showing up where they already ask questions), a simple follow-up system because most enquiries die from silence, and only then cosmetics. Firms wildly overrate the portfolio and underrate the boring pipe.\nOne more thing nobody says out loud: referrals feel free but they're not a plan. You can't scale word of mouth and you can't schedule it. Treat referrals as a bonus layer, not the strategy.\n(Disclosure: I run IPQmedia, we do paid ads for architecture firms, so factor that bias in. The referral point stands either way.)"
-      ]
-    },
-    {
-      "what": "Reddit: comment in \"Is there a reason architecture communities avoid marketing\" (r/Architects)",
-      "status": "pending",
-      "minutes": 8,
-      "steps": [
-        "Open: https://reddit.com/r/Architects/comments/1p51r5v",
-        "Post from YOUR real personal Reddit account (never a new/burner account - instant ban-bait, and never an IPQmedia-branded one). Rephrase in your own words, skim the thread first, keep the disclosure line. No links.",
-        "PASTE-READY DRAFT (edit to taste):",
-        "Architecture school teaches that good work speaks for itself, and the profession's culture treats selling as slightly beneath the craft. Then everyone graduates into a market where the firms that eat well are rarely the best designers, they're the best at being found.\nThe result is a weird equilibrium: most firms rely on referrals, referrals reward whoever's been around longest, and younger or smaller firms conclude \"marketing doesn't work for architecture\" because nobody around them does it. It's not that it doesn't work. It's that almost nobody tries, which is exactly why it works unreasonably well for the few who do.\nI work on the marketing side with architecture firms, and the pattern is consistent: the resistance isn't strategic, it's cultural. The firms that get over it don't become salesy, they just stop being invisible."
-      ]
-    },
-    {
-      "what": "Reddit: comment in \"How did you find clients?\" (r/Architects, top 5 on the money query)",
-      "status": "pending",
-      "minutes": 8,
-      "steps": [
-        "Open: https://reddit.com/r/Architects/comments/1p0m6u8",
-        "Post from YOUR real personal Reddit account (never a new/burner account - instant ban-bait, and never an IPQmedia-branded one). Rephrase in your own words, skim the thread first, keep the disclosure line. No links.",
-        "PASTE-READY DRAFT (edit to taste - it has a [slot] for a real number, fill or delete):",
-        "Watching this from the agency side (we run lead gen for architecture firms), the honest pattern across firms I've seen:\nFirst clients are almost always warm: former employer's overflow, friends of family, one builder who likes you. That gets you to maybe year two. The firms that stall are the ones that treat that warm layer as the permanent plan.\nThe ones that grow add exactly two things. Some repeatable way strangers find them (ads, genuinely useful content, a builder/realtor partnership that's an actual arrangement rather than a hope). And fast follow-up, because a homeowner or developer who enquires is talking to 2-3 other firms, and the first competent response wins more often than the best portfolio does. [if you have your real response-time or show-rate number, drop it here]\nNobody's ever hired a firm they didn't know exists. That's the whole game."
-      ]
-    },
-    {
-      "what": "Directory listings (Clutch/GoodFirms/DesignRush): PARKED by you until 10 diehard PPS clients. Running now instead: private testimonials, LinkedIn recs, brand mentions, detractor list",
-      "status": "parked",
-      "minutes": 60
-    },
-    {
-      "what": "LinkedIn: publish piece A from the UGC plan - reply 'linkedin draft' to @ipqseobot and it pastes the full text",
-      "status": "pending",
-      "minutes": 10
-    },
-    {
-      "what": "Listicle outreach: send 3 short emails (Ravetree, Siana, Nover) - reply 'outreach drafts' to @ipqseobot and it pastes the ready-to-send text",
-      "status": "pending",
-      "minutes": 20
-    },
-    {
-      "what": "Bing Webmaster Tools signup (unlocks Copilot/Bing citation telemetry; IndexNow pings already live without it)",
-      "status": "pending",
-      "minutes": 5,
-      "steps": [
-        "Go to bing.com/webmasters, sign in with any Microsoft account",
-        "Pick 'Import from Google Search Console' and approve with arseniy@ipqmedia.com (imports the ipqmedia.com property + sitemap in one step)",
-        "Done. Tell @ipqseobot and I wire Bing AI Performance into the weekly report"
-      ]
-    }
-  ],
-  "milestones": [
-    {
-      "label": "First clicks on the cluster (Aug)",
-      "target": "The guides have earned 8 search clicks since Jul 6, roughly one a week, including the first on a canonical apex URL (website-design-for-architects, average position 3). Google withholds the queries as anonymized, which is why the weekly query report kept reading 0. Small, but it is the first evidence that a top-of-page-1 position on this cluster converts to a visit."
-    },
-    {
-      "label": "First AI-engine #1 (Aug 1)",
-      "target": "Perplexity now names IPQmedia the #1 architecture marketing agency and cites our own best-agencies guide. Reproduced on 2 independent runs. Absent from that answer on all 4 engines at the Jul 17 baseline."
-    },
-    {
-      "label": "Cluster at 27 pages",
-      "target": "metro-demand page + section anchors, on-this-page nav and FAQ schema shipped Jul 31"
-    },
-    {
-      "label": "Byline headshot LIVE",
-      "target": "Arseniy's photo + Person author schema on all 20 article bylines (Jul 21)"
-    },
-    {
-      "label": "Reputation gate",
-      "target": "10 diehard PPS clients -> directory launch week (his 07-19 call)"
-    },
-    {
-      "label": "Site move (Jul 17-18)",
-      "target": "content moved to ipqmedia.com/resources - 10 pages indexed under the OLD urls (verified live via site: query Jul 18), transferring via 301s; all 19 new urls submitted for indexing Jul 18. Index counts may dip then recover over 1-3 weeks - that is the move processing, not lost rankings."
-    },
-    {
-      "label": "Month 1 (mid Aug)",
-      "target": "everything indexed, first top-100 on spoke terms"
-    },
-    {
-      "label": "Month 3 (mid Oct)",
-      "target": "wedge terms top 10-30, several spokes top 10"
-    },
-    {
-      "label": "Month 6 (mid Jan)",
-      "target": "wedge terms top 3-5, head term top 10"
-    },
-    {
-      "label": "Month 12 (Jul 2027)",
-      "target": "top 1-3 across the cluster incl. head term"
-    }
-  ],
-  "search": {
-    "window": "2026-07-10 to 2026-08-06",
-    "source": "Google Search Console",
-    "total": {
-      "impressions": 3974,
-      "clicks": 39,
-      "queries": 126,
-      "avg_position": 62.6
-    },
-    "brand": {
-      "impressions": 73,
-      "clicks": 39,
-      "queries": 2,
-      "avg_position": 1.9
-    },
-    "non_brand": {
-      "impressions": 3901,
-      "clicks": 0,
-      "queries": 124,
-      "avg_position": 63.7
-    },
-    "top_queries": [
-      {
-        "query": "architect marketing",
-        "impressions": 281,
-        "clicks": 0,
-        "position": 50.4
-      },
-      {
-        "query": "architecture and marketing",
-        "impressions": 233,
-        "clicks": 0,
-        "position": 62.1
-      },
-      {
-        "query": "marketing agency for architects",
-        "impressions": 211,
-        "clicks": 0,
-        "position": 59.3
-      },
-      {
-        "query": "lead generation for architects",
-        "impressions": 204,
-        "clicks": 0,
-        "position": 68.6
-      },
-      {
-        "query": "architect marketing agency",
-        "impressions": 185,
-        "clicks": 0,
-        "position": 54.9
-      },
-      {
-        "query": "architecture lead generation",
-        "impressions": 183,
-        "clicks": 0,
-        "position": 69.8
-      },
-      {
-        "query": "leads for architects",
-        "impressions": 158,
-        "clicks": 0,
-        "position": 63.1
-      },
-      {
-        "query": "architecture marketing agency",
-        "impressions": 152,
-        "clicks": 0,
-        "position": 62.3
-      },
-      {
-        "query": "marketing architecture firm",
-        "impressions": 148,
-        "clicks": 0,
-        "position": 48.7
-      },
-      {
-        "query": "architecture marketing firms",
-        "impressions": 146,
-        "clicks": 0,
-        "position": 51.5
-      },
-      {
-        "query": "architecture marketing",
-        "impressions": 141,
-        "clicks": 0,
-        "position": 58.9
-      },
-      {
-        "query": "marketing architecture",
-        "impressions": 131,
-        "clicks": 0,
-        "position": 76.9
-      }
-    ],
-    "top_pages": [
-      {
-        "url": "/resources/best-marketing-agencies-for-architects",
-        "impressions": 1973,
-        "clicks": 0,
-        "position": 62.7
-      },
-      {
-        "url": "/resources/lead-generation-for-architects/",
-        "impressions": 698,
-        "clicks": 0,
-        "position": 67.0
-      },
-      {
-        "url": "/resources/architecture-marketing",
-        "impressions": 450,
-        "clicks": 0,
-        "position": 42.7
-      },
-      {
-        "url": "/resources/architecture-marketing/",
-        "impressions": 406,
-        "clicks": 0,
-        "position": 67.5
-      },
-      {
-        "url": "[old] /architecture-marketing",
-        "impressions": 303,
-        "clicks": 1,
-        "position": 79.5
-      },
-      {
-        "url": "[old] /lead-generation-for-architects/",
-        "impressions": 147,
-        "clicks": 0,
-        "position": 68.3
-      },
-      {
-        "url": "[old] /architecture-marketing/",
-        "impressions": 136,
-        "clicks": 0,
-        "position": 71.8
-      },
-      {
-        "url": "/resources/lead-generation-for-architects",
-        "impressions": 93,
-        "clicks": 0,
-        "position": 60.7
-      }
-    ]
+  {
+   "date": "2026-07-11",
+   "keywords_top100": 0,
+   "keywords_top10": 0,
+   "indexed_pages": 7
+  },
+  {
+   "date": "2026-07-15",
+   "keywords_top100": 1,
+   "keywords_top10": 0,
+   "indexed_pages": 10
+  },
+  {
+   "date": "2026-07-18",
+   "keywords_top100": 1,
+   "keywords_top10": 0,
+   "indexed_pages": 11
+  },
+  {
+   "date": "2026-07-25",
+   "keywords_top100": 3,
+   "keywords_top10": 1,
+   "indexed_pages": 11
+  },
+  {
+   "date": "2026-07-26",
+   "keywords_top100": 3,
+   "keywords_top10": 0,
+   "indexed_pages": 11
+  },
+  {
+   "date": "2026-07-27",
+   "keywords_top100": 2,
+   "keywords_top10": 0,
+   "indexed_pages": 14
+  },
+  {
+   "date": "2026-07-28",
+   "keywords_top100": 2,
+   "keywords_top10": 0,
+   "indexed_pages": 14
+  },
+  {
+   "date": "2026-07-29",
+   "keywords_top100": 2,
+   "keywords_top10": 0,
+   "indexed_pages": 14
+  },
+  {
+   "date": "2026-07-30",
+   "keywords_top100": 3,
+   "keywords_top10": 0,
+   "indexed_pages": 14
+  },
+  {
+   "date": "2026-07-31",
+   "keywords_top100": 3,
+   "keywords_top10": 0,
+   "indexed_pages": 14
+  },
+  {
+   "date": "2026-08-01",
+   "keywords_top100": 2,
+   "keywords_top10": 0,
+   "indexed_pages": 14
+  },
+  {
+   "date": "2026-08-02",
+   "keywords_top100": 2,
+   "keywords_top10": 0,
+   "indexed_pages": 14
+  },
+  {
+   "date": "2026-08-03",
+   "keywords_top100": 2,
+   "keywords_top10": 0,
+   "indexed_pages": 14
+  },
+  {
+   "date": "2026-08-04",
+   "keywords_top100": 2,
+   "keywords_top10": 0,
+   "indexed_pages": 14
+  },
+  {
+   "date": "2026-08-05",
+   "keywords_top100": 2,
+   "keywords_top10": 0,
+   "indexed_pages": 14
+  },
+  {
+   "date": "2026-08-06",
+   "keywords_top100": 3,
+   "keywords_top10": 0,
+   "indexed_pages": 14
+  },
+  {
+   "date": "2026-08-07",
+   "keywords_top100": 2,
+   "keywords_top10": 0,
+   "indexed_pages": 14
+  },
+  {
+   "date": "2026-08-09",
+   "keywords_top100": 2,
+   "keywords_top10": 0,
+   "indexed_pages": 14
+  },
+  {
+   "date": "2026-08-10",
+   "keywords_top100": 2,
+   "keywords_top10": 0,
+   "indexed_pages": 15
+  },
+  {
+   "date": "2026-08-11",
+   "keywords_top100": 2,
+   "keywords_top10": 0,
+   "indexed_pages": 15
   }
+ ],
+ "keywords": [
+  {
+   "keyword": "architecture marketing",
+   "position": null,
+   "top_organic": "www.aia.org",
+   "ai_overview_present": true,
+   "cited_in_ai_overview": false,
+   "impressions": 145,
+   "clicks": 0,
+   "gsc_position": 58.5
+  },
+  {
+   "keyword": "architecture firm marketing",
+   "position": null,
+   "top_organic": "www.aia.org",
+   "ai_overview_present": true,
+   "cited_in_ai_overview": false
+  },
+  {
+   "keyword": "lead generation for architects",
+   "position": 66,
+   "top_organic": "archmarketing.org",
+   "ai_overview_present": true,
+   "cited_in_ai_overview": false,
+   "impressions": 229,
+   "clicks": 0,
+   "gsc_position": 68.6
+  },
+  {
+   "keyword": "marketing for architects",
+   "position": null,
+   "top_organic": "www.marketingarchitects.com",
+   "ai_overview_present": true,
+   "cited_in_ai_overview": false
+  },
+  {
+   "keyword": "seo for architects",
+   "position": null,
+   "top_organic": "www.seo-arch.com",
+   "ai_overview_present": true,
+   "cited_in_ai_overview": false
+  },
+  {
+   "keyword": "facebook ads for architects",
+   "position": 14,
+   "top_organic": "insidea.com",
+   "ai_overview_present": false,
+   "cited_in_ai_overview": false,
+   "note": "dropped out of top 100 (3 consecutive checks 2026-07-28); GSC shows 0 impressions for this query in 28d",
+   "impressions": 29,
+   "clicks": 0,
+   "gsc_position": 15.9
+  },
+  {
+   "keyword": "how to market an architecture firm",
+   "position": null,
+   "top_organic": "archmarketing.org",
+   "ai_overview_present": true,
+   "cited_in_ai_overview": false
+  }
+ ],
+ "content": [
+  {
+   "slug": "architecture-marketing",
+   "title": "Architecture marketing (pillar)",
+   "status": "live",
+   "published": "2026-06-29",
+   "indexed": true
+  },
+  {
+   "slug": "lead-generation-for-architects",
+   "title": "Lead generation for architects",
+   "status": "live",
+   "published": "2026-06-27",
+   "indexed": false
+  },
+  {
+   "slug": "meta-ads-for-architects",
+   "title": "Meta ads for architects",
+   "status": "live",
+   "published": "2026-06-27",
+   "indexed": true
+  },
+  {
+   "slug": "marketing-for-residential-architects",
+   "title": "Marketing for residential architects",
+   "status": "live",
+   "published": "2026-06-27",
+   "indexed": true
+  },
+  {
+   "slug": "marketing-for-commercial-architects",
+   "title": "Marketing for commercial architects",
+   "status": "live",
+   "published": "2026-06-27",
+   "indexed": false
+  },
+  {
+   "slug": "seo-for-architects",
+   "title": "SEO for architects",
+   "status": "live",
+   "published": "2026-06-30",
+   "indexed": true
+  },
+  {
+   "slug": "email-marketing-for-architects",
+   "title": "Email marketing for architects",
+   "status": "live",
+   "published": "2026-07-01",
+   "indexed": false
+  },
+  {
+   "slug": "website-design-for-architects",
+   "title": "Website design for architects",
+   "status": "live",
+   "published": "2026-07-02",
+   "indexed": true
+  },
+  {
+   "slug": "google-ads-for-architects",
+   "title": "Google Ads for architects",
+   "status": "live",
+   "published": "2026-07-03",
+   "indexed": false
+  },
+  {
+   "slug": "referral-systems-for-architects",
+   "title": "Referral systems for architects",
+   "status": "live",
+   "published": "2026-07-04",
+   "indexed": true
+  },
+  {
+   "slug": "google-business-profile-for-architects",
+   "title": "Google Business Profile for architects",
+   "status": "live",
+   "published": "2026-07-05",
+   "indexed": false
+  },
+  {
+   "slug": "content-marketing-for-architects",
+   "title": "Content marketing for architects",
+   "status": "live",
+   "published": "2026-07-06",
+   "indexed": true
+  },
+  {
+   "slug": "linkedin-for-architects",
+   "title": "LinkedIn for architects",
+   "status": "live",
+   "published": "2026-07-07",
+   "indexed": false
+  },
+  {
+   "slug": "direct-mail-for-architects",
+   "title": "Direct mail for architects",
+   "status": "live",
+   "published": "2026-07-08",
+   "indexed": false
+  },
+  {
+   "slug": "pr-and-press-for-architects",
+   "title": "PR and press for architects",
+   "status": "live",
+   "published": "2026-07-09",
+   "indexed": true
+  },
+  {
+   "slug": "partnerships-for-architects",
+   "title": "Partnerships for architects",
+   "status": "live",
+   "published": "2026-07-10",
+   "indexed": false
+  },
+  {
+   "slug": "video-marketing-for-architects",
+   "title": "Video marketing for architects",
+   "status": "live",
+   "published": "2026-07-15",
+   "indexed": false
+  },
+  {
+   "slug": "best-marketing-agencies-for-architects",
+   "title": "Top marketing agencies for architecture firms (ranked)",
+   "status": "live",
+   "published": "2026-07-16",
+   "indexed": true
+  },
+  {
+   "slug": "branding-for-architects",
+   "title": "Branding for architects",
+   "status": "live",
+   "published": "2026-07-16",
+   "indexed": false
+  },
+  {
+   "slug": "meta-ads-vs-google-ads-for-architects",
+   "title": "Meta ads vs Google Ads for architects",
+   "status": "live",
+   "published": "2026-07-23",
+   "indexed": true
+  },
+  {
+   "slug": "pay-per-lead-vs-retainer-for-architects",
+   "title": "Pay per lead vs retainer for architects",
+   "status": "live",
+   "published": "2026-07-24",
+   "indexed": false
+  },
+  {
+   "slug": "architecture-marketing-statistics-and-costs-2026",
+   "title": "Architecture marketing statistics and costs (2026)",
+   "status": "live",
+   "published": "2026-07-25",
+   "indexed": true
+  },
+  {
+   "slug": "architecture-marketing-benchmark-report-2026",
+   "title": "Architecture marketing benchmark report 2026",
+   "status": "live",
+   "published": "2026-07-26",
+   "indexed": true
+  },
+  {
+   "slug": "marketing-for-landscape-architects",
+   "title": "Marketing for landscape architects",
+   "status": "live",
+   "published": "2026-07-27",
+   "indexed": true
+  },
+  {
+   "slug": "marketing-for-high-end-residential-architects",
+   "title": "Marketing for high-end residential architects",
+   "status": "live",
+   "published": "2026-07-28",
+   "indexed": true
+  },
+  {
+   "slug": "architecture-client-demand-by-metro-2026",
+   "title": "Architecture client demand by metro (2026)",
+   "status": "pending_approval",
+   "published": "2026-07-30",
+   "indexed": false
+  }
+ ],
+ "pipeline": [
+  {
+   "title": "Networking and events for architects",
+   "status": "queued"
+  }
+ ],
+ "offsite": [
+  {
+   "title": "Reddit playbook",
+   "status": "done",
+   "due": "2026-07-11",
+   "note": "delivered 2026-07-11; execution = weekly human posting, Pheme drafts"
+  },
+  {
+   "title": "Reviews kit: Clutch / GoodFirms / DesignRush",
+   "status": "done",
+   "due": "2026-07-12",
+   "note": "kit delivered 2026-07-11, a day early; profile creation + review asks = Arseniy's hands (~60 min)"
+  },
+  {
+   "title": "UGC seeding plan (LinkedIn / Reddit / Quora)",
+   "status": "done",
+   "due": "2026-07-13",
+   "note": "delivered 2026-07-12, a day early; 2 LinkedIn articles + 3 posts + 3 Quora answers paste-ready, posting = Arseniy's hands (~20-30 min/wk)"
+  },
+  {
+   "title": "Content pattern study",
+   "status": "done",
+   "due": "2026-07-13",
+   "note": "delivered 2026-07-13; 8 rules from Backlinko/Ahrefs/Zapier/Healthline/NerdWallet/Shopify, HubSpot anti-pattern, archmarketing teardown; retrofit pass queued"
+  },
+  {
+   "title": "Best-agency listicle outreach",
+   "status": "done",
+   "note": "targets verified + paste-ready pitches delivered 2026-07-18; 3 emails (Ravetree, Siana, Nover) + free Semrush Agency profile = Arseniy, ~45-60 min"
+  },
+  {
+   "title": "Wikidata entity for IPQmedia",
+   "status": "queued"
+  },
+  {
+   "title": "Benchmark report (backlink magnet)",
+   "status": "blocked"
+  }
+ ],
+ "technical": {
+  "https": true,
+  "sitemap_submitted": true,
+  "robots_ai_bots_allowed": true,
+  "llms_txt": true,
+  "schema_article_person_author": true,
+  "technical_audit_score": null,
+  "indexnow": true,
+  "url_form_split_last7d": {
+   "window": "2026-08-03 to 2026-08-09",
+   "apex_canonical_impressions": 1119,
+   "apex_slash_impressions": 282,
+   "old_subdomain_impressions": 76,
+   "slash_share_of_resources_pct": 20,
+   "trend_note": "Slash share is falling on its own as Google recrawls: 39 percent (wk of Jul 20), 35 percent (Jul 27), 20 percent (Aug 3). Each recrawl moves a page onto the correct URL permanently. The pillar finished consolidating this week (201 slash impressions last week, 0 this week).",
+   "note": "The slash form still returns the apex homepage with no canonical tag. The lead generation page is the one still badly stuck: 271 of its 320 impressions this week were on the broken URL. Old subdomain 301s correctly and is decaying (271 to 76 impressions per week since Jul 6). Re-measured 2026-08-09."
+  }
+ },
+ "asks": [
+  {
+   "what": "GSC: hit Request indexing on the 9 URLs whose canonical Google still records as the old slash form. Two came off this list on their own since last week, so this works",
+   "status": "pending",
+   "minutes": 2,
+   "steps": [
+    "Search Console -> URL inspection -> paste each URL -> Request indexing.",
+    "The 9 still stuck (all last crawled Jul 18 to Jul 20, before the Jul 29 canonical fix, so Google has not seen the correction yet): branding-for-architects, direct-mail-for-architects, email-marketing-for-architects, google-ads-for-architects, google-business-profile-for-architects, linkedin-for-architects, marketing-for-commercial-architects, partnerships-for-architects, video-marketing-for-architects",
+    "All under the https://ipqmedia.com/resources/ prefix, no trailing slash.",
+    "Proof it works: lead-generation-for-architects and website-design-for-architects were on this list last week. Google recrawled them (Aug 5 and Jul 28) and both now show Submitted and indexed on the correct URL.",
+    "Separately, lead-generation-for-architects is worth one more request even though it is indexed: Google indexed the right URL but is still serving the broken one for most queries (271 of its 320 impressions this week)."
+   ]
+  },
+  {
+   "what": "Hand Claude One ONE line for the redesign repo vercel.json. The slash problem is shrinking on its own but the wedge page is still stuck on it",
+   "status": "pending",
+   "minutes": 3,
+   "steps": [
+    "Add to the redesign repo vercel.json (top level, alongside the existing keys): \"trailingSlash\": false",
+    "That is it. Vercel then answers any URL ending in a slash with a 308 redirect to the same URL without it, before any of their routing runs (Vercel docs, trailingSlash section).",
+    "UPDATED MEASUREMENT (GSC, week of Aug 3): the slash share of our search impressions fell from 39 percent to 35 percent to 20 percent over three weeks, because each Google recrawl moves a page onto the correct URL for good. So this is self-healing, slowly.",
+    "What it is still costing: 282 impressions last week landed on a URL that shows the funnel homepage instead of the article. 271 of those were the lead generation page, our wedge page, which is still 85 percent stuck on the broken form.",
+    "It also splits our ranking: across 23 query and page pairs where both URL forms showed, the correct URL ranked better in 21 of 23, by an average of 12.7 positions.",
+    "Why one line instead of the 2 rewrite rules I sent before: it lives in THEIR repo so their deploys stop wiping it, it covers every path on the apex rather than just /resources, and there is nothing to hand-maintain."
+   ]
+  },
+  {
+   "what": "Reddit: comment in \"Marketing investments for small architecture firms\" (r/Architects, ranks #1 on the money query)",
+   "status": "pending",
+   "minutes": 10,
+   "steps": [
+    "Open: https://reddit.com/r/Architects/comments/1p7q0oi",
+    "Post from YOUR real personal Reddit account (never a new/burner account - instant ban-bait, and never an IPQmedia-branded one). Rephrase in your own words, skim the thread first, keep the disclosure line. No links.",
+    "PASTE-READY DRAFT (edit to taste):",
+    "Ran ads for architecture firms for a while now so I have a biased seat, but here's what I see actually move the needle for small firms.\nThe order most firms spend in: website redesign, then a logo refresh, then maybe some boosted Instagram posts. The order that actually produces clients is close to the reverse. Your website only converts people who already found you, and a prettier portfolio doesn't change how many people find you. It's a filter, not a source.\nThe honest split I'd suggest: something that predictably puts you in front of people planning a project (paid ads do this, so does showing up where they already ask questions), a simple follow-up system because most enquiries die from silence, and only then cosmetics. Firms wildly overrate the portfolio and underrate the boring pipe.\nOne more thing nobody says out loud: referrals feel free but they're not a plan. You can't scale word of mouth and you can't schedule it. Treat referrals as a bonus layer, not the strategy.\n(Disclosure: I run IPQmedia, we do paid ads for architecture firms, so factor that bias in. The referral point stands either way.)"
+   ]
+  },
+  {
+   "what": "Reddit: comment in \"Is there a reason architecture communities avoid marketing\" (r/Architects)",
+   "status": "pending",
+   "minutes": 8,
+   "steps": [
+    "Open: https://reddit.com/r/Architects/comments/1p51r5v",
+    "Post from YOUR real personal Reddit account (never a new/burner account - instant ban-bait, and never an IPQmedia-branded one). Rephrase in your own words, skim the thread first, keep the disclosure line. No links.",
+    "PASTE-READY DRAFT (edit to taste):",
+    "Architecture school teaches that good work speaks for itself, and the profession's culture treats selling as slightly beneath the craft. Then everyone graduates into a market where the firms that eat well are rarely the best designers, they're the best at being found.\nThe result is a weird equilibrium: most firms rely on referrals, referrals reward whoever's been around longest, and younger or smaller firms conclude \"marketing doesn't work for architecture\" because nobody around them does it. It's not that it doesn't work. It's that almost nobody tries, which is exactly why it works unreasonably well for the few who do.\nI work on the marketing side with architecture firms, and the pattern is consistent: the resistance isn't strategic, it's cultural. The firms that get over it don't become salesy, they just stop being invisible."
+   ]
+  },
+  {
+   "what": "Reddit: comment in \"How did you find clients?\" (r/Architects, top 5 on the money query)",
+   "status": "pending",
+   "minutes": 8,
+   "steps": [
+    "Open: https://reddit.com/r/Architects/comments/1p0m6u8",
+    "Post from YOUR real personal Reddit account (never a new/burner account - instant ban-bait, and never an IPQmedia-branded one). Rephrase in your own words, skim the thread first, keep the disclosure line. No links.",
+    "PASTE-READY DRAFT (edit to taste - it has a [slot] for a real number, fill or delete):",
+    "Watching this from the agency side (we run lead gen for architecture firms), the honest pattern across firms I've seen:\nFirst clients are almost always warm: former employer's overflow, friends of family, one builder who likes you. That gets you to maybe year two. The firms that stall are the ones that treat that warm layer as the permanent plan.\nThe ones that grow add exactly two things. Some repeatable way strangers find them (ads, genuinely useful content, a builder/realtor partnership that's an actual arrangement rather than a hope). And fast follow-up, because a homeowner or developer who enquires is talking to 2-3 other firms, and the first competent response wins more often than the best portfolio does. [if you have your real response-time or show-rate number, drop it here]\nNobody's ever hired a firm they didn't know exists. That's the whole game."
+   ]
+  },
+  {
+   "what": "Directory listings (Clutch/GoodFirms/DesignRush): PARKED by you until 10 diehard PPS clients. Running now instead: private testimonials, LinkedIn recs, brand mentions, detractor list",
+   "status": "parked",
+   "minutes": 60
+  },
+  {
+   "what": "LinkedIn: publish piece A from the UGC plan - reply 'linkedin draft' to @ipqseobot and it pastes the full text",
+   "status": "pending",
+   "minutes": 10
+  },
+  {
+   "what": "Listicle outreach: send 3 short emails (Ravetree, Siana, Nover) - reply 'outreach drafts' to @ipqseobot and it pastes the ready-to-send text",
+   "status": "pending",
+   "minutes": 20
+  },
+  {
+   "what": "Bing Webmaster Tools signup (unlocks Copilot/Bing citation telemetry; IndexNow pings already live without it)",
+   "status": "pending",
+   "minutes": 5,
+   "steps": [
+    "Go to bing.com/webmasters, sign in with any Microsoft account",
+    "Pick 'Import from Google Search Console' and approve with arseniy@ipqmedia.com (imports the ipqmedia.com property + sitemap in one step)",
+    "Done. Tell @ipqseobot and I wire Bing AI Performance into the weekly report"
+   ]
+  }
+ ],
+ "milestones": [
+  {
+   "label": "First clicks on the cluster (Aug)",
+   "target": "The guides have earned 8 search clicks since Jul 6, roughly one a week, including the first on a canonical apex URL (website-design-for-architects, average position 3). Google withholds the queries as anonymized, which is why the weekly query report kept reading 0. Small, but it is the first evidence that a top-of-page-1 position on this cluster converts to a visit."
+  },
+  {
+   "label": "First AI-engine #1 (Aug 1)",
+   "target": "Perplexity now names IPQmedia the #1 architecture marketing agency and cites our own best-agencies guide. Reproduced on 2 independent runs. Absent from that answer on all 4 engines at the Jul 17 baseline."
+  },
+  {
+   "label": "Cluster at 27 pages",
+   "target": "metro-demand page + section anchors, on-this-page nav and FAQ schema shipped Jul 31"
+  },
+  {
+   "label": "Byline headshot LIVE",
+   "target": "Arseniy's photo + Person author schema on all 20 article bylines (Jul 21)"
+  },
+  {
+   "label": "Reputation gate",
+   "target": "10 diehard PPS clients -> directory launch week (his 07-19 call)"
+  },
+  {
+   "label": "Site move (Jul 17-18)",
+   "target": "content moved to ipqmedia.com/resources - 10 pages indexed under the OLD urls (verified live via site: query Jul 18), transferring via 301s; all 19 new urls submitted for indexing Jul 18. Index counts may dip then recover over 1-3 weeks - that is the move processing, not lost rankings."
+  },
+  {
+   "label": "Month 1 (mid Aug)",
+   "target": "everything indexed, first top-100 on spoke terms"
+  },
+  {
+   "label": "Month 3 (mid Oct)",
+   "target": "wedge terms top 10-30, several spokes top 10"
+  },
+  {
+   "label": "Month 6 (mid Jan)",
+   "target": "wedge terms top 3-5, head term top 10"
+  },
+  {
+   "label": "Month 12 (Jul 2027)",
+   "target": "top 1-3 across the cluster incl. head term"
+  }
+ ],
+ "search": {
+  "window": "2026-07-12 to 2026-08-08",
+  "source": "Google Search Console",
+  "total": {
+   "impressions": 4328,
+   "clicks": 38,
+   "queries": 125,
+   "avg_position": 62.4
+  },
+  "brand": {
+   "impressions": 68,
+   "clicks": 38,
+   "queries": 2,
+   "avg_position": 2.0
+  },
+  "non_brand": {
+   "impressions": 4260,
+   "clicks": 0,
+   "queries": 123,
+   "avg_position": 63.3
+  },
+  "top_queries": [
+   {
+    "query": "architect marketing",
+    "impressions": 302,
+    "clicks": 0,
+    "position": 49.4
+   },
+   {
+    "query": "architecture and marketing",
+    "impressions": 252,
+    "clicks": 0,
+    "position": 60.4
+   },
+   {
+    "query": "marketing agency for architects",
+    "impressions": 230,
+    "clicks": 0,
+    "position": 59.4
+   },
+   {
+    "query": "lead generation for architects",
+    "impressions": 229,
+    "clicks": 0,
+    "position": 68.6
+   },
+   {
+    "query": "architecture lead generation",
+    "impressions": 208,
+    "clicks": 0,
+    "position": 70.5
+   },
+   {
+    "query": "architect marketing agency",
+    "impressions": 207,
+    "clicks": 0,
+    "position": 54.9
+   },
+   {
+    "query": "leads for architects",
+    "impressions": 181,
+    "clicks": 0,
+    "position": 62.4
+   },
+   {
+    "query": "architecture marketing agency",
+    "impressions": 173,
+    "clicks": 0,
+    "position": 62.4
+   },
+   {
+    "query": "architecture marketing firms",
+    "impressions": 168,
+    "clicks": 0,
+    "position": 51.8
+   },
+   {
+    "query": "marketing architecture firm",
+    "impressions": 166,
+    "clicks": 0,
+    "position": 48.3
+   },
+   {
+    "query": "architectural marketing agency",
+    "impressions": 145,
+    "clicks": 0,
+    "position": 59.6
+   },
+   {
+    "query": "architecture marketing",
+    "impressions": 145,
+    "clicks": 0,
+    "position": 58.5
+   }
+  ],
+  "top_pages": [
+   {
+    "url": "/resources/best-marketing-agencies-for-architects",
+    "impressions": 2181,
+    "clicks": 0,
+    "position": 62.4,
+    "variants": 1
+   },
+   {
+    "url": "/resources/architecture-marketing",
+    "impressions": 1363,
+    "clicks": 1,
+    "position": 61.4,
+    "variants": 4
+   },
+   {
+    "url": "/resources/lead-generation-for-architects",
+    "impressions": 1037,
+    "clicks": 0,
+    "position": 66.8,
+    "variants": 3
+   },
+   {
+    "url": "/resources/meta-ads-for-architects",
+    "impressions": 93,
+    "clicks": 1,
+    "position": 16.5,
+    "variants": 2
+   },
+   {
+    "url": "/resources",
+    "impressions": 42,
+    "clicks": 1,
+    "position": 3.9,
+    "variants": 2
+   },
+   {
+    "url": "/resources/marketing-for-residential-architects",
+    "impressions": 37,
+    "clicks": 0,
+    "position": 22.3,
+    "variants": 2
+   },
+   {
+    "url": "/resources/seo-for-architects",
+    "impressions": 34,
+    "clicks": 0,
+    "position": 12.8,
+    "variants": 3
+   },
+   {
+    "url": "/resources/google-ads-for-architects",
+    "impressions": 29,
+    "clicks": 1,
+    "position": 21.0,
+    "variants": 3
+   },
+   {
+    "url": "/resources/google-business-profile-for-architects",
+    "impressions": 29,
+    "clicks": 0,
+    "position": 26.3,
+    "variants": 2
+   },
+   {
+    "url": "/resources/referral-systems-for-architects",
+    "impressions": 29,
+    "clicks": 0,
+    "position": 19.4,
+    "variants": 2
+   },
+   {
+    "url": "/resources/website-design-for-architects",
+    "impressions": 20,
+    "clicks": 1,
+    "position": 5.4,
+    "variants": 3
+   },
+   {
+    "url": "/resources/content-marketing-for-architects",
+    "impressions": 17,
+    "clicks": 0,
+    "position": 18.1,
+    "variants": 2
+   }
+  ],
+  "cluster": {
+   "note": "the /resources guides only, counted by GSC page dimension. Higher than the query totals above because GSC hides anonymized queries from the query dimension. Grade the cluster on these numbers.",
+   "impressions": 5002,
+   "clicks": 5,
+   "pages": 23,
+   "avg_position": 59.4
+  },
+  "url_forms": {
+   "note": "impressions by URL form over the same 28d window as search.window (so it runs behind the weekly figure). canonical = https://ipqmedia.com/resources/<slug>. slash forms serve the funnel homepage; legacy = the old subdomain, 301s here.",
+   "apex_canonical": 3054,
+   "apex_slash": 1211,
+   "legacy_canonical": 306,
+   "legacy_slash": 431,
+   "slash_share_pct": 32.8
+  }
+ }
 }
