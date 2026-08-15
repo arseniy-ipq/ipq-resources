@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-08-15T05:20:00Z",
+ "updated_at": "2026-08-15T16:35:00Z",
  "site": "https://ipqmedia.com/resources",
  "kpis": {
   "keywords_tracked": 7,
@@ -8,9 +8,9 @@
   "keywords_top10": 0,
   "avg_position": 50,
   "indexed_pages": 15,
-  "total_pages": 27,
-  "content_pages_live": 26,
-  "pages_pending_approval": 3,
+  "total_pages": 30,
+  "content_pages_live": 29,
+  "pages_pending_approval": 0,
   "ai_citations": 2,
   "technical_health": null,
   "weeks_tracked": 4
@@ -415,6 +415,27 @@
    "title": "Architecture client demand by metro (2026)",
    "status": "pending_approval",
    "published": "2026-07-30",
+   "indexed": false
+  },
+  {
+   "slug": "social-media-for-architects",
+   "title": "Social media for architects",
+   "status": "live",
+   "published": "2026-08-07",
+   "indexed": false
+  },
+  {
+   "slug": "houzz-for-architects",
+   "title": "Houzz for architects",
+   "status": "live",
+   "published": "2026-08-04",
+   "indexed": false
+  },
+  {
+   "slug": "rfp-for-architects",
+   "title": "RFPs for architects",
+   "status": "live",
+   "published": "2026-08-05",
    "indexed": false
   }
  ],
