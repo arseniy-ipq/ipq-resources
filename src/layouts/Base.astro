@@ -124,7 +124,7 @@ if (published) {
 
 let article = null;
 if (published) {
-  const byline = `<div class="byline"><img class="by-avatar" src="/author-arseniy.jpg" width="44" height="44" alt="Arseniy Volosevich" loading="lazy" decoding="async" /><span class="by-brand">Arseniy Volosevich</span><span class="by-role">Founder, IPQmedia</span><span class="dot">·</span><span>Updated ${fmt(updated || published)}</span><span class="dot">·</span><span>${mins} min read</span></div>`;
+  const byline = `<div class="byline"><img class="by-avatar" src="/author-arseniy.jpg" width="44" height="44" alt="Arseniy Volosevich" loading="lazy" decoding="async" /><span class="by-brand"><a href="/arseniy-volosevich">Arseniy Volosevich</a></span><span class="by-role">Founder, IPQmedia</span><span class="dot">·</span><span>Updated ${fmt(updated || published)}</span><span class="dot">·</span><span>${mins} min read</span></div>`;
   body = body.replace(/<h1([^>]*)>/, `<p class="kicker">${kicker}</p><h1$1>`);
   if (/<p class="lede">/.test(body)) {
     body = body.replace(/(<p class="lede">[\s\S]*?<\/p>)/, `$1${byline}`);
@@ -194,7 +194,11 @@ if (published) {
     </main>
     <footer class="site-foot">
       <span>© IPQmedia. Client acquisition for US architecture firms.</span>
-      <a href="https://ipqmedia.com">ipqmedia.com</a>
+      <nav class="foot-links" aria-label="About this site">
+        <a href="/arseniy-volosevich">About the author</a>
+        <a href="/editorial-standards">Editorial standards</a>
+        <a href="https://ipqmedia.com">ipqmedia.com</a>
+      </nav>
     </footer>
     <script is:inline data-id="ipq-cta-attribution">
       // Tag every CTA leaving the guides with where the visitor actually came from, so a lead
@@ -300,6 +304,8 @@ if (published) {
       @media (max-width: 640px) { .creatives { grid-template-columns: 1fr; gap: 22px; } }
       .byline .by-avatar { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; margin-right: 2px; }
       .byline .by-brand { color: var(--ink); font-weight: 600; }
+      .byline .by-brand a { color: inherit; text-decoration: none; }
+      .byline .by-brand a:hover { text-decoration: underline; text-decoration-color: var(--red); }
       .byline .by-role { color: var(--faint); }
       .byline .dot { color: var(--line); }
       blockquote { margin: 0 0 24px; padding: 2px 0 2px 20px; border-left: 3px solid var(--red); font-family: var(--serif); font-size: 21px; color: var(--dim); }
@@ -320,7 +326,8 @@ if (published) {
       .card:hover { border-color: var(--red); }
       .card h3 { margin: 0 0 4px; }
       .card p { margin: 0; color: var(--dim); font-size: 16px; }
-      .site-foot { border-top: 1px solid var(--line); margin-top: 40px; font-size: 13px; color: var(--faint); }
+      .site-foot { border-top: 1px solid var(--line); margin-top: 40px; font-size: 13px; color: var(--faint); flex-wrap: wrap; gap: 10px 18px; }
+      .foot-links { display: flex; flex-wrap: wrap; gap: 10px 18px; }
       .site-foot a { color: var(--faint); }
       @media (max-width: 640px) {
         body { font-size: 17px; }

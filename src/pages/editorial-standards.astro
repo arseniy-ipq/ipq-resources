@@ -1,0 +1,200 @@
+---
+const updated = '2026-08-18';
+import Base from '../layouts/Base.astro';
+const title = 'Editorial Standards: How We Source, Check and Correct These Guides | IPQmedia';
+const description =
+  'The sourcing rules behind the IPQ Field Guide, how our first-party ad account data is built, and a dated log of every correction we have made to a published page.';
+const site = 'https://resources.ipqmedia.com';
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Editorial standards',
+  description,
+  url: `${site}/editorial-standards`,
+  dateModified: updated,
+  publisher: {
+    '@type': 'Organization',
+    name: 'IPQmedia',
+    url: 'https://ipqmedia.com',
+    logo: { '@type': 'ImageObject', url: `${site}/ipqmedia-logo.png` },
+  },
+  author: {
+    '@type': 'Person',
+    name: 'Arseniy Volosevich',
+    jobTitle: 'Founder',
+    url: `${site}/arseniy-volosevich`,
+  },
+};
+---
+
+<Base title={title} description={description}>
+  <p class="kicker">The IPQ Field Guide</p>
+  <h1>Editorial standards</h1>
+  <p class="lede">
+    Marketing statistics travel in circles. A blog quotes a blog that quotes a slide deck,
+    and four years later the number is famous and nobody can find the study. We have caught
+    that happening on our own pages, which is why this one exists.
+  </p>
+
+  <div class="answer">
+    <p class="answer-label">The short version</p>
+    <p>Every number on this site is traced to the organization that produced it, published with its sample size and its year, and linked so you can check it. Our own performance data comes from Meta ad accounts we manage, reported with the window and the limits attached. Arseniy Volosevich reviews and approves every page before it goes live. When we get something wrong we fix the page and log it below with a date, rather than editing it out quietly.</p>
+  </div>
+
+  <h2>The six rules a number has to survive</h2>
+  <p>
+    These were not written in advance. Each one comes from an audit of our own live pages, and
+    the examples are ours.
+  </p>
+
+  <h3>1. Go to the publisher, never to an aggregator</h3>
+  <p>
+    A marketing blog repeating a figure is not a source. When we cannot find the study behind a
+    number, the number does not ship, however quotable it is. That rule cost us the best line in
+    the social media guide: "Instagram organic reach is now 2 to 3 percent of followers" sits on a
+    dozen respectable sites and not one of them attributes it to research you can read.
+  </p>
+
+  <h3>2. No denominator, no publication</h3>
+  <p>
+    A percentage with no stated sample size and no base is decoration. The same social media
+    research pass killed a set of engagement rows for professional services that sat roughly ten
+    times away from every properly sourced figure for the same metric, with no method published
+    anywhere.
+  </p>
+
+  <h3>3. Put the year on anything older than about two years</h3>
+  <p>
+    Old data is often the best available data, and readers deserve to know which they are getting.
+    A marketing spend benchmark we called "the standard" traces back to a 2015 edition. It still
+    appears on the page, now with its vintage attached.
+  </p>
+
+  <h3>4. Say what the study actually measured</h3>
+  <p>
+    The most cited lead-response research in the industry is from 2007 and it measured how quickly
+    firms dialed a telephone. Using it to argue for an automated email is a stretch unless the page
+    says so out loud, so ours does.
+  </p>
+
+  <h3>5. Link the source, then re-check the link</h3>
+  <p>
+    Adding a citation is an audit, because it forces you to open the page. The first sweep to link
+    every claim on this site turned up a figure attributed to a survey that has never published it,
+    and a statistic sitting close enough to somebody else's citation to read as though it were
+    covered by it.
+  </p>
+  <p>
+    Links also rot. One of the first source links we added was dead the day we checked it, so a
+    link sweep now runs weekly across the whole site. The most recent pass checked 47 outbound
+    source links and found none broken.
+  </p>
+
+  <h3>6. Read the page, not the status code</h3>
+  <p>
+    An automated check said a public bidding platform was live and returned a normal response. The
+    body of that response was a bot verification screen. The table row we had written from it came
+    out of the RFP guide before it published.
+  </p>
+
+  <h2>How our own data is built</h2>
+  <p>
+    The pages that carry first-party numbers, most of all the <a href="/architecture-marketing-benchmark-report-2026">2026 benchmark report</a>, come from Meta
+    ad accounts IPQmedia manages for US architecture and design firms. The method is printed on the
+    page itself, and it follows three rules.
+  </p>
+  <ul>
+    <li>
+      <strong>Per-firm figures treat each account as one observation</strong> and report quartiles,
+      so a single high-volume account cannot drag the median toward its own results.
+    </li>
+    <li>
+      <strong>Pooled figures are labeled as pooled</strong> wherever they appear. Total spend divided
+      by total results is a different claim from a typical firm's experience, and mixing the two is
+      how benchmarks flatter whoever published them.
+    </li>
+    <li>
+      <strong>The sample, the window and the limits are stated</strong> next to the result. Sixteen
+      accounts is a small sample, only a handful have run long enough to say anything about month six,
+      and we say that in the report rather than in a footnote nobody reads.
+    </li>
+  </ul>
+  <p>
+    We also leave things out. Show rates and closed-project data are not consistent enough across
+    accounts to publish, so nothing on this site claims a cost per signed project, even though it
+    would be the most flattering number we have.
+  </p>
+
+  <h2>Who writes and who approves</h2>
+  <p>
+    Every guide carries a byline for <a href="/arseniy-volosevich">Arseniy Volosevich</a>, founder of
+    IPQmedia, and he reads and approves each page before it goes live. The guides are drafted from
+    campaign data, the questions our setting team hears from clients, and published research, in that
+    order of preference.
+  </p>
+  <p>
+    Our commercial interest is not hidden: IPQmedia sells done-for-you client acquisition to
+    architecture firms, primarily through paid advertising, and the guides are how firms find us. The
+    counterweight is that we publish the unflattering numbers from the same accounts, including how
+    many ads produce nothing at all.
+  </p>
+
+  <h2>Corrections</h2>
+  <p>
+    Published in date order, most recent first. Each entry names the page, what was wrong, and what
+    it says now.
+  </p>
+
+  <h3>15 August 2026, website design for architects</h3>
+  <p>
+    The page credited Stanford with finding that "75 percent" of people judge a company's credibility
+    on web design. No Stanford publication contains that figure. The real study asked 2,684 people
+    what made a site credible in 2002, and visual design came up in <a href="https://credibility.stanford.edu/pdf/How_Do_People_Evaluate_a_Web_Site%27s_Credibility_v37.pdf" rel="nofollow">46.1 percent of their comments</a>, ahead of every other factor. The page now carries that figure, the sample and the year. The wrong
+    version was live from 2 July 2026.
+  </p>
+
+  <h3>14 August 2026, Google Business Profile for architects</h3>
+  <p>
+    The page said "BrightLocal's 2025 survey found 88 percent of consumers use Google to find reviews
+    of local businesses." No edition of that survey has published 88. The published series runs 87
+    percent in 2023, 81 in 2024, 83 in 2025 and <a href="https://www.brightlocal.com/research/local-consumer-review-survey/" rel="nofollow">71 percent in 2026</a>, which is what the page says now.
+  </p>
+
+  <h3>14 August 2026, SEO for architects</h3>
+  <p>
+    A line reading "around 96 percent of all clicks happen in the top ten" followed directly after a
+    citation of Backlinko's four-million-search study, so it read as that study's finding. It is not in
+    it. Replaced with a figure the study does publish: 0.63 percent of searchers click anything on the
+    second page.
+  </p>
+
+  <h3>14 August 2026, video marketing for architects</h3>
+  <p>
+    A mobile usage figure was credited to the news outlet that reported it rather than Sensor Tower,
+    the firm that produced it. Now credited correctly.
+  </p>
+
+  <h3>5 August 2026, RFPs for architects</h3>
+  <p>
+    A comparison row describing a bidding platform's coverage and pricing was written from a page that
+    answered an automated request normally while serving a human verification screen. The row was
+    removed before publication rather than shipped unverified.
+  </p>
+
+  <h2>Tell us when we are wrong</h2>
+  <p>
+    If a number here does not match what you can find at the source, or your own accounts say something
+    different, we want to hear it. The fastest route is a message to <a href="https://www.linkedin.com/company/ipqmedia" rel="nofollow">IPQmedia on LinkedIn</a>.
+    Corrections that stand up get made on the page and logged above with your finding credited if
+    you want it.
+  </p>
+
+  <p>
+    The guides themselves start at <a href="/">the field guide index</a>, or with <a href="/architecture-marketing">the architecture marketing overview</a> if you want the whole system in one place.
+  </p>
+
+  <p>Want the advertising side run by the people who collected these numbers?</p>
+  <a class="cta-block" href="https://beam.ipqmedia.com/program">Book a call with IPQmedia</a>
+
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />
+</Base>

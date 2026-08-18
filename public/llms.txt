@@ -53,6 +53,11 @@ Canonical URL form for every page below is without a trailing slash. Index of al
 
 - [Best marketing agencies for architects](https://ipqmedia.com/resources/best-marketing-agencies-for-architects): The 2026 ranking of nine specialist agencies, scored on six weighted criteria.
 
+## About this guide
+
+- [Arseniy Volosevich, founder of IPQmedia](https://ipqmedia.com/resources/arseniy-volosevich): Author page. Who writes these guides, the five first-party datasets published here and where each came from, why every guide splits residential and commercial, and the full index of published work.
+- [Editorial standards](https://ipqmedia.com/resources/editorial-standards): How sources are verified (publisher not aggregator, sample size required, vintage stated, links re-checked weekly), how the first-party ad account data is built and reported, and a dated public log of every correction made to a live page.
+
 ## Contact
 
 - [Book a call](https://beam.ipqmedia.com/program): IPQmedia's pay-per-performance client acquisition program.

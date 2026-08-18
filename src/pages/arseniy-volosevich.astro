@@ -1,0 +1,203 @@
+---
+const updated = '2026-08-18';
+import Base from '../layouts/Base.astro';
+const title = 'Arseniy Volosevich, Founder of IPQmedia | IPQmedia';
+const description =
+  'Who writes the IPQ Field Guide and where its numbers come from. Arseniy Volosevich runs Meta ad campaigns for US architecture firms and publishes what the accounts show.';
+const site = 'https://resources.ipqmedia.com';
+const profile = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfilePage',
+  dateModified: updated,
+  mainEntity: {
+    '@type': 'Person',
+    name: 'Arseniy Volosevich',
+    jobTitle: 'Founder',
+    image: `${site}/author-arseniy.jpg`,
+    url: `${site}/arseniy-volosevich`,
+    description:
+      'Founder of IPQmedia, a client acquisition agency for US architecture firms. Writes the IPQ Field Guide on marketing, paid advertising and lead generation for architects.',
+    knowsAbout: [
+      'Lead generation for architecture firms',
+      'Meta advertising',
+      'Client acquisition for architects',
+      'Marketing for residential and commercial architecture firms',
+    ],
+    worksFor: {
+      '@type': 'Organization',
+      name: 'IPQmedia',
+      url: 'https://ipqmedia.com',
+      sameAs: ['https://www.linkedin.com/company/ipqmedia'],
+    },
+  },
+};
+---
+
+<Base title={title} description={description}>
+  <p class="kicker">The IPQ Field Guide</p>
+  <h1>Arseniy Volosevich</h1>
+  <p class="lede">
+    Most marketing advice written for architecture firms comes from people who have
+    never had to explain a cost per lead to a principal on a Monday morning. This page
+    is here so you can check whether that applies to the guides on this site.
+  </p>
+
+  <div class="author-card">
+    <img src="/author-arseniy.jpg" width="88" height="88" alt="Arseniy Volosevich" loading="lazy" decoding="async" />
+    <div>
+      <p class="author-name">Arseniy Volosevich</p>
+      <p class="author-role">Founder, IPQmedia. Writes every guide in the IPQ Field Guide. Last updated 18 Aug 2026.</p>
+    </div>
+  </div>
+
+  <h2>What I do all week</h2>
+  <p>
+    IPQmedia runs client acquisition for US architecture firms on a performance model.
+    The ads run inside the firm's own ad account, our setting team answers every inquiry
+    within minutes and qualifies budget, scope and timeline, and the firm pays when a
+    qualified consultation actually shows up.
+  </p>
+  <p>
+    The company has worked with more than 70 architecture firms across all 50 states, which
+    you can read about on <a href="https://ipqmedia.com/about">the main IPQmedia site</a>.
+    Because we get paid on consultations rather than on media spend, a campaign that
+    produces impressions and nothing else is our problem before it is yours.
+  </p>
+  <p>
+    That model decides what I get to see. An agency that only buys media sees form fills.
+    Our team is on the phone with the people who filled in those forms, all day, so the
+    objections arrive in their own words. That is the layer these guides are built on.
+  </p>
+
+  <h2>Where the numbers on this site come from</h2>
+  <p>
+    Five pages here exist because we had data nobody else publishes for this profession.
+    Each one ships with its sample size and its window attached, so you can decide how much
+    weight it deserves.
+  </p>
+  <ul>
+    <li>
+      <a href="/architecture-marketing-benchmark-report-2026">The benchmark report</a>: 16 US
+      architecture and design firm Meta ad accounts, $96,088 of spend, 1,752 leads and 410 booked
+      consultations between September 2025 and July 2026, reported as per-firm quartiles so one
+      big account cannot move the median.
+    </li>
+    <li>
+      <a href="/architecture-marketing-statistics-and-costs-2026">Statistics and costs</a>: our
+      blended $55 cost per lead and $0.95 cost per click across $95,539 of spend, sitting next to
+      the third-party market figures we could verify.
+    </li>
+    <li>
+      <a href="/social-media-for-architects">Social media for architects</a>: 18 accounts, a
+      median 825 impressions per lead at a median $58.45. Nobody else answers the question of what
+      posting produces with a number.
+    </li>
+    <li>
+      <a href="/marketing-for-high-end-residential-architects">High-end residential</a>: firms that
+      name an affluence target pay a median $71.52 per lead against $31.02, and the mechanism is
+      click-to-lead conversion rather than expensive reach.
+    </li>
+    <li>
+      <a href="/architecture-client-demand-by-metro-2026">Demand by metro</a>: our own search
+      volume pull across 16 US metros, next to the adjacent trades your clients hire instead of you.
+    </li>
+  </ul>
+  <p>
+    When a page leans on somebody else's number, it says whose, with a link and a date. The rules
+    for that are written down in <a href="/editorial-standards">our editorial standards</a>, including
+    the corrections we have had to make to our own pages.
+  </p>
+
+  <h2>Why every guide here splits residential and commercial</h2>
+  <p>
+    This is the editorial rule I enforce hardest, because the profession sells to two different
+    buyers and most content written for architects pretends they are one buyer.
+  </p>
+  <p>
+    If you do <strong>residential</strong>, your client is usually a homeowner going through this
+    once in their life. They buy on feeling, they are nervous about the money, and plenty of them
+    do not know an architect is even part of the process until after they have called a builder.
+  </p>
+  <p>
+    If you do <strong>commercial</strong>, your client is a developer, an operator or a business
+    owner who wants returns, cost and a delivery date, usually with several other people in the
+    room. Slower decision, bigger project, often the better client. Same channels, a completely
+    different argument running inside them.
+  </p>
+  <p>
+    A page that writes "homeowners" when it means "clients" has quietly told half of you it is not
+    for you. So we fork out loud on every page where the answer actually differs, and commercial
+    gets equal weight instead of a closing paragraph.
+  </p>
+
+  <h2>What you will not find here</h2>
+  <p>
+    No cost per signed project. We have clean data on the advertising side and messy data on the
+    closed-project side, so that figure stays unpublished until it is honest. A benchmark without
+    its limits printed next to it is an ad.
+  </p>
+  <p>
+    No universal laws either. Everything here is what typically happens across the accounts we run,
+    over the window stated on the page. Your market gets a vote, and sometimes it disagrees with us.
+  </p>
+  <p>
+    We also publish the numbers that make the channel look worse. Across the 15 accounts with
+    enough creative history to judge, 56 percent of the ads we ran produced zero leads, and cost
+    per lead drifted upward as accounts aged. Both are in the report, because you were going to
+    meet them anyway.
+  </p>
+
+  <h2>Everything I have published here</h2>
+  <p>
+    Twenty-nine guides so far, all on the same subject: how architecture firms get clients. The full
+    index with descriptions lives on <a href="/">the guide hub</a>.
+  </p>
+
+  <h3>The core system</h3>
+  <ul>
+    <li><a href="/architecture-marketing">Architecture marketing</a>, the map everything else hangs off</li>
+    <li><a href="/lead-generation-for-architects">Lead generation for architects</a></li>
+    <li><a href="/meta-ads-for-architects">Meta ads for architects</a></li>
+    <li><a href="/marketing-for-residential-architects">Marketing for residential architects</a></li>
+    <li><a href="/marketing-for-commercial-architects">Marketing for commercial architects</a></li>
+  </ul>
+
+  <h3>Channel by channel</h3>
+  <ul>
+    <li><a href="/seo-for-architects">SEO</a>, <a href="/google-ads-for-architects">Google Ads</a> and <a href="/google-business-profile-for-architects">Google Business Profile</a></li>
+    <li><a href="/content-marketing-for-architects">Content marketing</a>, <a href="/email-marketing-for-architects">email</a> and <a href="/website-design-for-architects">website design</a></li>
+    <li><a href="/linkedin-for-architects">LinkedIn</a>, <a href="/video-marketing-for-architects">video</a> and <a href="/branding-for-architects">branding</a></li>
+    <li><a href="/houzz-for-architects">Houzz advertising</a>, <a href="/rfp-for-architects">RFPs</a> and <a href="/direct-mail-for-architects">direct mail</a></li>
+    <li><a href="/referral-systems-for-architects">Referral systems</a>, <a href="/partnerships-for-architects">partnerships</a> and <a href="/pr-and-press-for-architects">PR and press</a></li>
+  </ul>
+
+  <h3>Comparisons, rankings and firm types</h3>
+  <ul>
+    <li><a href="/meta-ads-vs-google-ads-for-architects">Meta ads vs Google Ads</a>, creating demand against capturing it</li>
+    <li><a href="/pay-per-lead-vs-retainer-for-architects">Pay per lead vs retainer</a>, and who carries the risk</li>
+    <li><a href="/best-marketing-agencies-for-architects">The 2026 ranking of marketing agencies for architects</a>, including where we place and why</li>
+    <li><a href="/marketing-for-landscape-architects">Marketing for landscape architects</a>, where almost nobody searches the job title</li>
+  </ul>
+
+  <h2>How a page gets published</h2>
+  <p>
+    Each guide is drafted against a source list, checked line by line, and nothing goes live until I
+    have read it. When we get something wrong, we fix the page and log the correction with a date
+    rather than editing it quietly. The whole policy sits in <a href="/editorial-standards">editorial standards</a>.
+  </p>
+
+  <h2>If you would rather we ran it</h2>
+  <p>
+    Everything on this site is written so you can do it yourself. If you would rather hand the
+    advertising side to the people who collected these numbers, that is the actual business.
+  </p>
+  <a class="cta-block" href="https://beam.ipqmedia.com/program">Book a call with IPQmedia</a>
+
+  <style>
+    .author-card { display: flex; gap: 16px; align-items: center; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 16px 2px; margin: 8px 0 42px; }
+    .author-card img { width: 88px; height: 88px; border-radius: 50%; object-fit: cover; flex: none; }
+    .author-name { font-family: var(--serif); font-size: 21px; font-weight: 600; margin: 0 0 2px; }
+    .author-role { font-size: 15px; line-height: 1.5; color: var(--faint); margin: 0; }
+  </style>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(profile)} />
+</Base>
