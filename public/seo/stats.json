@@ -1,17 +1,19 @@
 {
  "version": 1,
- "updated_at": "2026-08-19T05:19:00Z",
+ "updated_at": "2026-08-20T05:20:00Z",
  "site": "https://ipqmedia.com/resources",
  "kpis": {
   "keywords_tracked": 7,
   "keywords_top100": 2,
   "keywords_top10": 0,
-  "avg_position": 40,
+  "avg_position": 38,
   "indexed_pages": 17,
   "total_pages": 32,
   "content_pages_live": 29,
   "pages_pending_approval": 0,
   "ai_citations": 2,
+  "ai_referred_sessions_28d": 6,
+  "real_sessions_28d": 35,
   "technical_health": null,
   "weeks_tracked": 5
  },
@@ -192,6 +194,12 @@
   },
   {
    "date": "2026-08-19",
+   "keywords_top100": 1,
+   "keywords_top10": 0,
+   "indexed_pages": 17
+  },
+  {
+   "date": "2026-08-20",
    "keywords_top100": 2,
    "keywords_top10": 0,
    "indexed_pages": 17
@@ -204,9 +212,9 @@
    "top_organic": "www.aia.org",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
-   "impressions": 169,
+   "impressions": 167,
    "clicks": 0,
-   "gsc_position": 59.0
+   "gsc_position": 59.6
   },
   {
    "keyword": "architecture firm marketing",
@@ -217,11 +225,11 @@
   },
   {
    "keyword": "lead generation for architects",
-   "position": 64,
+   "position": 63,
    "top_organic": "archmarketing.org",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
-   "impressions": 335,
+   "impressions": 342,
    "clicks": 0,
    "gsc_position": 70.4
   },
@@ -241,14 +249,14 @@
   },
   {
    "keyword": "facebook ads for architects",
-   "position": 15,
+   "position": 14,
    "top_organic": "insidea.com",
    "ai_overview_present": false,
    "cited_in_ai_overview": false,
    "note": "dropped out of top 100 (3 consecutive checks 2026-07-28); GSC shows 0 impressions for this query in 28d",
-   "impressions": 62,
+   "impressions": 67,
    "clicks": 0,
-   "gsc_position": 16.2
+   "gsc_position": 16.3
   },
   {
    "keyword": "how to market an architecture firm",
@@ -679,134 +687,141 @@
   }
  ],
  "search": {
-  "window": "2026-07-20 to 2026-08-16",
+  "window": "2026-07-21 to 2026-08-17",
   "source": "Google Search Console",
   "total": {
-   "impressions": 6284,
-   "clicks": 26,
+   "impressions": 6552,
+   "clicks": 20,
    "queries": 133,
-   "avg_position": 62.3
+   "avg_position": 62.1
   },
   "brand": {
-   "impressions": 51,
-   "clicks": 26,
+   "impressions": 43,
+   "clicks": 20,
    "queries": 4,
-   "avg_position": 4.2
+   "avg_position": 4.8
   },
   "non_brand": {
-   "impressions": 6233,
+   "impressions": 6509,
    "clicks": 0,
    "queries": 129,
-   "avg_position": 62.8
+   "avg_position": 62.5
   },
   "top_queries": [
    {
     "query": "architect marketing",
-    "impressions": 419,
+    "impressions": 439,
     "clicks": 0,
-    "position": 46.0
+    "position": 44.9
    },
    {
     "query": "architecture and marketing",
-    "impressions": 344,
+    "impressions": 366,
     "clicks": 0,
-    "position": 55.8
+    "position": 54.9
    },
    {
     "query": "marketing agency for architects",
-    "impressions": 336,
+    "impressions": 349,
     "clicks": 0,
-    "position": 60.9
+    "position": 61.5
    },
    {
     "query": "lead generation for architects",
-    "impressions": 335,
+    "impressions": 342,
     "clicks": 0,
     "position": 70.4
    },
    {
     "query": "architect marketing agency",
-    "impressions": 301,
+    "impressions": 312,
     "clicks": 0,
-    "position": 56.5
+    "position": 57.1
    },
    {
     "query": "architecture lead generation",
-    "impressions": 301,
+    "impressions": 309,
     "clicks": 0,
-    "position": 73.1
+    "position": 73.8
    },
    {
     "query": "architecture marketing agency",
-    "impressions": 268,
+    "impressions": 286,
     "clicks": 0,
     "position": 62.5
    },
    {
-    "query": "leads for architects",
-    "impressions": 262,
+    "query": "marketing architecture firm",
+    "impressions": 274,
     "clicks": 0,
-    "position": 65.9
+    "position": 50.7
    },
    {
-    "query": "marketing architecture firm",
-    "impressions": 260,
+    "query": "leads for architects",
+    "impressions": 272,
     "clicks": 0,
-    "position": 50.0
+    "position": 66.7
    },
    {
     "query": "architecture marketing firms",
-    "impressions": 248,
+    "impressions": 258,
     "clicks": 0,
-    "position": 54.0
+    "position": 54.4
    },
    {
     "query": "architectural marketing agency",
-    "impressions": 222,
+    "impressions": 234,
     "clicks": 0,
-    "position": 59.1
+    "position": 59.0
    },
    {
     "query": "marketing architecture",
-    "impressions": 205,
+    "impressions": 227,
     "clicks": 0,
-    "position": 66.5
+    "position": 64.1
    }
   ],
   "top_pages": [
    {
     "url": "/resources/best-marketing-agencies-for-architects",
-    "impressions": 3375,
+    "impressions": 3528,
     "clicks": 0,
-    "position": 63.3,
+    "position": 63.4,
     "variants": 1
    },
    {
     "url": "/resources/architecture-marketing",
-    "impressions": 1952,
+    "impressions": 2102,
     "clicks": 0,
-    "position": 60.6,
+    "position": 60.2,
     "variants": 4
    },
    {
     "url": "/resources/lead-generation-for-architects",
-    "impressions": 1417,
+    "impressions": 1427,
     "clicks": 0,
-    "position": 69.5,
+    "position": 69.8,
     "variants": 3
    },
    {
     "url": "/resources/meta-ads-for-architects",
-    "impressions": 126,
+    "impressions": 133,
     "clicks": 1,
-    "position": 15.8,
+    "position": 16.1,
     "variants": 2
    },
    {
-    "url": "/resources/referral-systems-for-architects",
-    "impressions": 36,
+    "url": "/resources/marketing-for-landscape-architects",
+    "impressions": 37,
     "clicks": 0,
-    "position": 25.1,
+    "position": 23.2,
+    "variants": 1
+   },
+   {
+    "url": "/resources/referral-systems-for-architects",
+    "impressions": 34,
+    "clicks": 0,
+    "position": 25.8,
     "variants": 2
    },
    {
@@ -825,31 +840,17 @@
    },
    {
     "url": "/resources/marketing-for-residential-architects",
-    "impressions": 27,
+    "impressions": 23,
     "clicks": 0,
-    "position": 28.6,
+    "position": 31.7,
     "variants": 2
-   },
-   {
-    "url": "/resources/marketing-for-landscape-architects",
-    "impressions": 25,
-    "clicks": 0,
-    "position": 22.4,
-    "variants": 1
    },
    {
     "url": "/resources",
-    "impressions": 23,
-    "clicks": 0,
-    "position": 6.5,
-    "variants": 2
-   },
-   {
-    "url": "/resources/google-ads-for-architects",
     "impressions": 16,
-    "clicks": 1,
-    "position": 27.0,
-    "variants": 3
+    "clicks": 0,
+    "position": 8.4,
+    "variants": 2
    },
    {
     "url": "/resources/website-design-for-architects",
@@ -857,22 +858,147 @@
     "clicks": 1,
     "position": 4.3,
     "variants": 2
+   },
+   {
+    "url": "/resources/partnerships-for-architects",
+    "impressions": 15,
+    "clicks": 0,
+    "position": 54.8,
+    "variants": 2
    }
   ],
   "cluster": {
    "note": "the /resources guides only, counted by GSC page dimension. Higher than the query totals above because GSC hides anonymized queries from the query dimension. Grade the cluster on these numbers.",
-   "impressions": 7146,
+   "impressions": 7456,
    "clicks": 3,
-   "pages": 24,
+   "pages": 25,
    "avg_position": 61.5
   },
   "url_forms": {
    "note": "impressions by URL form over the same 28d window as search.window (so it runs behind the weekly figure). canonical = https://ipqmedia.com/resources/<slug>. slash forms serve the funnel homepage; legacy = the old subdomain, 301s here.",
-   "apex_canonical": 5137,
-   "apex_slash": 1224,
-   "legacy_canonical": 187,
-   "legacy_slash": 598,
-   "slash_share_pct": 25.5
+   "apex_canonical": 5436,
+   "apex_slash": 1175,
+   "legacy_canonical": 161,
+   "legacy_slash": 684,
+   "slash_share_pct": 24.9
   }
+ },
+ "behavior": {
+  "window": "2026-07-22 to 2026-08-19",
+  "source": "PostHog (project 219455), first read of the content site",
+  "note": "PostHog went on the guides 2026-07-22 with no backfill, so this window is its whole life and there is no earlier period to compare against. Raw PostHog reported 53 sessions and 80 pageviews; 16 sessions were same-second automation bursts that PostHog's own bot filter did not catch, and 2 were our own hits. The figures below are after both subtractions. n is 35, so read these as directions, not rates.",
+  "sessions": 35,
+  "pageviews": 62,
+  "us_sessions": 8,
+  "pages_live": 32,
+  "pages_that_acquired_a_session": 12,
+  "bot_sessions_removed": 16,
+  "internal_sessions_removed": 2,
+  "sources": [
+   {
+    "source": "Direct (no referrer)",
+    "sessions": 15,
+    "pageviews": 23,
+    "pages_per_session": 1.5,
+    "us_sessions": 4
+   },
+   {
+    "source": "Google organic",
+    "sessions": 11,
+    "pageviews": 27,
+    "pages_per_session": 2.5,
+    "us_sessions": 4
+   },
+   {
+    "source": "ChatGPT",
+    "sessions": 5,
+    "pageviews": 5,
+    "pages_per_session": 1.0,
+    "us_sessions": 0
+   },
+   {
+    "source": "Own funnel",
+    "sessions": 3,
+    "pageviews": 5,
+    "pages_per_session": 1.7,
+    "us_sessions": 0
+   },
+   {
+    "source": "Perplexity",
+    "sessions": 1,
+    "pageviews": 2,
+    "pages_per_session": 2.0,
+    "us_sessions": 0
+   }
+  ],
+  "ai_referred": {
+   "sessions": 6,
+   "share_of_sessions": 0.17,
+   "us_sessions": 0,
+   "pages_per_session": 1.2,
+   "first_seen": "2026-07-28",
+   "finding": "Six visits arrived from an AI answer. In the same 28 days Google produced 6,509 non-brand impressions and zero non-brand clicks at average position 62. Two citations beat 6,509 impressions. Every one of the six was outside the US, and the five ChatGPT sessions read exactly one page each and left.",
+   "measurement_note": "Counted off the utm_source parameter ChatGPT appends to the landing URL, not off the referring domain. The referrer field reports only 1 of the 5 ChatGPT sessions because 1 arrives with the referrer stripped and 1 arrives labelled google.com."
+  },
+  "top_entry_pages": [
+   {
+    "url": "/resources",
+    "sessions": 12,
+    "pageviews": 19,
+    "pages_per_session": 1.6
+   },
+   {
+    "url": "/resources/best-marketing-agencies-for-architects",
+    "sessions": 5,
+    "pageviews": 9,
+    "pages_per_session": 1.8
+   },
+   {
+    "url": "/resources/architecture-marketing",
+    "sessions": 4,
+    "pageviews": 15,
+    "pages_per_session": 3.8
+   },
+   {
+    "url": "/resources/meta-ads-for-architects",
+    "sessions": 3,
+    "pageviews": 5,
+    "pages_per_session": 1.7
+   },
+   {
+    "url": "/resources/content-marketing-for-architects",
+    "sessions": 3,
+    "pageviews": 3,
+    "pages_per_session": 1.0
+   }
+  ],
+  "avg_seconds_on_page": [
+   {
+    "url": "/resources/content-marketing-for-architects",
+    "seconds": 656
+   },
+   {
+    "url": "/resources/google-ads-for-architects",
+    "seconds": 298
+   },
+   {
+    "url": "/resources/architecture-marketing",
+    "seconds": 205
+   },
+   {
+    "url": "/resources/meta-ads-for-architects",
+    "seconds": 178
+   },
+   {
+    "url": "/resources/lead-generation-for-architects",
+    "seconds": 6
+   }
+  ],
+  "cta_clicks": {
+   "total": 3,
+   "genuine": 2,
+   "note": "Three CTA clicks left the guides for the program page. One is our own 07-26 attribution test. The two genuine ones came from South Africa (hub) and Poland (houzz-for-architects). None from the US, none from an AI-referred session."
+  },
+  "detail": "memory/traffic-behavior-2026-08-20.md"
  }
 }
