@@ -36,7 +36,13 @@ const org = {
   url: 'https://ipqmedia.com',
   description:
     'Lead generation and client acquisition for US architecture firms.',
+  // 2022 is the evidenced year: ipqmedia.com says "Since 2022" on the homepage and
+  // /about, the domain was registered 2022-10-23, and the first archived capture is
+  // 2023-03-30. Nothing supports the 2021 the VSL uses.
+  foundingDate: '2022',
   founder: author,
+  logo: { '@type': 'ImageObject', url: `${site}/ipqmedia-logo.png` },
+  areaServed: { '@type': 'Country', name: 'United States' },
   sameAs: ['https://www.linkedin.com/company/ipqmedia'],
 };
 
