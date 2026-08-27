@@ -155,6 +155,37 @@ if (published) {
     image: [ogImage],
   };
 }
+
+// ---- BreadcrumbList JSON-LD (2026-08-27) ----
+// Verified against Google's structured-data gallery the day it shipped: Breadcrumb is still a
+// supported Search feature, unlike FAQ (retired 7 May 2026) and unlike Dataset, which Google
+// clarified in 2026 feeds only Dataset Search and not Search itself.
+// The rich result is the smaller half of why this is here. The bigger half is entity
+// consolidation: these guides BUILD on the resources.ipqmedia.com subdomain and are rewritten
+// to ipqmedia.com/resources at deploy, and a machine reading one page in isolation has had no
+// structured statement that it belongs to a hub, or that the hub belongs to the apex brand.
+// This says both, on all 32 pages, in the vocabulary Google and the AI crawlers already parse.
+// URL forms: `site` and `canonicalUrl` are subdomain-absolute and publish.sh rewrites them to
+// the apex path. The apex crumb is a hard-coded literal ON PURPOSE — publish.sh only rewrites
+// the subdomain host, so templating it here would produce https://ipqmedia.com/resources.
+// The crumb label is the page's own <h1>, not `title`: the h1s read 18-56 chars and are the
+// human name of the page, while the titles are query-shaped and too long to render as a crumb.
+// Reading it from the rendered body means no page file needs a new prop, now or ever.
+const hubUrl = site;
+const pageCrumb = flatten(body.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1] ?? '');
+const crumbs = [
+  { '@type': 'ListItem', position: 1, name: 'IPQmedia', item: 'https://ipqmedia.com' },
+  { '@type': 'ListItem', position: 2, name: 'The IPQ Field Guide', item: hubUrl },
+];
+// The hub itself stops at two, which is Google's stated minimum. Guides get the third level.
+if (canonicalUrl !== hubUrl && pageCrumb) {
+  crumbs.push({ '@type': 'ListItem', position: 3, name: pageCrumb, item: canonicalUrl });
+}
+const breadcrumb = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: crumbs,
+};
 ---
 
 <!doctype html>
@@ -187,6 +218,7 @@ if (published) {
     <meta name="twitter:image" content={ogImage} />
     <meta name="robots" content="index,follow" />
     <script is:inline type="application/ld+json" set:html={JSON.stringify(org)} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumb)} />
     {article && <script is:inline type="application/ld+json" set:html={JSON.stringify(article)} />}
     {faq && <script is:inline type="application/ld+json" set:html={JSON.stringify(faq)} />}
   </head>
