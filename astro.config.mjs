@@ -48,6 +48,28 @@ function gitLastChanged(file) {
   }
 }
 
+// ── Held-for-approval deploy corrections (added 2026-08-29, weekly check #8) ──
+// The 08-21 rewrite above moved lastmod from the byline to the commit date, which fixed
+// the frozen-canonical problem. Check #8 found the remaining half of the same bug: a
+// commit date is only the true change date when the commit deploys the same day. Visible
+// copy waits for Arseniy's approval, so a page can be committed on the 19th and only
+// reach the public web on the 27th — and lastmod then reports a date Google has already
+// crawled past. Measured on 08-29: the pillar retrofit committed 08-19, went live 08-27,
+// and Google's last crawl was 08-26 20:11Z against a sitemap claiming 08-19. No signal.
+//
+// So: for a commit that was held, lastmod is the date it actually went live. Each entry
+// below names the held commit and the deploy that shipped it, so every date here still
+// points at a real change to a real file on a real date. Same guardrail as above — this
+// is NOT a bump table. An entry only belongs here if the file genuinely changed AND the
+// change reached the web later than the commit date.
+const heldUntilDeploy = {
+  // approved in msg 432 and deployed 2026-08-27 (dpl_ATdc3wwoVQWJBJ5koMgg21XSHTFP)
+  '/architecture-marketing': '2026-08-27',              // 575ecad, held from 08-19
+  '/best-marketing-agencies-for-architects': '2026-08-27', // 1ced570 08-24 + 1f42b94 08-26
+  '/meta-ads-for-architects': '2026-08-27',             // 46a1caf, held from 08-25
+  '/marketing-for-landscape-architects': '2026-08-27',  // 46a1caf, held from 08-25
+};
+
 const pageDates = {};
 for (const f of readdirSync(pagesDir)) {
   if (!f.endsWith('.astro')) continue;
@@ -55,10 +77,11 @@ for (const f of readdirSync(pagesDir)) {
   const byline =
     src.match(/const updated = '(\d{4}-\d{2}-\d{2})'/)?.[1] ??
     src.match(/const published = '(\d{4}-\d{2}-\d{2})'/)?.[1];
-  // never understate a byline the author bumped by hand
-  const candidates = [gitLastChanged(f), byline].filter(Boolean);
+  const path = '/' + f.replace(/\.astro$/, '');
+  // never understate a byline the author bumped by hand, or a deploy that ran late
+  const candidates = [gitLastChanged(f), byline, heldUntilDeploy[path]].filter(Boolean);
   if (!candidates.length) continue;
-  pageDates['/' + f.replace(/\.astro$/, '')] = candidates.sort().at(-1);
+  pageDates[path] = candidates.sort().at(-1);
 }
 // the hub's cards change whenever any page ships or is retouched
 pageDates['/index'] = Object.values(pageDates).sort().at(-1);
