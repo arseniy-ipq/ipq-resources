@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-08-31T07:40:00Z",
+ "updated_at": "2026-09-01T09:10:00Z",
  "site": "https://ipqmedia.com/resources",
  "kpis": {
   "keywords_tracked": 12,
@@ -269,6 +269,12 @@
    "keywords_top100": 8,
    "keywords_top10": 0,
    "indexed_pages": 28
+  },
+  {
+   "date": "2026-09-01",
+   "keywords_top100": 8,
+   "keywords_top10": 0,
+   "indexed_pages": 28
   }
  ],
  "keywords": [
@@ -279,7 +285,7 @@
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
    "ranking_url": "https://ipqmedia.com/resources/architecture-marketing",
-   "impressions": 643,
+   "impressions": 638,
    "clicks": 0,
    "gsc_position": 40.6
   },
@@ -290,20 +296,20 @@
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
    "ranking_url": "https://ipqmedia.com/resources/best-marketing-agencies-for-architects",
-   "impressions": 372,
+   "impressions": 373,
    "clicks": 0,
-   "gsc_position": 56.3
+   "gsc_position": 56.4
   },
   {
    "keyword": "architect marketing agency",
-   "position": 57,
+   "position": 59,
    "top_organic": "www.marketingarchitects.com",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
    "ranking_url": "https://ipqmedia.com/resources/best-marketing-agencies-for-architects",
-   "impressions": 428,
+   "impressions": 429,
    "clicks": 0,
-   "gsc_position": 59.6
+   "gsc_position": 59.7
   },
   {
    "keyword": "architecture marketing agency",
@@ -312,7 +318,7 @@
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
    "ranking_url": "https://ipqmedia.com/resources/best-marketing-agencies-for-architects",
-   "impressions": 430,
+   "impressions": 431,
    "clicks": 0,
    "gsc_position": 62.5
   },
@@ -322,31 +328,31 @@
    "top_organic": "archmarketing.org",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
-   "impressions": 477,
+   "impressions": 476,
    "clicks": 0,
-   "gsc_position": 67.7,
+   "gsc_position": 67.0,
    "ranking_url": "https://ipqmedia.com/resources/lead-generation-for-architects"
   },
   {
    "keyword": "marketing agency for architects",
-   "position": 63,
+   "position": 64,
    "top_organic": "www.marketingarchitects.com",
    "ai_overview_present": false,
    "cited_in_ai_overview": false,
    "ranking_url": "https://ipqmedia.com/resources/best-marketing-agencies-for-architects",
-   "impressions": 470,
+   "impressions": 465,
    "clicks": 0,
-   "gsc_position": 64.8
+   "gsc_position": 65.0
   },
   {
    "keyword": "facebook ads for architects",
-   "position": 16,
+   "position": 14,
    "top_organic": "insidea.com",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
-   "impressions": 106,
+   "impressions": 108,
    "clicks": 0,
-   "gsc_position": 18.0,
+   "gsc_position": 18.1,
    "ranking_url": "https://ipqmedia.com/resources/meta-ads-for-architects"
   },
   {
@@ -355,10 +361,10 @@
    "top_organic": "archmarketing.org",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
-   "impressions": 171,
+   "impressions": 162,
    "clicks": 0,
-   "gsc_position": 57.9,
-   "position_stale_since": "2026-08-31"
+   "gsc_position": 57.6,
+   "position_stale_since": "2026-09-01"
   },
   {
    "keyword": "architecture firm marketing",
@@ -746,6 +752,12 @@
    "status": "done",
    "due": "2026-08-31",
    "note": "First competitive loss measured: TERAMOK's 25 Aug self-ranking listicle displaced IPQmedia from the number one Perplexity slot and now leads Gemini. IPQmedia still named 3 of 3 runs, first 0 of 3. Conclusion: a self-published ranking buys presence, not primacy."
+  },
+  {
+   "title": "Reddit thread sweep monthly run #2 (10 queries)",
+   "status": "done",
+   "due": "2026-09-01",
+   "note": "Reddit's share of these SERPs grew: 33 to 39 distinct ranking threads on the identical measurement (top 10, the same 7 queries that returned on 08-01), and reddit.com is the number one organic result on all ten queries. The finding that matters is on the agency-hire query: the AI Overview for 'best marketing agency for architects reddit' is 12 of 18 Reddit threads, and the non-Reddit slots are the same third-party listicles already queued for outreach. IPQmedia appears on that query nowhere at all. Google builds the answer TERAMOK just took out of other people's lists and Reddit threads, the two source types we do not publish ourselves, which is the same objection Perplexity stated out loud on 08-31."
   }
  ],
  "technical": {
@@ -859,6 +871,18 @@
   }
  },
  "asks": [
+  {
+   "what": "Post one comment in the r/Architects thread 'Marketing Strategies' (reddit.com/r/Architects/comments/16ffh6z). Draft 7 is written and paste-ready",
+   "status": "pending",
+   "minutes": 10,
+   "steps": [
+    "This is the best Reddit target found in two sweeps. It ranks #1 on 'marketing for architects', #1 on 'architecture firm marketing', #1 on 'architecture marketing agency', #2 on 'best marketing agency for architects', and Google cites it in three of those AI Overviews.",
+    "Why it matters now: the 08-31 audit found TERAMOK taking our top slot with a self-published ranking, and Perplexity saying out loud that it discounts agency-produced rankings. The 09-01 sweep found that Google assembles the agency-hire answer from Reddit threads and other people's listicles. This is the half of that you can act on today.",
+    "Draft 7 is in memory/reddit-playbook.md under 'MONTHLY SWEEP 2026-09-01'. No links, no invented numbers, disclosure included, one bracket for a real number of yours if you want to use it.",
+    "Five second check first: open the thread in the app, and if there is no comment box the sub archives old posts and the target is dead. Targets B and C in the same file are the next two, both drafted.",
+    "Edit it in your own words. If somebody already made the point, reply to them instead of top-commenting."
+   ]
+  },
   {
    "what": "The VSL still says IPQmedia was founded in 2021 while ipqmedia.com/about says 2022. Fix the VSL line",
    "status": "pending",
@@ -1058,30 +1082,30 @@
   }
  ],
  "search": {
-  "window": "2026-08-01 to 2026-08-28",
+  "window": "2026-08-02 to 2026-08-29",
   "source": "Google Search Console",
   "total": {
-   "impressions": 9341,
-   "clicks": 25,
-   "queries": 155,
-   "avg_position": 60.8
+   "impressions": 9309,
+   "clicks": 26,
+   "queries": 158,
+   "avg_position": 60.7
   },
   "brand": {
-   "impressions": 41,
-   "clicks": 25,
+   "impressions": 42,
+   "clicks": 26,
    "queries": 4,
-   "avg_position": 10.5
+   "avg_position": 10.3
   },
   "non_brand": {
-   "impressions": 9300,
+   "impressions": 9267,
    "clicks": 0,
-   "queries": 151,
-   "avg_position": 61.0
+   "queries": 154,
+   "avg_position": 60.9
   },
   "top_queries": [
    {
     "query": "architect marketing",
-    "impressions": 643,
+    "impressions": 638,
     "clicks": 0,
     "position": 40.6
    },
@@ -1089,145 +1113,145 @@
     "query": "architecture and marketing",
     "impressions": 588,
     "clicks": 0,
-    "position": 51.9
+    "position": 52.1
    },
    {
     "query": "lead generation for architects",
-    "impressions": 477,
+    "impressions": 476,
     "clicks": 0,
-    "position": 67.7
+    "position": 67.0
    },
    {
     "query": "marketing agency for architects",
-    "impressions": 470,
+    "impressions": 465,
     "clicks": 0,
-    "position": 64.8
+    "position": 65.0
    },
    {
     "query": "architecture marketing agency",
-    "impressions": 430,
+    "impressions": 431,
     "clicks": 0,
     "position": 62.5
    },
    {
     "query": "architect marketing agency",
-    "impressions": 428,
+    "impressions": 429,
     "clicks": 0,
-    "position": 59.6
+    "position": 59.7
    },
    {
     "query": "architecture lead generation",
-    "impressions": 410,
+    "impressions": 407,
     "clicks": 0,
     "position": 74.7
    },
    {
-    "query": "marketing architecture firm",
-    "impressions": 390,
-    "clicks": 0,
-    "position": 53.6
-   },
-   {
     "query": "marketing architecture",
-    "impressions": 387,
-    "clicks": 0,
-    "position": 55.7
-   },
-   {
-    "query": "architecture marketing firms",
-    "impressions": 372,
+    "impressions": 396,
     "clicks": 0,
     "position": 56.3
    },
    {
-    "query": "leads for architects",
-    "impressions": 359,
+    "query": "marketing architecture firm",
+    "impressions": 385,
     "clicks": 0,
-    "position": 68.8
+    "position": 54.0
+   },
+   {
+    "query": "architecture marketing firms",
+    "impressions": 373,
+    "clicks": 0,
+    "position": 56.4
+   },
+   {
+    "query": "leads for architects",
+    "impressions": 358,
+    "clicks": 0,
+    "position": 68.4
    },
    {
     "query": "architecture firms marketing",
-    "impressions": 347,
+    "impressions": 355,
     "clicks": 0,
-    "position": 58.6
+    "position": 58.5
    }
   ],
   "top_pages": [
    {
     "url": "/resources/best-marketing-agencies-for-architects",
-    "impressions": 4925,
+    "impressions": 4915,
     "clicks": 0,
-    "position": 64.6,
+    "position": 64.5,
     "variants": 1
    },
    {
     "url": "/resources/architecture-marketing",
-    "impressions": 3542,
+    "impressions": 3543,
     "clicks": 0,
-    "position": 58.4,
-    "variants": 4
+    "position": 58.5,
+    "variants": 3
    },
    {
     "url": "/resources/lead-generation-for-architects",
-    "impressions": 1668,
+    "impressions": 1670,
     "clicks": 0,
-    "position": 71.3,
-    "variants": 2
+    "position": 70.9,
+    "variants": 3
    },
    {
     "url": "/resources/meta-ads-for-architects",
-    "impressions": 190,
+    "impressions": 195,
     "clicks": 2,
-    "position": 16.7,
-    "variants": 1
-   },
-   {
-    "url": "/resources/marketing-for-landscape-architects",
-    "impressions": 70,
-    "clicks": 0,
-    "position": 23.1,
+    "position": 16.0,
     "variants": 1
    },
    {
     "url": "/resources/rfp-for-architects",
-    "impressions": 60,
+    "impressions": 68,
     "clicks": 0,
-    "position": 73.1,
+    "position": 71.4,
+    "variants": 1
+   },
+   {
+    "url": "/resources/marketing-for-landscape-architects",
+    "impressions": 61,
+    "clicks": 0,
+    "position": 23.0,
     "variants": 1
    },
    {
     "url": "/resources",
-    "impressions": 51,
+    "impressions": 54,
     "clicks": 2,
-    "position": 54.6,
+    "position": 53.3,
     "variants": 3
    },
    {
     "url": "/resources/architecture-marketing-statistics-and-costs-2026",
-    "impressions": 34,
+    "impressions": 31,
     "clicks": 0,
-    "position": 32.4,
+    "position": 33.9,
     "variants": 1
    },
    {
     "url": "/resources/partnerships-for-architects",
-    "impressions": 25,
+    "impressions": 28,
     "clicks": 0,
-    "position": 56.2,
+    "position": 56.8,
     "variants": 1
    },
    {
     "url": "/resources/google-business-profile-for-architects",
-    "impressions": 24,
+    "impressions": 25,
     "clicks": 0,
-    "position": 34.3,
+    "position": 32.4,
     "variants": 2
    },
    {
     "url": "/resources/referral-systems-for-architects",
-    "impressions": 17,
+    "impressions": 19,
     "clicks": 0,
-    "position": 43.6,
+    "position": 43.1,
     "variants": 2
    },
    {
@@ -1240,18 +1264,18 @@
   ],
   "cluster": {
    "note": "the /resources guides only, counted by GSC page dimension. Higher than the query totals above because GSC hides anonymized queries from the query dimension. Grade the cluster on these numbers.",
-   "impressions": 10681,
+   "impressions": 10686,
    "clicks": 5,
-   "pages": 29,
-   "avg_position": 62.0
+   "pages": 30,
+   "avg_position": 61.9
   },
   "url_forms": {
    "note": "impressions by URL form over the same 28d window as search.window (so it runs behind the weekly figure). canonical = https://ipqmedia.com/resources/<slug>. slash forms serve the funnel homepage; legacy = the old subdomain, 301s here.",
-   "apex_canonical": 8852,
-   "apex_slash": 479,
-   "legacy_canonical": 52,
-   "legacy_slash": 1298,
-   "slash_share_pct": 16.6
+   "apex_canonical": 8909,
+   "apex_slash": 402,
+   "legacy_canonical": 44,
+   "legacy_slash": 1331,
+   "slash_share_pct": 16.2
   }
  },
  "behavior": {
@@ -1483,5 +1507,19 @@
    "ChatGPT fires no web search on Q3, Q4 or Q5 and its no-search answer invented Hoyt Architects, an architecture firm rather than a marketing agency."
   ],
   "next_due": "~2026-10-01"
+ },
+ "reddit_sweep": {
+  "measured": "2026-09-01",
+  "run": "monthly #2",
+  "method": "DataForSEO serp/google/organic/live/advanced, US desktop, depth 20, load_async_ai_overview true. The standing 8 buyer queries from the 2026-07-11 build plus 2 new probes on the agency head term. Cost $0.057. Q1 and Q3 needed one retry each (intermittent Internal SE Server Error). Counts normalised back to top 10 before any comparison with the 08-01 run.",
+  "headline": "The agency-hire answer is built out of Reddit threads and third-party listicles, and IPQmedia is in neither half.",
+  "ranking_threads_top10": "39, up from 33 on the identical measurement",
+  "reddit_is_top_organic_result": "10 of 10 queries",
+  "aio_reddit_share_agency_query": "12 of 18 references",
+  "ipq_organic_placements": "meta-ads-for-architects #10 on 'facebook ads for architects reddit'; best-marketing-agencies-for-architects #17 on 'architecture marketing agency reddit'. Neither is cited in its query's AI Overview. First time IPQ has appeared in this sweep.",
+  "top_target": "16ffh6z, r/Architects 'Marketing Strategies' (2023-09-10). #1 on 'marketing for architects', #1 on 'architecture firm marketing', #1 on 'architecture marketing agency', #2 on 'best marketing agency for architects', cited in three of those AI Overviews.",
+  "standing_list_decay": "26 of 28 prior targets still rank. Two dropped, one of them the target for an already-written draft, since re-homed.",
+  "change_to_watch": "'starting an architecture firm' no longer returns an AI Overview at all (23 SERP items, no ai_overview element). The 07-11 build recorded AIO present on all 8 buyer SERPs. Single reading, re-check at the October sweep.",
+  "note": "No site content is involved. Every remaining step in this lane is Arseniy commenting from a real account; drafts are written and waiting in memory/reddit-playbook.md."
  }
 }
