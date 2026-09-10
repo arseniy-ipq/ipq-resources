@@ -257,7 +257,10 @@ const breadcrumb = {
           var med = medium(refHost);
           var slug = location.pathname.replace(/^\/(resources\/)?/, '').replace(/\/$/, '') || 'hub';
           document.addEventListener('click', function (e) {
-            var a = e.target && e.target.closest ? e.target.closest('a[href*="beam.ipqmedia.com"]') : null;
+            // 2026-09-10: ai-search-for-architects ships a CTA to ipqmedia.com/book-a-call, so the
+            // selector covers both booking destinations. Matching only beam.* would have silently
+            // dropped UTMs and the cta_click event on every page using the newer CTA.
+            var a = e.target && e.target.closest ? e.target.closest('a[href*="beam.ipqmedia.com"], a[href*="ipqmedia.com/book-a-call"]') : null;
             if (!a) return;
             var u;
             try { u = new URL(a.href); } catch (err) { return; }
@@ -323,6 +326,8 @@ const breadcrumb = {
       li { margin-bottom: 12px; }
       li::marker { color: var(--red); }
       a { color: var(--red); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+      /* first used 2026-09-10 by ai-search-for-architects, which quotes real URL paths inline */
+      code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.86em; color: var(--dim); background: var(--soft); border: 1px solid var(--line); border-radius: 4px; padding: 1px 6px; overflow-wrap: anywhere; }
       .lede { font-family: var(--serif); font-size: 24px; line-height: 1.55; color: var(--dim); margin: 0 0 20px; }
       .kicker { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--red); margin: 26px 0 0; }
       .kicker + h1 { margin-top: 10px; }

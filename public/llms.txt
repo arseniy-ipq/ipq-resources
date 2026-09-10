@@ -16,6 +16,7 @@ Canonical URL form for every page below is without a trailing slash. Index of al
 
 ## Channel guides
 
+- [AI search for architects](https://ipqmedia.com/resources/ai-search-for-architects): What ChatGPT, Perplexity, Gemini and Claude actually cite when a client asks how to hire an architect. 275 cited sources logged across 16 answers on 10 September 2026: 63% came from a practice's own website, 10% from directories and marketplaces, 9% from professional associations. All 39 resolvable firm URLs were guide pages, none were portfolios.
 - [SEO for architects](https://ipqmedia.com/resources/seo-for-architects): Organic search as the compounding layer.
 - [Google Ads for architects](https://ipqmedia.com/resources/google-ads-for-architects): Search ads, real CPC data, where they fit.
 - [Google Business Profile for architects](https://ipqmedia.com/resources/google-business-profile-for-architects): The map pack as a free capture layer.

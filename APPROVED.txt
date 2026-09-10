@@ -1,0 +1,46 @@
+# Slugs Arseniy has approved for the live site at ipqmedia.com/resources.
+# publish.sh refuses to deploy if dist/ contains a page whose slug is not on this list.
+#
+# Why this file exists (2026-09-09 incident, contractor lane): a publish script that ships
+# everything in the build directory means "I will remember not to deploy that page yet" is not a
+# gate. On 09-09 an unscreened page rode along on an unrelated deploy and had to be pulled. The
+# same all-or-nothing shape has been true of publish.sh here since 2026-07-25, when three
+# cycle-written pages went live by accident. Approval is now mechanical on both repos.
+#
+# To approve a page: add its slug on its own line, then run publish.sh.
+# Lines starting with # and blank lines are ignored.
+
+architecture-client-demand-by-metro-2026
+architecture-marketing
+architecture-marketing-benchmark-report-2026
+architecture-marketing-statistics-and-costs-2026
+arseniy-volosevich
+best-marketing-agencies-for-architects
+branding-for-architects
+content-marketing-for-architects
+direct-mail-for-architects
+editorial-standards
+email-marketing-for-architects
+google-ads-for-architects
+google-business-profile-for-architects
+houzz-for-architects
+lead-generation-for-architects
+linkedin-for-architects
+marketing-for-commercial-architects
+marketing-for-high-end-residential-architects
+marketing-for-landscape-architects
+marketing-for-residential-architects
+meta-ads-for-architects
+meta-ads-vs-google-ads-for-architects
+partnerships-for-architects
+pay-per-lead-vs-retainer-for-architects
+pr-and-press-for-architects
+referral-systems-for-architects
+rfp-for-architects
+seo-for-architects
+social-media-for-architects
+video-marketing-for-architects
+website-design-for-architects
+
+# PENDING APPROVAL (written, built, committed, NOT deployed):
+# ai-search-for-architects   2026-09-10

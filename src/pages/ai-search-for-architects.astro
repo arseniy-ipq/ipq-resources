@@ -1,0 +1,224 @@
+---
+const published = '2026-09-10';
+const updated = '2026-09-10';
+import Base from '../layouts/Base.astro';
+const title = 'AI Search for Architects: What ChatGPT and Google Actually Cite | IPQmedia';
+const description =
+  "We asked four AI engines the four questions clients ask before hiring an architect and logged all 275 sources they cited. 63% came from another practice's own website, and every one of those pages was a guide, not a portfolio.";
+---
+
+<Base title={title} description={description} published={published} updated={updated}>
+  <h1>AI search for architects</h1>
+  <p class="lede">
+    A client with a project and a budget now types the question into ChatGPT before they type
+    anything into Google. So we ran the experiment nobody in this industry has published: we asked
+    four AI engines the four questions that come before hiring an architect, and logged every
+    single source each one used to build its answer.
+  </p>
+
+  <p>
+    275 cited sources across 97 domains, pulled on 10 September 2026. Awards did not show up and
+    neither did the design press. What the machines read, over and over, was other architecture
+    firms' websites, and always the same kind of page.
+  </p>
+
+  <div class="answer">
+    <p class="answer-label">The short answer</p>
+    <p>
+      Across 16 answers from four AI engines, 63% of the 275 cited sources were a practice's own
+      website. Directories and marketplaces together accounted for 10%, and professional
+      associations 9%. Every practice page the engines cited was a guide answering the client's
+      question, with titles like "how to choose the right architect for your home" and "how to
+      choose a commercial architecture firm for your project". Not one portfolio page, project
+      gallery or services page was cited anywhere in the set.
+    </p>
+  </div>
+
+  <h2>What we measured, and how</h2>
+  <p>
+    Four questions, split evenly between the two buyers. Two residential: how to choose a good
+    architect for a custom home build, and what an architect costs for a renovation or addition.
+    Two commercial: how to choose an architecture firm for a commercial building project, and what
+    a developer should look for when selecting an architect for a new development.
+  </p>
+  <p>
+    Each question went to four engines with live web search enabled: Perplexity (sonar), ChatGPT
+    (gpt-4o), Gemini (2.5 Flash) and Claude (Sonnet 4.6), through the DataForSEO AI Optimization
+    API on 10 September 2026.
+  </p>
+  <p>
+    We kept every citation each answer returned, resolved it to a domain, and classified the domain
+    by who owns it. We then pulled seven live US Google results for the same buyer questions to see
+    what Google's own AI Overview was citing.
+  </p>
+
+  <h2>63% of what the AI reads is another firm's website</h2>
+  <table>
+    <tr><th>Source type</th><th>Citations</th><th>Share</th><th>Domains</th></tr>
+    <tr><td>A practice's own website (architect, engineer, design-build, builder)</td><td>174</td><td>63.3%</td><td>49</td></tr>
+    <tr><td>Directory or marketplace (Houzz, Angi, HomeAdvisor, Thumbtack and similar)</td><td>28</td><td>10.2%</td><td>9</td></tr>
+    <tr><td>Professional association (AIA national and chapters, Boston Society for Architecture)</td><td>25</td><td>9.1%</td><td>4</td></tr>
+    <tr><td>Media or trade editorial</td><td>9</td><td>3.3%</td><td>9</td></tr>
+    <tr><td>Product manufacturer (siding, windows)</td><td>9</td><td>3.3%</td><td>2</td></tr>
+    <tr><td>Academic paper or repository</td><td>7</td><td>2.5%</td><td>7</td></tr>
+    <tr><td>Forum or social (Reddit, LinkedIn)</td><td>6</td><td>2.2%</td><td>3</td></tr>
+    <tr><td>Unclassified</td><td>17</td><td>6.2%</td><td>14</td></tr>
+  </table>
+  <p>
+    Sit with the first two rows. The directory listings firms pay for and renew out of habit are
+    one citation in ten. Peer firms writing about the hiring decision are six in ten. The
+    marketplaces still matter for the reasons covered in <a href="/houzz-for-architects#renting-a-shelf-against-building-a-channel">Houzz for architects</a>, but they are not what the answer is built out of.
+  </p>
+  <p>
+    The single most-cited domain in the whole set was one Los Angeles design-build practice, quoted
+    26 times across three of the four engines. It was not cited for its work. Every page of its that
+    resolved to a real URL was a blog post, two of them on what an architect costs.
+  </p>
+
+  <h2>Every firm page cited was a guide, never a portfolio</h2>
+  <p>
+    This is the finding that should change what you publish. Here are real URLs the engines pulled
+    from, exactly as they appeared in the citations:
+  </p>
+  <ul>
+    <li><code>/blog/architect-cost-for-renovations</code></li>
+    <li><code>/post/how-to-choose-the-right-architect-for-your-home</code></li>
+    <li><code>/blog/average-architect-fees-residential</code></li>
+    <li><code>/choosing-commercial-architect-firm-for-a-new-build-out/</code></li>
+    <li><code>/how-to-choose-a-commercial-architecture-firm-for-your-project/</code></li>
+    <li><code>/things-to-consider-when-choosing-a-commercial-architect/</code></li>
+    <li><code>/education/how-to-choose-a-good-architect/</code></li>
+    <li><code>/how-to-hire-an-architect-for-a-custom-home/</code></li>
+  </ul>
+  <p>
+    Thirty-nine distinct firm URLs resolved across the four engines and all thirty-nine follow that
+    shape. A language model answering a question about hiring an architect needs prose about hiring
+    an architect. Your project pages are images and captions, which is right for a visitor and
+    nothing at all for a machine. That gap is the same one behind <a href="/website-design-for-architects#a-website-is-not-a-lead-source">the portfolio problem</a>, arriving now in a second place.
+  </p>
+  <p>
+    None of these are big publishers. They are ordinary practices, several of them small, that
+    happened to write the page. The bar is low right now and it will not stay low.
+  </p>
+
+  <h2>The two buyers get answered out of different libraries</h2>
+  <p>
+    Splitting the citations by question shows the fork clearly. The residential answers leaned on
+    cost pages and choose-an-architect posts from residential firms, builders and design-build
+    practices, plus two product manufacturers whose blogs happen to rank. Homeowners are being
+    answered largely by people selling to homeowners.
+  </p>
+  <p>
+    The commercial answers came from a narrower and more institutional set. Every one of the 25
+    association citations sits on a commercial question, mostly AIA chapters, and the firm pages
+    cited were explicitly commercial ones.
+  </p>
+  <p>
+    The commercial buyer is being handed fewer sources with more authority behind them, which is
+    harder to break into and more valuable once you are there. The rest of that sale is in <a href="/marketing-for-commercial-architects#the-best-architect-rarely-wins-the-safest-one-does">marketing for commercial architects</a>, and the residential version in <a href="/marketing-for-residential-architects#the-referral-gap-that-quietly-starves-residential-firms">marketing for residential architects</a>.
+  </p>
+
+  <h2>Google's AI Overview is already on these searches</h2>
+  <p>
+    Six of the seven buyer queries we pulled returned an AI Overview above the organic results:
+    how to choose an architect, how much does an architect cost, how to hire an architect for a
+    custom home, how to choose a commercial architect, questions to ask an architect, and architect
+    fees for residential projects.
+  </p>
+  <p>
+    The one exception was "architect near me", which still runs on a three-slot local pack, which is
+    why <a href="/google-business-profile-for-architects#the-shortlist-google-runs-without-you">your Google Business Profile</a> is still doing real work.
+  </p>
+  <p>
+    Two of those six Overviews returned their reference lists in full, giving 16 citations. Ten of
+    the 16 were a practice's own website. Two were Reddit, two were AIA pages, one was Houzz and one
+    was YouTube. And 11 of those 16 domains had already turned up in the separate chat-engine pull.
+    Two different retrieval systems landing on nearly the same set of pages is the part worth
+    trusting here.
+  </p>
+
+  <h2>The engine rewrites your client's question before it searches</h2>
+  <p>
+    Gemini reported the searches it actually ran. One question became three or four, and the
+    rewrites are the phrasings your page should be built around: "questions to ask architect custom
+    home", "architect fee structure custom home", "average architect fees percentage US", "factors
+    to consider when choosing an architecture firm for commercial project", "key criteria for
+    choosing an architect".
+  </p>
+  <p>
+    Those are section headings, not keywords. Answer each one plainly, near the top, in the words
+    the engine used, and you have written a page that can be lifted whole. The method for turning
+    buyer questions into pages is in <a href="/content-marketing-for-architects#the-questions-your-buyers-are-already-typing">content marketing for architects</a>, and the technical layer that lets a crawler read any of it is in <a href="/seo-for-architects#what-about-ai-answers-eating-the-clicks">SEO for architects</a>.
+  </p>
+
+  <h2>The honest limits of all this</h2>
+  <p>
+    Being cited is not the same as being visited. Pew Research Center analyzed the browsing of 900
+    US adults across 68,879 Google searches in March 2025 and found that when an AI summary
+    appeared, people clicked a search result on <a href="https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/" rel="nofollow">8% of visits against 15% without one</a>, and clicked a link inside the summary on 1%. Getting
+    named in the answer is the win. Expecting traffic from it is not.
+  </p>
+  <p>
+    There is a second limit worth stating. ChatGPT running gpt-4o returned zero cited sources on all
+    four of our questions and answered from what it already knew, telling the residential buyer to
+    ask friends, check the AIA and review portfolios. A meaningful share of AI answers about your
+    firm never touch the live web at all, and nothing you publish this quarter will change those.
+  </p>
+  <p>
+    So treat this as the compounding layer rather than the engine. It works slowly and it does not
+    fill next quarter. The demand you can actually schedule still comes from putting the work in
+    front of the right people on purpose, which is <a href="/meta-ads-for-architects">Meta ads for architects</a>, with this sitting on top of it.
+  </p>
+  <p>
+    One last thing worth knowing. Almost nobody is searching for this topic: "chatgpt for
+    architects" runs about 70 US searches a month and "ai seo for architects" returns no volume data
+    at all. Your clients are not searching for how AI works. They are asking it for an architect.
+  </p>
+
+  <h2>A few honest answers</h2>
+  <h3>How do I get my architecture firm recommended by ChatGPT?</h3>
+  <p>
+    Publish the pages the engines are already quoting: plain-prose guides on what your service
+    costs, how to choose a firm like yours, and what to ask before hiring, each answering one
+    question directly and near the top. Then make sure the page is static HTML a crawler can read
+    without running JavaScript. There is no submission form and no way to pay for placement, which
+    is the good news.
+  </p>
+  <h3>Do I need to be listed in directories for AI to find me?</h3>
+  <p>
+    Less than the industry assumes. Directories and marketplaces were 10% of the citations we
+    logged, against 63% for practices' own sites. Keep the free listings current because they help
+    a real person verify you exist, and stop treating a paid tier as the route into an AI answer.
+  </p>
+  <h3>Does this replace SEO for architects?</h3>
+  <p>
+    It is the same work aimed at a second reader. The pages that earn AI citations are the pages
+    that rank, written more directly, and the technical requirements overlap almost entirely. What
+    changes is the payoff to expect from each page, and how you measure whether it landed.
+  </p>
+  <h3>How would I even check whether an AI recommends my firm?</h3>
+  <p>
+    Ask it, in a logged-out session, the question a client would ask, and write down what it says
+    and what it cites. Same day each month, same wording, so the answers are comparable. Vary the
+    wording once a quarter to see how fragile the result is. It takes twenty minutes and it is the
+    only measurement here that costs nothing.
+  </p>
+
+  <h2>Write the page your client is about to ask about</h2>
+  <p>
+    The uncomfortable read on our data is that a firm with a beautiful site and no writing on it is
+    invisible to the systems its clients now use first, while a small practice that posted a fee
+    explainer three years ago is quoted to those clients by four different engines. None of the
+    cited firms did anything sophisticated. They answered the question in public.
+  </p>
+  <p>
+    Start with the two questions every client asks anyway: what this costs, and how to choose. Put
+    real numbers in both, publish each as its own page, keep them current. The wider plan they
+    belong to is in <a href="/architecture-marketing#every-channel-on-one-screen">architecture marketing</a>, and the pipeline they eventually feed is in <a href="/lead-generation-for-architects#what-a-system-actually-looks-like">lead generation for architects</a>.
+  </p>
+  <p>
+    If you would rather have the whole system built and run for you while you stay on site visits,
+    that is what we do, and we get paid when a qualified consultation actually shows up.
+  </p>
+  <a class="cta-block" href="https://ipqmedia.com/book-a-call">Book a call with IPQmedia</a>
+</Base>
