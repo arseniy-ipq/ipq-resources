@@ -43,7 +43,13 @@ const org = {
   founder: author,
   logo: { '@type': 'ImageObject', url: `${site}/ipqmedia-logo.png` },
   areaServed: { '@type': 'Country', name: 'United States' },
-  sameAs: ['https://www.linkedin.com/company/ipqmedia'],
+  // Third-party profiles that corroborate the entity. Each one is verified live
+  // before it goes in here: a sameAs pointing at a 404 is worse than no sameAs.
+  sameAs: [
+    'https://www.linkedin.com/company/ipqmedia',
+    'https://clutch.co/profile/ipqmedia',
+    'https://www.instagram.com/arseniy.ipq/',
+  ],
 };
 
 // Render the page content to a string so we can compute reading time and
