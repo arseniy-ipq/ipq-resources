@@ -41,7 +41,7 @@ Canonical URL form for every page below is without a trailing slash. Index of al
 
 ## Original data and benchmarks
 
-- [Architecture marketing benchmark report 2026](https://ipqmedia.com/resources/architecture-marketing-benchmark-report-2026): Per-firm quartiles from 16 US architecture firm ad accounts. Median cost per lead $57, full range $13 to $100. Includes findings published nowhere else for this profession: cost per lead drifts up with account age, and 56% of ads produce zero leads.
+- [Architecture marketing benchmark report 2026](https://ipqmedia.com/resources/architecture-marketing-benchmark-report-2026): Per-firm quartiles from 21 US architecture firm ad accounts over a full twelve months. Median cost per lead $50, full range $13 to $113, median cost per booked consultation $148. Includes findings published nowhere else for this profession: the same account pays about a quarter more per lead in April to June than in January to March, and commercial leads cost a third more than residential while booking at a higher rate.
 - [Architecture marketing statistics and costs 2026](https://ipqmedia.com/resources/architecture-marketing-statistics-and-costs-2026): Market costs roundup. IPQmedia's own blended $55 cost per lead and $0.95 cost per click across $95,539 of spend, next to AIA/Deltek billings data, Deltek Clarity win rates, PSMJ marketing spend shares and current search click costs.
 - [Architecture client demand by metro 2026](https://ipqmedia.com/resources/architecture-client-demand-by-metro-2026): Google search volume and click cost for architect intent across 16 US metros, next to the adjacent trades clients hire instead. Architect intent 13,040 searches a month against 68,990 for those trades.
 
