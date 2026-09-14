@@ -1,0 +1,255 @@
+---
+const published = '2026-09-14';
+const updated = '2026-09-14';
+import Base from '../layouts/Base.astro';
+const title = 'Architecture Marketing Budget Calculator: Ad Spend to Booked Consultations | IPQmedia';
+const description =
+  'Put in a monthly ad budget and see the leads and booked consultations it bought across 21 US architecture and design firms over twelve months. Median $50.41 per lead, $147.76 per booked consultation, split by residential and commercial.';
+---
+
+<Base title={title} description={description} published={published} updated={updated}>
+  <h1>Architecture marketing budget calculator</h1>
+  <p class="lede">
+    Every agency you have spoken to has an opinion about what your firm should spend, and not one
+    of them will show you the arithmetic underneath it. This will. Put in a monthly number and it
+    returns what that budget bought across 21 US architecture and design firm ad accounts over a
+    full year, as a range, because the honest answer is a range.
+  </p>
+
+  <div class="answer">
+    <p class="answer-label">The short answer</p>
+    <p>
+      Across 21 US architecture and design firm ad accounts running $117,656 of Meta spend in the
+      twelve months to 11 September 2026, the typical account paid $50.41 per lead and $147.76 per
+      booked consultation. A $3,000 month at those figures is roughly 60 leads and 20 booked
+      consultations, in a realistic band of 13 to 29 consultations depending on where your account
+      lands in the spread. Residential and commercial firms pay different prices for a lead and
+      book them at different rates, so choose your segment before you read the number.
+    </p>
+  </div>
+
+  <h2>The calculator</h2>
+  <p>
+    Four inputs, because four things in our data actually moved the price. Every figure comes from
+    the per-account distribution in the <a href="/architecture-marketing-benchmark-report-2026">2026 architecture marketing benchmark report</a>, our own ad account data rather than a survey of opinions.
+  </p>
+
+  <div class="calc" id="calc">
+    <div class="calc-grid">
+      <label class="calc-f"><span>Monthly ad budget</span>
+        <input type="number" id="c-budget" value="3000" min="200" max="200000" step="100" />
+      </label>
+      <label class="calc-f"><span>Who your firm works for</span>
+        <select id="c-seg">
+          <option value="all" selected>All firms in the data (n=21)</option>
+          <option value="res">Residential (n=7)</option>
+          <option value="com">Commercial (n=3)</option>
+        </select>
+      </label>
+      <label class="calc-f"><span>Where the lead is captured</span>
+        <select id="c-cap">
+          <option value="mixed" selected>Mixed, as most accounts run</option>
+          <option value="form">In-platform form</option>
+          <option value="landing">Your own landing page</option>
+        </select>
+      </label>
+      <label class="calc-f"><span>Quarter you are planning</span>
+        <select id="c-season">
+          <option value="year" selected>Full-year average</option>
+          <option value="q1">January to March</option>
+          <option value="q2">April to June</option>
+          <option value="q3">July to September</option>
+          <option value="q4">October to December</option>
+        </select>
+      </label>
+    </div>
+    <div class="calc-out">
+      <div class="calc-tile"><span class="calc-n" id="o-leads">60</span><span class="calc-l">leads a month</span></div>
+      <div class="calc-tile"><span class="calc-n" id="o-book">20</span><span class="calc-l">booked consultations a month</span></div>
+      <div class="calc-tile"><span class="calc-n" id="o-cpb">$148</span><span class="calc-l">per booked consultation</span></div>
+    </div>
+    <p class="calc-band">Middle-of-the-pack account. The middle half of our accounts landed between <b id="o-lo">13</b> and <b id="o-hi">29</b> booked consultations on that budget.</p>
+    <table class="calc-ladder">
+      <tr><th>Monthly budget</th><th>Leads</th><th>Booked consultations</th><th>Middle half</th></tr>
+      <tr><td data-b="1500">$1,500</td><td class="l-lead">30</td><td class="l-book">10</td><td class="l-band">6 to 14</td></tr>
+      <tr><td data-b="3000">$3,000</td><td class="l-lead">60</td><td class="l-book">20</td><td class="l-band">13 to 29</td></tr>
+      <tr><td data-b="5000">$5,000</td><td class="l-lead">99</td><td class="l-book">34</td><td class="l-band">21 to 48</td></tr>
+      <tr><td data-b="10000">$10,000</td><td class="l-lead">198</td><td class="l-book">68</td><td class="l-band">42 to 95</td></tr>
+    </table>
+    <p class="calc-note">Ad spend only, before anyone's fee. The four settings were measured separately, so stacking the best of each gives you a ceiling rather than a forecast.</p>
+  </div>
+
+  <h2>What these numbers are, and what they are not</h2>
+  <p>
+    The population is 21 US architecture and design firm accounts we ran between 15 September 2025
+    and 11 September 2026: $117,656 of spend, 2,151,042 impressions, 2,419 leads and 742 booked
+    consultations. Two construction contractors in the same tables were excluded as a different
+    business.
+  </p>
+  <p>
+    Each account counts once, not each dollar, which matters more than it sounds. Pooling the raw
+    rows produced a cost per link click of $1.45. Computed per account it was $3.60, because one
+    account's first weeks reported more link clicks than total clicks. The per-account view caught
+    a reporting artifact the pooled headline hid.
+  </p>
+  <p>
+    The spread between accounts is the finding, not the median. Cost per lead ran from $12.58 to
+    $112.94, roughly nine to one, on the same channel in the same year. Any tool that hands you one
+    confident number is quietly not telling you that.
+  </p>
+
+  <h2>Residential and commercial pay different prices for the same consultation</h2>
+  <p>
+    Ten of the 21 accounts carry a recorded market segment, seven residential against three
+    commercial. Three accounts is a direction rather than a benchmark, and saying so beats letting
+    a thin bucket pass as a finding.
+  </p>
+  <table>
+    <tr><th>Metric</th><th>Residential (n=7)</th><th>Commercial (n=3)</th></tr>
+    <tr><td>Cost per lead</td><td>$39.92</td><td>$53.43</td></tr>
+    <tr><td>Leads that became a booked consultation</td><td>34.8%</td><td>43.2%</td></tr>
+    <tr><td>Cost per booked consultation</td><td>$114.65</td><td>$123.63</td></tr>
+    <tr><td>Cost per thousand impressions</td><td>$51.45</td><td>$63.02</td></tr>
+  </table>
+  <p>
+    A commercial lead cost about a third more, and commercial reach cost more too. Then it books at
+    43.2% against 34.8% and the gap nearly closes: the two segments land within about 8% on the
+    number that matters, the cost of getting someone real into the calendar.
+  </p>
+  <p>
+    So the common advice that paid social is a residential channel does not survive contact with
+    our own accounts. The play is different rather than weaker. Residential creative sells the
+    finished house to someone imagining living in it. Commercial creative sells a delivered project
+    to a developer or business owner reading it as risk and return, and that buyer takes longer to
+    decide, which is what retargeting is for.
+  </p>
+  <p>
+    Both are the same channel, covered in <a href="/meta-ads-for-architects">Meta ads for architects</a>, and each gets its own treatment in <a href="/marketing-for-residential-architects">marketing for residential architects</a> and <a href="/marketing-for-commercial-architects">marketing for commercial architects</a>.
+  </p>
+
+  <h2>The biggest lever is not the budget, it is where the lead is captured</h2>
+  <p>
+    39 campaigns across 20 accounts collected the lead in an in-platform form and paid $40.55 per
+    lead on $75,712 of spend. Nine campaigns across seven accounts sent the click to the firm's own
+    landing page and paid $70.18 on $30,807. Same channel, same year, same kind of firm, and a 73%
+    difference in what a lead cost.
+  </p>
+  <p>
+    That is why the capture setting moves this calculator more than the segment does. 78% of every
+    lead in the dataset arrived through a form the client never had to leave. The trade is real: a
+    form buys volume, your own page buys a more committed inquiry and a chance to qualify before
+    the call. The page you would be sending them to is the subject of <a href="/website-design-for-architects">website design for architects</a>.
+  </p>
+
+  <h2>What month you start changes the price</h2>
+  <p>
+    Twelve months of data bought one finding a shorter window could not. Indexing every account
+    month against that same account's own twelve-month cost per lead, so market and offer cancel
+    out, the price of a lead moves with the calendar: April to June sits at 1.12 (n=16), July to
+    September at 0.92 (n=15), October to December at 0.89 (n=10) and January to March at 0.87
+    (n=11).
+  </p>
+  <p>
+    The same firm pays roughly a quarter more per lead in late spring than in the first quarter.
+    Restricted to account months with at least 20 days of spend and five leads. One caveat: we
+    measured this on the cost of a lead, not on the rate at which leads book, so the consultation
+    figure inherits the assumption rather than proving it.
+  </p>
+
+  <h2>Why this stops at the booked consultation</h2>
+  <p>
+    Because that is where our data stops being trustworthy. 48 of 1,023 booked consultations in our
+    system carry any recorded outcome, and 18 of the 24 tracked calendars record none at all. A
+    show rate computed off that would be a number about our record keeping, and a projection of
+    signed projects built on top of it would be fiction with a dollar sign in front.
+  </p>
+  <p>
+    So the calculator hands you a booked consultation and stops. What happens on that call is your
+    sales process, your fee and your close rate, the part of the funnel an ad account cannot see.
+    The standards this page is held to are written down in <a href="/editorial-standards">our editorial standards</a>.
+  </p>
+  <p>
+    One more real-world anchor. A median full month in this dataset ran $1,452.56 of spend and 22
+    leads across 42 complete account months. Those are two separate medians, so dividing one by the
+    other does not give you a cost per lead, but it is the closest thing to an ordinary month here.
+    Worth knowing alongside it: 747 of 1,839 live account days produced zero leads, so the monthly
+    figure is the honest unit and a quiet Tuesday means nothing.
+  </p>
+
+  <h2>A few honest answers</h2>
+  <h3>How much should an architecture firm spend on marketing a month?</h3>
+  <p>
+    Work backwards from consultations rather than forwards from a percentage. Decide how many
+    qualified calls a month your firm can actually take, multiply by roughly $150, and that is your
+    ad budget before anyone's fee. Budgets under about $1,000 a month struggle for a separate
+    reason: the platform cannot learn on that little volume, so the price per lead stays high.
+  </p>
+  <h3>What does a lead cost for an architecture firm?</h3>
+  <p>
+    A median of $50.41 across 21 accounts over twelve months, with the middle half between $28.25
+    and $70.58 and the full range from $12.58 to $112.94. For context, LocaliQ's Facebook
+    advertising benchmarks, last updated 24 October 2025, put the all-industry average at $27.66
+    and home improvement at $41.26. Neither of those rows is architecture, which is the gap this
+    dataset exists to fill.
+  </p>
+  <h3>How many consultations will $5,000 a month get me?</h3>
+  <p>
+    On the all-accounts figures, about 99 leads and 34 booked consultations, with the middle half of
+    accounts between 21 and 48. Where you land depends far more on your offer, creative and
+    follow-up speed than on the budget. A firm at the expensive end of our range gets a third of
+    what a firm at the cheap end gets from identical spend.
+  </p>
+  <h3>Why is the range so wide?</h3>
+  <p>
+    Because it genuinely is, at about nine to one between our cheapest and most expensive account.
+    A single confident figure would make the tool feel more authoritative and the answer worse,
+    which is the trade every marketing calculator on the internet quietly takes.
+  </p>
+  <h3>Does this work for a commercial firm?</h3>
+  <p>
+    Yes, with the sample size stated out loud. Only three accounts in this cut carry a commercial
+    segment, so treat those rows as a direction rather than a benchmark. The direction is
+    encouraging: commercial leads cost about a third more to generate and book at a higher rate, so
+    the cost per booked consultation lands close to residential.
+  </p>
+
+  <h2>What to do with the number</h2>
+  <p>
+    Treat it as a planning floor, not a promise. If the band says 13 to 29 consultations, forecast
+    against the bottom of it, then spend the first 60 days finding out which end of the spread your
+    firm sits on. That is a fact about your offer and your market rather than about the channel,
+    and you learn it fast: time to first lead had a median of one day, and 17 of 21 accounts saw
+    one inside week one.
+  </p>
+  <p>
+    The full dataset, including the two findings this year's edition retired, is in the <a href="/architecture-marketing-benchmark-report-2026">benchmark report</a>, the wider cost picture sits in <a href="/architecture-marketing-statistics-and-costs-2026">architecture marketing statistics and costs</a>, and how these numbers fit the rest of the machine is mapped in <a href="/architecture-marketing">architecture marketing</a> and <a href="/lead-generation-for-architects">lead generation for architects</a>. If you are weighing who carries the risk on a budget like this, that is <a href="/pay-per-lead-vs-retainer-for-architects">pay per lead against retainer</a>.
+  </p>
+  <p>
+    We run this for architecture firms on a pay-per-performance basis, which means your budget funds
+    the ads and we get paid when a qualified consultation actually shows up. Same numbers, our risk.
+  </p>
+  <a class="cta-block" href="https://ipqmedia.com/book-a-call">Book a call with IPQmedia</a>
+
+  <script is:inline src="/budget-calculator.js" defer></script>
+
+  <style is:global>
+    .calc { border: 1px solid var(--line); border-radius: 12px; background: var(--soft); padding: 20px 22px 14px; margin: 0 0 28px; }
+    .calc-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 18px; }
+    .calc-f { display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: var(--faint); }
+    .calc-f input, .calc-f select { font: inherit; font-size: 16px; font-weight: 400; text-transform: none; letter-spacing: 0; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 9px 11px; width: 100%; }
+    .calc-f input:focus, .calc-f select:focus { outline: 2px solid var(--red); outline-offset: 1px; }
+    .calc-out { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin: 20px 0 0; }
+    .calc-tile { border: 1px solid var(--line); border-left: 3px solid var(--red); border-radius: 10px; background: var(--bg); padding: 14px 16px; }
+    .calc-n { display: block; font-family: var(--serif); font-size: 34px; font-weight: 600; line-height: 1.1; color: var(--ink); }
+    .calc-l { display: block; font-size: 13px; line-height: 1.35; color: var(--dim); margin-top: 5px; }
+    .calc-band { font-size: 15px; line-height: 1.5; color: var(--dim); margin: 14px 0 0; }
+    .calc-band b { color: var(--ink); }
+    .calc-ladder { margin: 18px 0 0; }
+    .calc-ladder th { font-size: 11.5px; }
+    .calc-ladder td { font-size: 15px; }
+    .calc-note { font-size: 13px; color: var(--faint); margin: 10px 0 4px; }
+    @media (max-width: 620px) {
+      .calc-grid, .calc-out { grid-template-columns: minmax(0, 1fr); }
+    }
+  </style>
+</Base>

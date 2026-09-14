@@ -43,4 +43,5 @@ video-marketing-for-architects
 website-design-for-architects
 
 # PENDING APPROVAL (written, built, committed, NOT deployed):
-# ai-search-for-architects   2026-09-10
+# ai-search-for-architects                  2026-09-10
+# architecture-marketing-budget-calculator   2026-09-14
