@@ -42,6 +42,10 @@ social-media-for-architects
 video-marketing-for-architects
 website-design-for-architects
 
+# Approved 2026-09-15, Telegram msg 723 "approve all", after reviewing all three
+# in full on the private review page (artifact a4fa96b3).
+ai-search-for-architects
+architecture-marketing-budget-calculator
+
 # PENDING APPROVAL (written, built, committed, NOT deployed):
-# ai-search-for-architects                  2026-09-10
-# architecture-marketing-budget-calculator   2026-09-14
+#   (none)
