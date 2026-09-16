@@ -1,0 +1,240 @@
+---
+const published = '2026-09-16';
+const updated = '2026-09-16';
+import Base from '../layouts/Base.astro';
+const title = 'Marketing Plan for an Architecture Firm: The Version With Prices On It | IPQmedia';
+const description =
+  'Every architecture marketing plan on the internet tells you what to do and none of them tell you what it costs. This one puts a measured price on every line, from twenty-one US firm ad accounts over twelve months.';
+---
+
+<Base title={title} description={description} published={published} updated={updated}>
+  <h1>Marketing plan for an architecture firm</h1>
+  <p class="lede">
+    Most firms already have a marketing plan. It is a list of channels, a percentage of revenue,
+    and a quiet hope that one of them works. Almost nobody writes down what a single signed client
+    is supposed to cost, which is the one line that would make the rest of the page an argument
+    instead of a wish.
+  </p>
+
+  <p>
+    On 16 September 2026 we pulled the live US search result for "architecture firm marketing
+    strategy" and read the sources behind Google's own AI answer. They agree on the shape of a plan:
+    find your positioning, fix the website, publish content, network, set a budget. Not one of them
+    publishes what any of it costs.
+  </p>
+  <p>
+    We can, because we run the ad accounts. What follows is the same plan with a measured price on
+    every line, taken from 21 US architecture and design firm accounts over twelve months of spend.
+  </p>
+
+  <div class="answer">
+    <p class="answer-label">The short answer</p>
+    <p>
+      A marketing plan for an architecture firm is four numbers and a sequence before it is a
+      channel list. Decide the cost per booked consultation you can live with, fund the one channel
+      that can deliver at that price for ninety days, and measure at the lead and again at the
+      booked consultation. Across 21 firm accounts over twelve months the median account paid
+      $50.41 per lead and $147.76 per booked consultation, and a median full month of spend was
+      $1,452 for 22 leads. Build the plan backward from those two figures.
+    </p>
+  </div>
+
+  <h2>The budget rule Google hands you is missing from the pages it cites</h2>
+  <p>
+    That search returns an AI Overview above every other result. Its budget line reads "Allocate
+    roughly 5% to 10% of your annual revenue to support consistent marketing and lead tracking," and
+    it hangs six citations off that one sentence. We opened four of them and read the pages.
+  </p>
+  <table>
+    <tr><th>Cited source</th><th>Does it state the 5 to 10 percent rule?</th><th>Real cost data on the page?</th></tr>
+    <tr><td><a href="https://www.aia.org/aia-architect/article/5-ways-level-your-firm-marketing" rel="nofollow">AIA, "5 ways to level up your firm marketing"</a> (31 Mar 2025)</td><td>No percentage appears anywhere on the page</td><td>None</td></tr>
+    <tr><td><a href="https://www.businessofarchitecture.com/the-ultimate-guide-to-marketing-for-architects-examples-and-case-studies/" rel="nofollow">Business of Architecture, "The Ultimate Guide to Marketing for Architects"</a></td><td>No</td><td>One story: a single ad that cost over £4,500 (about $5,500) and produced no chargeable work</td></tr>
+    <tr><td><a href="https://www.thirdandarch.com/thoughts/the-power-of-architecture-marketing/" rel="nofollow">Third &amp; Arch, "The Power of Architecture Marketing"</a></td><td>No</td><td>None</td></tr>
+    <tr><td><a href="https://www.vernacularagency.com/house-style/marketing-plan-for-architecture-firm" rel="nofollow">Vernacular Agency, "The Architect's Guide to a Winning Marketing Plan"</a></td><td>Yes: "some businesses spend 3-5% of their revenue on marketing, growing firms often invest 7-10%"</td><td>None. Its one figure is a hypothetical $2,000 a month</td></tr>
+  </table>
+  <p>
+    Three of the four contain no percentage at all. The fourth carries a range and cites nothing for
+    it. The most confident, most actionable sentence in the answer turns out to be a number the
+    machine assembled and then attributed to pages that never make the claim.
+  </p>
+  <p>
+    None of those publishers did anything wrong. The assembly step did, and it is worth knowing
+    about before you build a year around a figure you found in an AI answer. We saw the same
+    pattern when we logged every source four engines cite about this profession, in <a href="/ai-search-for-architects">AI search for architects</a>.
+  </p>
+
+  <h2>Four numbers, then channels</h2>
+  <p>
+    Percent-of-revenue is a comfortable rule because it never has to be right. Spend 6% and you can
+    call the year a success whatever happens, since the rule was about the spending. Our view on
+    that argument sits in the pillar under <a href="/architecture-marketing#how-much-should-an-architecture-firm-spend-on-marketing">how much an architecture firm should spend</a>, and the short version is that you judge spend by what comes back.
+  </p>
+  <p>
+    Four numbers turn a channel list into a plan. What a lead costs. What share of clicks become
+    leads. What share of leads become a booked consultation. What a booked consultation costs all
+    in. Here is the distribution across 21 accounts, 15 September 2025 to 11 September 2026, each
+    account counted once so a single big spender cannot set the median.
+  </p>
+  <table>
+    <tr><th>Metric</th><th>Better quarter (p25)</th><th>Median</th><th>Harder quarter (p75)</th></tr>
+    <tr><td>Cost per lead</td><td>$28.25</td><td>$50.41</td><td>$70.58</td></tr>
+    <tr><td>Click to lead</td><td>12.52%</td><td>9.10%</td><td>5.55%</td></tr>
+    <tr><td>Lead to booked consultation</td><td>44.7%</td><td>32.5%</td><td>15.1%</td></tr>
+    <tr><td>Cost per booked consultation</td><td>$104.78</td><td>$147.76</td><td>$239.57</td></tr>
+  </table>
+  <p>
+    Read the spread rather than the middle. The gap between a good account and a struggling one is
+    roughly 2.3x on cost per booked consultation, and almost none of that gap comes from the ad
+    platform. Offer, creative and how fast somebody calls the lead back do most of the work.
+  </p>
+  <p>
+    The full method, sample and caveats are in the <a href="/architecture-marketing-benchmark-report-2026#the-benchmark-table">architecture marketing benchmark report</a>, and if you want these figures applied to a budget you are actually weighing, the <a href="/architecture-marketing-budget-calculator">budget calculator</a> does the arithmetic.
+  </p>
+  <p>
+    One caution on stacking quartiles. Multiplying a p25 cost per lead by a p25 booking rate
+    produces a number no account in the data has ever hit. Each figure above is measured directly
+    for the metric it describes.
+  </p>
+
+  <h2>What a normal month looks like, so the plan survives one</h2>
+  <p>
+    A median full month of spend across those accounts was $1,452.56 producing 22 leads. The quieter
+    quartile ran $1,141 for 18, the busier one $2,534 for 40. That is the unit the plan is built
+    from, and it is a smaller number than most firms brace for.
+  </p>
+  <p>
+    Leads arrive faster than firms expect and then stop for days at a time. Median time to first
+    lead was one day, 17 of the 21 accounts had one inside week one, and the slowest took twelve
+    days. Meanwhile 747 of 1,839 live account-days produced no leads at all, which is 40.6% of them.
+  </p>
+  <p>
+    Write that into the plan explicitly. A quiet Tuesday and a quiet Wednesday are the ordinary
+    texture of this. Two silent weeks with spend running is a real signal, and the difference
+    between those two states is the thing worth putting a review date against.
+  </p>
+
+  <h2>Start in the cheapest quarter you can reach</h2>
+  <p>
+    Twelve months of data bought one finding that a shorter window cannot produce. Indexing every
+    account-month against that same account's own annual cost per lead, so market and offer cancel
+    out, the seasons separate cleanly.
+  </p>
+  <table>
+    <tr><th>Quarter</th><th>Cost per lead, indexed to the account's own year</th><th>Account-months</th></tr>
+    <tr><td>April to June</td><td>1.12</td><td>16</td></tr>
+    <tr><td>July to September</td><td>0.92</td><td>15</td></tr>
+    <tr><td>October to December</td><td>0.89</td><td>10</td></tr>
+    <tr><td>January to March</td><td>0.87</td><td>11</td></tr>
+  </table>
+  <p>
+    The same firm pays roughly a quarter more per lead in late spring than it does in the first
+    quarter. Everyone in this profession launches in spring because the phone feels busy then, and
+    they buy their leads at the top of the market. If your plan has any flexibility about when it
+    starts, that is where the flexibility is worth spending. The longer read is in <a href="/architecture-marketing-benchmark-report-2026#spring-is-the-expensive-quarter">why spring is the expensive quarter</a>.
+  </p>
+
+  <h2>The plan forks at residential and commercial</h2>
+  <p>
+    Ten of the 21 accounts carry a segment label, seven residential and three commercial, so treat
+    the next paragraph as a direction rather than a benchmark. It is still the only segment split we
+    have seen published anywhere for this profession.
+  </p>
+  <table>
+    <tr><th>Segment</th><th>Cost per lead</th><th>Lead to booked</th><th>Cost per booked consultation</th></tr>
+    <tr><td>Residential (n=7)</td><td>$39.92</td><td>34.8%</td><td>$114.65</td></tr>
+    <tr><td>Commercial (n=3)</td><td>$53.43</td><td>43.2%</td><td>$123.63</td></tr>
+  </table>
+  <p>
+    A commercial lead costs about a third more and books noticeably better, so the two land within
+    about 8% of each other by the time you count a consultation on the calendar. Firms doing
+    commercial work routinely assume they are priced out of paid acquisition. On this data they are
+    paying roughly the same for a conversation.
+  </p>
+  <p>
+    What changes is the argument, not the budget. If you sell to private clients, the plan leans on
+    feeling, process and reassurance, which is <a href="/marketing-for-residential-architects">marketing for residential architects</a>. If you sell to developers, owners and business tenants, it leans on returns, timelines and de-risking, which is <a href="/marketing-for-commercial-architects">marketing for commercial architects</a>. Same channel, different creative and a longer follow-up window.
+  </p>
+
+  <h2>The line most plans get wrong</h2>
+  <p>
+    Where the lead is captured moved cost more than any targeting decision we looked at. Campaigns
+    that collected the lead in an in-platform form averaged $40.55 per lead across 39 campaigns and
+    20 accounts. Campaigns that sent people to a landing page first averaged $70.18 across 9
+    campaigns and 7 accounts. About 78% of all leads in the dataset arrived through a form.
+  </p>
+  <p>
+    That is a 73% difference on the same spend, decided by one setting. Landing pages still earn
+    their place when you need qualification or a download, and the tradeoff is set out in <a href="/architecture-marketing-benchmark-report-2026#lead-forms-against-landing-pages">lead forms against landing pages</a>. Put the choice in the plan deliberately instead of inheriting whatever the last person set up.
+  </p>
+  <p>
+    The second line most plans get wrong is sequencing. A firm with no demand coming in funds a
+    website rebuild first, because it is the concrete thing. Your site makes people who already
+    found you feel safe about inquiring, which is real work and covered in <a href="/website-design-for-architects">website design for architects</a>, and it finds nobody on its own. Fund the thing that brings people to it, then improve what they land on.
+  </p>
+
+  <h2>What this plan cannot tell you</h2>
+  <p>
+    It stops at the booked consultation, on purpose. Across 1,023 booked consultations in our
+    client-side data, 48 carry any recorded outcome and 18 of the 24 tracked calendars record none
+    at all. A show rate calculated on that would be a statistic about our record keeping. Anyone
+    quoting you a projection from ad spend to signed projects is filling that gap with an assumption
+    and usually not saying so.
+  </p>
+  <p>
+    It also says nothing about the channels that compound rather than convert. Search and the
+    written pages behind it take months to move and then keep working, which is <a href="/seo-for-architects">SEO for architects</a>, and the relationships that generate referrals need their own system rather than good intentions, which is <a href="/referral-systems-for-architects">referral systems for architects</a>. Both belong in a twelve-month plan. Neither will fill next quarter.
+  </p>
+
+  <h2>A few honest answers</h2>
+  <h3>How do you write a marketing plan for an architecture firm?</h3>
+  <p>
+    Start from the cost you can accept per booked consultation, work back to a monthly budget at a
+    realistic cost per lead, pick one channel that can deliver at that price, and commit ninety days
+    to it. Then write down the two review dates and what would make you change course. A plan that
+    names a channel without naming a price is a list of intentions.
+  </p>
+  <h3>What percentage of revenue should an architecture firm spend on marketing?</h3>
+  <p>
+    The 5 to 10 percent figure circulating in AI answers is not stated in three of the four sources
+    those answers cite, and the one that does carry a range cites nothing for it. A more useful
+    version: spend what returns more than it costs, measured at the booked consultation, and cap it
+    at what your studio can actually deliver on. A median month in our data was about $1,450.
+  </p>
+  <h3>How long before a marketing plan brings in work?</h3>
+  <p>
+    Leads come quickly on paid channels. Median time to first lead was one day and 17 of 21 accounts
+    had one inside a week. Signed projects follow your own sales cycle, which for commercial work
+    can run many months. Organic search and content sit on a different clock entirely and should be
+    funded as the compounding layer rather than the engine.
+  </p>
+  <h3>What should a small architecture firm's marketing plan include?</h3>
+  <p>
+    One acquisition channel funded properly, a capture method chosen on purpose, a follow-up
+    commitment with a time on it, and the four numbers above tracked monthly. Everything else is
+    optional in year one. Firms lose more to running five channels at a tenth of the required budget
+    than to picking the wrong one.
+  </p>
+  <h3>Does the plan change for a commercial architecture firm?</h3>
+  <p>
+    The economics barely move. Commercial leads cost more and book better, landing within about 8%
+    of residential on cost per booked consultation. What changes is the creative argument, the
+    number of people involved in the decision, and how long you keep showing up before the shortlist
+    exists.
+  </p>
+
+  <h2>Put a price on every line</h2>
+  <p>
+    The plans on the first page of Google are not wrong about what to do. They are silent about what
+    it costs, which leaves every firm owner to guess at the only variable that decides whether the
+    plan is affordable. Take the four numbers above, set them against what a project is worth to
+    you, and you have a year you can actually argue with.
+  </p>
+  <p>
+    Where all of this connects, from first ad to booked consultation, is laid out in <a href="/lead-generation-for-architects#what-a-system-actually-looks-like">lead generation for architects</a>, and the channel most of these numbers came from is <a href="/meta-ads-for-architects#what-it-actually-costs-with-real-numbers">Meta ads for architects</a>. If you would rather compare the firms who do this for a living before committing a year, we wrote that comparison too, in <a href="/best-marketing-agencies-for-architects">the best marketing agencies for architects</a>.
+  </p>
+  <p>
+    If you would rather have the plan built and run for you while you stay on site visits, that is
+    our job, and we get paid when a qualified consultation actually shows up.
+  </p>
+  <a class="cta-block" href="https://ipqmedia.com/book-a-call">Book a call with IPQmedia</a>
+</Base>

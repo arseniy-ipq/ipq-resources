@@ -48,4 +48,7 @@ ai-search-for-architects
 architecture-marketing-budget-calculator
 
 # PENDING APPROVAL (written, built, committed, NOT deployed):
-#   (none)
+#   marketing-plan-for-architects  (written 2026-09-16, autonomous cycle)
+#
+# NOTE: the gate is all-or-nothing, so while a slug sits in this block publish.sh aborts and
+# NOTHING deploys. Uncomment the line above to approve it and release the site.
