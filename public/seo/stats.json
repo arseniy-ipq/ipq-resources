@@ -827,6 +827,11 @@
    "status": "done",
    "due": "2026-09-01",
    "note": "Reddit's share of these SERPs grew: 33 to 39 distinct ranking threads on the identical measurement (top 10, the same 7 queries that returned on 08-01), and reddit.com is the number one organic result on all ten queries. The finding that matters is on the agency-hire query: the AI Overview for 'best marketing agency for architects reddit' is 12 of 18 Reddit threads, and the non-Reddit slots are the same third-party listicles already queued for outreach. IPQmedia appears on that query nowhere at all. Google builds the answer TERAMOK just took out of other people's lists and Reddit threads, the two source types we do not publish ourselves, which is the same objection Perplexity stated out loud on 08-31."
+  },
+  {
+   "title": "Clutch review drive (profile live 09-10)",
+   "status": "in-progress",
+   "note": "2026-09-21: 6 clients picked from the client data and all 6 ask emails written with real numbers, memory/clutch-review-asks-2026-09-21.md. Ranked on booked consultations screened by churn_defcon, not tenure: the longest-tenured account (Kawalek, 12 months) has 8 consultations and would have been the wrong ask. Targets 5 published reviews by end of month 1, 15 by month 3. Arseniy sends; nothing else is blocking."
   }
  ],
  "technical": {
@@ -940,6 +945,19 @@
   }
  },
  "asks": [
+  {
+   "what": "Send the first 3 Clutch review emails. Written, names and numbers already in, at memory/clutch-review-asks-2026-09-21.md",
+   "status": "pending",
+   "minutes": 10,
+   "steps": [
+    "Click https://clutch.co/review/2721109 once to confirm it opens. It came from Clutch's email, not from a fetch, because clutch.co blocks bots.",
+    "Email 1: Yawar Siddiqui, YS Architects, yawar.s@ysarchitecture.com. 239 booked consultations since Aug 2024, the longest relationship on the book. Offer him the phone interview option.",
+    "Email 2: Mardi Bessolo, Bessolo Design Group, mbessolo@bessolo.com. 116 booked consultations since May 2026. Phone interview option too.",
+    "Email 3: Michael Belt, Dwelling Design, mbelt@dwellingdesign.net. 54 booked consultations since Mar 2026, and he is already filming an interview, so he is the easiest yes.",
+    "Three more are written for next week: William Arthur (WHAA), Kurt Lehecka (K. Stephen), Arno Sandoval (Sandoval, the commercial voice). Send 2 to 3 a week, not all at once.",
+    "Do NOT ask Kawalek, Judge, Nexava, McManus or Dennis Fletcher. Reasons for each are in the file. Fletcher is the one to revisit: second-best results on the book, but his ad account reads payment_failed right now."
+   ]
+  },
   {
    "what": "Post one comment in the r/Architects thread 'Marketing Strategies' (reddit.com/r/Architects/comments/16ffh6z). Draft 7 is written and paste-ready",
    "status": "pending",
