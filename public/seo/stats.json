@@ -1,12 +1,12 @@
 {
  "version": 1,
- "updated_at": "2026-09-22T05:20:00Z",
+ "updated_at": "2026-09-23T05:20:00Z",
  "site": "https://ipqmedia.com/resources",
  "kpis": {
   "keywords_tracked": 12,
   "keywords_top100": 8,
   "keywords_top10": 0,
-  "avg_position": 43,
+  "avg_position": 41,
   "indexed_pages": 28,
   "total_pages": 32,
   "content_pages_live": 29,
@@ -18,12 +18,6 @@
   "weeks_tracked": 7
  },
  "rank_history": [
-  {
-   "date": "2026-07-18",
-   "keywords_top100": 1,
-   "keywords_top10": 0,
-   "indexed_pages": 11
-  },
   {
    "date": "2026-07-25",
    "keywords_top100": 3,
@@ -377,6 +371,12 @@
    "keywords_top100": 8,
    "keywords_top10": 0,
    "indexed_pages": 28
+  },
+  {
+   "date": "2026-09-23",
+   "keywords_top100": 8,
+   "keywords_top10": 0,
+   "indexed_pages": 28
   }
  ],
  "keywords": [
@@ -387,10 +387,10 @@
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
    "ranking_url": "https://ipqmedia.com/resources/architecture-marketing",
-   "impressions": 586,
+   "impressions": 565,
    "clicks": 0,
-   "gsc_position": 46.7,
-   "position_stale_since": "2026-09-22"
+   "gsc_position": 47.0,
+   "position_stale_since": "2026-09-23"
   },
   {
    "keyword": "architecture marketing firms",
@@ -399,10 +399,10 @@
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
    "ranking_url": "https://ipqmedia.com/resources/best-marketing-agencies-for-architects",
-   "impressions": 375,
+   "impressions": 363,
    "clicks": 0,
-   "gsc_position": 52.8,
-   "position_stale_since": "2026-09-22"
+   "gsc_position": 52.6,
+   "position_stale_since": "2026-09-23"
   },
   {
    "keyword": "architect marketing agency",
@@ -411,22 +411,22 @@
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
    "ranking_url": "https://ipqmedia.com/resources/best-marketing-agencies-for-architects",
-   "impressions": 416,
+   "impressions": 399,
    "clicks": 0,
    "gsc_position": 58.4,
    "position_stale_since": "2026-09-22"
   },
   {
    "keyword": "architecture marketing agency",
-   "position": 51,
+   "position": 45,
    "top_organic": "www.marketingarchitects.com",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
    "ranking_url": "https://ipqmedia.com/resources/best-marketing-agencies-for-architects",
-   "impressions": 400,
+   "impressions": 383,
    "clicks": 0,
-   "gsc_position": 57.1,
-   "position_stale_since": "2026-09-22"
+   "gsc_position": 56.9,
+   "position_stale_since": "2026-09-23"
   },
   {
    "keyword": "lead generation for architects",
@@ -434,22 +434,22 @@
    "top_organic": "archmarketing.org",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
-   "impressions": 467,
+   "impressions": 447,
    "clicks": 0,
-   "gsc_position": 55.1,
+   "gsc_position": 54.5,
    "ranking_url": "https://ipqmedia.com/resources/lead-generation-for-architects",
-   "position_stale_since": "2026-09-22"
+   "position_stale_since": "2026-09-23"
   },
   {
    "keyword": "marketing agency for architects",
-   "position": 51,
+   "position": 46,
    "top_organic": "www.marketingarchitects.com",
    "ai_overview_present": false,
    "cited_in_ai_overview": false,
    "ranking_url": "https://ipqmedia.com/resources/best-marketing-agencies-for-architects",
-   "impressions": 451,
+   "impressions": 429,
    "clicks": 0,
-   "gsc_position": 58.0
+   "gsc_position": 57.5
   },
   {
    "keyword": "facebook ads for architects",
@@ -457,10 +457,11 @@
    "top_organic": "www.reddit.com",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
-   "impressions": 86,
+   "impressions": 83,
    "clicks": 0,
-   "gsc_position": 24.0,
-   "ranking_url": "https://ipqmedia.com/resources/meta-ads-for-architects"
+   "gsc_position": 23.7,
+   "ranking_url": "https://ipqmedia.com/resources/meta-ads-for-architects",
+   "position_stale_since": "2026-09-23"
   },
   {
    "keyword": "architecture marketing",
@@ -468,10 +469,10 @@
    "top_organic": "archmarketing.org",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
-   "impressions": 121,
+   "impressions": 123,
    "clicks": 0,
    "gsc_position": 54.0,
-   "position_stale_since": "2026-09-22"
+   "position_stale_since": "2026-09-23"
   },
   {
    "keyword": "architecture firm marketing",
@@ -1213,25 +1214,25 @@
   }
  ],
  "search": {
-  "window": "2026-08-23 to 2026-09-19",
+  "window": "2026-08-24 to 2026-09-20",
   "source": "Google Search Console",
   "total": {
-   "impressions": 11813,
-   "clicks": 27,
-   "queries": 200,
-   "avg_position": 55.4
+   "impressions": 11585,
+   "clicks": 26,
+   "queries": 209,
+   "avg_position": 55.2
   },
   "brand": {
-   "impressions": 46,
-   "clicks": 27,
+   "impressions": 43,
+   "clicks": 26,
    "queries": 5,
-   "avg_position": 9.8
+   "avg_position": 6.4
   },
   "non_brand": {
-   "impressions": 11767,
+   "impressions": 11542,
    "clicks": 0,
-   "queries": 195,
-   "avg_position": 55.5
+   "queries": 204,
+   "avg_position": 55.4
   },
   "top_queries": [
    {
@@ -1242,171 +1243,171 @@
    },
    {
     "query": "architect marketing",
-    "impressions": 586,
+    "impressions": 565,
     "clicks": 0,
-    "position": 46.7
+    "position": 47.0
    },
    {
     "query": "architecture and marketing",
-    "impressions": 524,
+    "impressions": 513,
     "clicks": 0,
-    "position": 58.8
+    "position": 59.0
    },
    {
     "query": "lead generation for architects",
-    "impressions": 467,
+    "impressions": 447,
     "clicks": 0,
-    "position": 55.1
+    "position": 54.5
    },
    {
     "query": "marketing agency for architects",
-    "impressions": 451,
+    "impressions": 429,
     "clicks": 0,
-    "position": 58.0
+    "position": 57.5
    },
    {
     "query": "architect marketing agency",
-    "impressions": 416,
+    "impressions": 399,
     "clicks": 0,
     "position": 58.4
    },
    {
     "query": "architecture marketing agency",
-    "impressions": 400,
+    "impressions": 383,
     "clicks": 0,
-    "position": 57.1
+    "position": 56.9
    },
    {
     "query": "architecture firms marketing",
-    "impressions": 391,
+    "impressions": 381,
     "clicks": 0,
-    "position": 54.4
+    "position": 54.5
    },
    {
     "query": "marketing architecture",
-    "impressions": 387,
+    "impressions": 378,
     "clicks": 0,
-    "position": 63.8
+    "position": 64.2
    },
    {
     "query": "architecture marketing firms",
-    "impressions": 375,
+    "impressions": 363,
     "clicks": 0,
-    "position": 52.8
+    "position": 52.6
    },
    {
     "query": "architecture lead generation",
-    "impressions": 343,
+    "impressions": 330,
     "clicks": 0,
-    "position": 62.0
+    "position": 61.3
    },
    {
     "query": "leads for architects",
-    "impressions": 331,
+    "impressions": 320,
     "clicks": 0,
-    "position": 59.5
+    "position": 59.0
    }
   ],
   "top_pages": [
    {
     "url": "/resources/architecture-marketing",
-    "impressions": 5547,
+    "impressions": 5499,
     "clicks": 1,
-    "position": 61.5,
+    "position": 61.7,
     "variants": 2
    },
    {
     "url": "/resources/best-marketing-agencies-for-architects",
-    "impressions": 4642,
+    "impressions": 4501,
     "clicks": 3,
-    "position": 58.1,
+    "position": 57.6,
     "variants": 1
    },
    {
     "url": "/resources/lead-generation-for-architects",
-    "impressions": 1610,
+    "impressions": 1555,
     "clicks": 0,
-    "position": 60.0,
+    "position": 59.4,
     "variants": 2
    },
    {
     "url": "/resources/meta-ads-for-architects",
-    "impressions": 881,
+    "impressions": 879,
     "clicks": 3,
-    "position": 11.6,
+    "position": 11.5,
     "variants": 1
    },
    {
     "url": "/resources/rfp-for-architects",
-    "impressions": 184,
+    "impressions": 183,
     "clicks": 0,
-    "position": 64.7,
+    "position": 64.6,
     "variants": 1
    },
    {
     "url": "/resources",
-    "impressions": 69,
+    "impressions": 70,
     "clicks": 0,
-    "position": 19.6,
+    "position": 19.4,
     "variants": 1
    },
    {
     "url": "/resources/marketing-for-landscape-architects",
-    "impressions": 38,
+    "impressions": 39,
     "clicks": 0,
-    "position": 32.7,
+    "position": 33.1,
     "variants": 1
    },
    {
     "url": "/resources/architecture-marketing-statistics-and-costs-2026",
-    "impressions": 34,
+    "impressions": 32,
     "clicks": 0,
-    "position": 17.9,
+    "position": 16.6,
     "variants": 1
    },
    {
     "url": "/resources/branding-for-architects",
-    "impressions": 29,
+    "impressions": 30,
     "clicks": 0,
-    "position": 37.3,
+    "position": 37.1,
     "variants": 1
    },
    {
     "url": "/resources/google-business-profile-for-architects",
-    "impressions": 29,
+    "impressions": 30,
     "clicks": 0,
-    "position": 17.3,
+    "position": 17.2,
     "variants": 2
    },
    {
     "url": "/resources/partnerships-for-architects",
-    "impressions": 25,
+    "impressions": 24,
     "clicks": 0,
-    "position": 53.0,
+    "position": 52.7,
     "variants": 2
    },
    {
     "url": "/resources/referral-systems-for-architects",
-    "impressions": 25,
+    "impressions": 24,
     "clicks": 0,
-    "position": 27.1,
+    "position": 25.4,
     "variants": 2
    }
   ],
   "cluster": {
    "note": "the /resources guides only, counted by GSC page dimension. Higher than the query totals above because GSC hides anonymized queries from the query dimension. Grade the cluster on these numbers.",
-   "impressions": 13204,
+   "impressions": 12955,
    "clicks": 9,
    "pages": 29,
-   "avg_position": 55.9
+   "avg_position": 55.6
   },
   "url_forms": {
    "note": "impressions by URL form over the same 28d window as search.window (so it runs behind the weekly figure). canonical = https://ipqmedia.com/resources/<slug>. slash forms serve the funnel homepage; legacy = the old subdomain, 301s here.",
-   "apex_canonical": 12193,
-   "apex_slash": 51,
+   "apex_canonical": 11969,
+   "apex_slash": 49,
    "legacy_canonical": 0,
-   "legacy_slash": 960,
-   "slash_share_pct": 7.7
+   "legacy_slash": 937,
+   "slash_share_pct": 7.6
   }
  },
  "behavior": {
