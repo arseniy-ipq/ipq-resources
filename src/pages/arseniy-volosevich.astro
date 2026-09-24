@@ -1,5 +1,10 @@
 ---
-const updated = '2026-08-18';
+const updated = '2026-09-22';
+// Google's ProfilePage wants a full ISO 8601 DateTime with offset. A bare date fails with
+// "Invalid datetime value" (flagged by URL Inspection 2026-09-24). Times are the real commits:
+// 965ad36 created the page, 5a03cb9 last changed it.
+const created = '2026-08-18T09:14:36+02:00';
+const modified = '2026-09-22T09:08:23+02:00';
 import Base from '../layouts/Base.astro';
 const title = 'Arseniy Volosevich, Founder of IPQmedia | IPQmedia';
 const description =
@@ -8,7 +13,8 @@ const site = 'https://resources.ipqmedia.com';
 const profile = {
   '@context': 'https://schema.org',
   '@type': 'ProfilePage',
-  dateModified: updated,
+  dateCreated: created,
+  dateModified: modified,
   mainEntity: {
     '@type': 'Person',
     name: 'Arseniy Volosevich',
@@ -55,7 +61,7 @@ const profile = {
     <img src="/author-arseniy.jpg" width="88" height="88" alt="Arseniy Volosevich" loading="lazy" decoding="async" />
     <div>
       <p class="author-name">Arseniy Volosevich</p>
-      <p class="author-role">Founder, IPQmedia. Writes every guide in the IPQ Field Guide. Last updated 18 Aug 2026.</p>
+      <p class="author-role">Founder, IPQmedia. Writes every guide in the IPQ Field Guide. Last updated 22 Sep 2026.</p>
     </div>
   </div>
 
