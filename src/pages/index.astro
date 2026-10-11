@@ -3,6 +3,24 @@ import Base from '../layouts/Base.astro';
 const title = 'Architecture Marketing Resources | IPQmedia';
 const description =
   'Practical guides on lead generation, paid ads, and client acquisition for US architecture firms, from the team that builds these systems for a living.';
+
+// Video guides and case studies are pages the main ipqmedia.com site serves under
+// /resources/youtube/* and /resources/case-studies/* (agreed with zeus4 2026-10-11).
+// That site publishes the list as JSON; a section renders only when its array is non-empty.
+// A failed fetch drops the sections rather than failing the build, and says so in the log.
+type FeedItem = { url: string; title: string; description?: string; thumbnail?: string | null };
+let youtube: FeedItem[] = [];
+let caseStudies: FeedItem[] = [];
+try {
+  const res = await fetch('https://ipqmedia.com/resources-feed.json');
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const feed = await res.json();
+  const ok = (i: any) => i && typeof i.url === 'string' && i.url.startsWith('https://ipqmedia.com/') && typeof i.title === 'string';
+  youtube = (feed.youtube ?? []).filter(ok);
+  caseStudies = (feed.case_studies ?? []).filter(ok);
+} catch (e) {
+  console.warn(`[hub] resources-feed.json unavailable, video and case-study sections skipped: ${e}`);
+}
 ---
 
 <Base title={title} description={description}>
@@ -20,7 +38,7 @@ const description =
     it whether you hire help or do it yourself.
   </p>
 
-  <h2>Start here</h2>
+  <h2>Guides</h2>
   <div class="card-grid">
     <a class="card" href="/architecture-marketing">
       <h3>Architecture marketing: the full picture →</h3>
@@ -154,6 +172,36 @@ const description =
       <p>Where the searching actually happens. Search volume and competition for architect queries across US metros, and what the numbers say about which markets are worth advertising into.</p>
     </a>
   </div>
+
+  {caseStudies.length > 0 && (
+    <>
+      <h2>Case studies</h2>
+      <div class="card-grid">
+        {caseStudies.map((i) => (
+          <a class="card" href={i.url}>
+            {i.thumbnail && <img src={i.thumbnail} alt="" loading="lazy" />}
+            <h3>{i.title} →</h3>
+            {i.description && <p>{i.description}</p>}
+          </a>
+        ))}
+      </div>
+    </>
+  )}
+
+  {youtube.length > 0 && (
+    <>
+      <h2>Video guides</h2>
+      <div class="card-grid">
+        {youtube.map((i) => (
+          <a class="card" href={i.url}>
+            {i.thumbnail && <img src={i.thumbnail} alt="" loading="lazy" />}
+            <h3>{i.title} →</h3>
+            {i.description && <p>{i.description}</p>}
+          </a>
+        ))}
+      </div>
+    </>
+  )}
 
   <h2>Who this is for</h2>
   <p>
