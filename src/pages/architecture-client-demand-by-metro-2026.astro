@@ -1,10 +1,10 @@
 ---
 const published = '2026-07-30';
-const updated = '2026-10-07';
+const updated = '2026-10-11';
 import Base from '../layouts/Base.astro';
 const title = 'Architecture Client Demand by Metro (2026): What 16 US Markets Actually Search | IPQmedia';
 const description =
-  'Google search data for 16 US metros next to our own ad account costs in five of them. Architect demand is small everywhere, click prices vary 4x with no relation to demand, and the size of your service area barely predicts your cost per lead.';
+  'Google search data for 16 US metros next to our own ad account costs in five of them. Architect demand is small everywhere, click prices vary 4x with no relation to demand, and two firms in the same metro differ more than the metros do.';
 ---
 
 <Base title={title} description={description} published={published} updated={updated}>
@@ -25,7 +25,7 @@ const description =
 
   <div class="answer">
     <p class="answer-label">The short answer</p>
-    <p>Search demand for architects is small in every US metro. Across 16 of the largest, all architect-intent searches together come to about 13,040 a month, from 3,340 in New York down to 260 in Nashville. In the same 16 metros the adjacent trades people hire instead, general contractors, custom builders, kitchen remodelers and interior designers, draw 68,990 searches, more than five times as many. Google's click price for the same intent swings from $3.98 to $17.17 depending on the metro, with no relationship to how much demand is there. And in our own ad accounts, the size of a firm's service area barely predicts its cost per lead.</p>
+    <p>Search demand for architects is small in every US metro. Across 16 of the largest, all architect-intent searches together come to about 13,040 a month, from 3,340 in New York down to 260 in Nashville. In the same 16 metros the adjacent trades people hire instead, general contractors, custom builders, kitchen remodelers and interior designers, draw 68,990 searches, more than five times as many. Google's click price for the same intent swings from $3.98 to $17.17 depending on the metro, with no relationship to how much demand is there. And in our own ad accounts, two firms in the same metro differ more in cost per lead than the metro medians do, so the market explains less than firms assume.</p>
   </div>
 
   <p>
@@ -106,9 +106,15 @@ const description =
   <h2>What our own accounts cost in five of these metros</h2>
   <p>
     We run paid social for architecture firms, which means we can put real cost per lead next to
-    Google's click prices in the same markets. Across 18 US firm accounts, $98,724 in spend, 1,808
-    leads and 690 booked consultations between 15 September 2025 and 30 July 2026, five of these
-    metros have accounts we can report.
+    Google's click prices in the same markets. The accounts are the 21 in our <a href="/architecture-marketing-benchmark-report-2026">benchmark report</a>: $117,656 in spend and 2,419 leads between
+    15 September 2025 and 11 September 2026, re-cut by market on 11 October 2026.
+  </p>
+  <p>
+    An account counts for a metro when the service area the firm wrote down before launch is
+    centered on it, and when it produced at least 20 leads in the window. That rule moves one
+    Miami-based firm into New York, because its ads ran on 25 Long Island ZIP codes. It also leaves
+    Austin and Dallas off the table: the Austin firm's ads ran on ZIP codes in six states, and the
+    Dallas firm's on all of Texas.
   </p>
 
   <table>
@@ -116,40 +122,39 @@ const description =
       <tr><th>Metro</th><th>Our accounts</th><th>Our median cost per lead</th><th>Google CPC</th><th>Architect searches / mo</th></tr>
     </thead>
     <tbody>
-      <tr><td>Austin, TX</td><td>2</td><td>$91.48</td><td>$17.17</td><td>310</td></tr>
-      <tr><td>Denver, CO</td><td>2</td><td>$71.83</td><td>$13.85</td><td>590</td></tr>
-      <tr><td>Tampa-St. Petersburg, FL</td><td>1 (commercial)</td><td>$64.53</td><td>$4.99</td><td>510</td></tr>
-      <tr><td>New York, NY</td><td>2</td><td>$60.16</td><td>$8.04</td><td>3,340</td></tr>
-      <tr><td>Miami-Ft. Lauderdale, FL</td><td>1</td><td>$43.94</td><td>$10.63</td><td>410</td></tr>
+      <tr><td>Miami-Ft. Lauderdale, FL</td><td>1</td><td>$77.63</td><td>$10.63</td><td>410</td></tr>
+      <tr><td>Denver, CO</td><td>2</td><td>$73.02</td><td>$13.85</td><td>590</td></tr>
+      <tr><td>Tampa-St. Petersburg, FL</td><td>1</td><td>$61.51</td><td>$4.99</td><td>510</td></tr>
+      <tr><td>Los Angeles, CA</td><td>2 (1 commercial)</td><td>$57.87</td><td>$14.71</td><td>2,190</td></tr>
+      <tr><td>New York, NY</td><td>3</td><td>$53.30</td><td>$8.04</td><td>3,340</td></tr>
     </tbody>
   </table>
 
   <p>
-    Two accounts per metro is an anecdote, so read this as a reason to check your own market rather
-    than as a law. The two metros where Google charges the most are also the two where our leads
-    cost the most, which fits the idea that competition for the same wealthy buyers shows up in both
-    auctions. Below that pair the order falls apart, and Tampa is cheap on Google while sitting
-    third on ours.
+    One to three accounts per metro is an anecdote, so read this as a reason to check your own
+    market rather than as a law. Even so, Google's click price does not predict ours. Los Angeles
+    has the second most expensive click of the five and our second cheapest leads. Tampa has the
+    cheapest click by a distance and sits in the middle on ours. Denver is the only metro that is
+    expensive in both auctions.
+  </p>
+  <p>
+    The sharper finding is inside a single metro. Our three New York accounts ran from $29.86 to
+    $64.11 per lead, a factor of 2.1. The five metro medians run from $53.30 to $77.63, a factor of
+    1.5. Two firms in the same market differ more than the markets do, so most of what sets a
+    firm's cost per lead travels with the firm.
   </p>
   <p>
     Worth saying plainly: a Google click and a Meta lead are different things bought in different
     auctions. Comparing them tells you about the temperature of a market, not about which channel
     to buy.
   </p>
-  <p>
-    One more figure from Austin, because it is the sharpest thing in this data. Google says about
-    310 people a month search for an architect in that whole metro. Our two Austin accounts produced
-    276 direct inquiries in the periods they ran. Those two things are not the same as each other,
-    and that is the point. The demand you can capture in a market is fixed and thin. The demand you
-    can create is not.
-  </p>
 
   <h2>How far should your service radius reach</h2>
   <p>
     Here is where we expected a clean answer and did not get one. Every firm writes its own service
     area on our onboarding form before a single ad runs, in its own words, which makes it a clean
-    record of intent rather than a story told after the results came in. Twelve accounts have both a
-    written service area and enough spend to judge.
+    record of intent rather than a story told after the results came in. Eighteen of the 21
+    accounts have both a written service area and at least 20 leads in the window.
   </p>
 
   <table>
@@ -157,43 +162,49 @@ const description =
       <tr><th>Home market</th><th>Service area, in the firm's own words</th><th>Cost per lead</th></tr>
     </thead>
     <tbody>
-      <tr><td>Miami, FL</td><td>25 ZIP codes in one wealthy stretch of Long Island, NY</td><td>$28.59</td></tr>
-      <tr><td>Upstate SC</td><td>Four states: SC, NC, GA, TN</td><td>$33.45</td></tr>
-      <tr><td>Ft. Lauderdale, FL</td><td>All of Florida, open to national projects</td><td>$43.94</td></tr>
-      <tr><td>Boise, ID</td><td>100 mile radius</td><td>$45.07</td></tr>
-      <tr><td>St. Louis, MO</td><td>Five states: TX, FL, LA, CO, WA</td><td>$54.71</td></tr>
-      <tr><td>Long Island, NY</td><td>NY, NJ, CT</td><td>$57.89</td></tr>
-      <tr><td>Northern NJ</td><td>25 miles, six named counties</td><td>$62.43</td></tr>
-      <tr><td>Tampa Bay, FL (commercial)</td><td>Service map plus North Carolina</td><td>$64.53</td></tr>
-      <tr><td>Vail, CO</td><td>250 miles to start</td><td>$71.44</td></tr>
+      <tr><td>Los Angeles area, CA</td><td>Nationwide, about 80 ZIP codes with median household income above $250,000</td><td>$17.57</td></tr>
+      <tr><td>Upstate SC</td><td>Four states: SC, NC, GA, TN</td><td>$22.20</td></tr>
+      <tr><td>Memphis, TN</td><td>Three states: TN, AR, MO</td><td>$24.23</td></tr>
+      <tr><td>Maryland</td><td>Ten states, Pennsylvania down to Georgia</td><td>$26.64</td></tr>
+      <tr><td>Miami, FL</td><td>25 ZIP codes on Long Island, NY</td><td>$29.86</td></tr>
+      <tr><td>St. Louis, MO (commercial)</td><td>Missouri and Illinois mainly, licensed in 42 states</td><td>$32.75</td></tr>
+      <tr><td>Dallas, TX</td><td>Texas</td><td>$34.22</td></tr>
+      <tr><td>Boise, ID</td><td>100 mile radius</td><td>$40.82</td></tr>
+      <tr><td>Santa Barbara, CA (commercial)</td><td>San Luis Obispo to San Diego, plus Palm Springs</td><td>$46.80</td></tr>
+      <tr><td>Northwest Indiana</td><td>IL, IN and MI, ideally Chicago to Indianapolis</td><td>$50.41</td></tr>
+      <tr><td>Long Island, NY</td><td>NY, NJ, CT</td><td>$53.30</td></tr>
+      <tr><td>St. Louis, MO (commercial)</td><td>Five states: TX, FL, LA, CO, WA</td><td>$60.23</td></tr>
+      <tr><td>Tampa Bay, FL</td><td>Service map plus North Carolina</td><td>$61.51</td></tr>
+      <tr><td>Northern NJ</td><td>25 miles, six named counties</td><td>$64.11</td></tr>
       <tr><td>Denver, CO</td><td>Denver plus 120 miles, plus three cities in other states</td><td>$72.22</td></tr>
-      <tr><td>Austin, TX</td><td>An eight-state ZIP list plus 300 miles of Austin and Los Angeles</td><td>$88.56</td></tr>
-      <tr><td>Austin, TX</td><td>High-income ZIP codes within 75 miles, low-income excluded</td><td>$94.40</td></tr>
+      <tr><td>Vail, CO</td><td>250 miles to start</td><td>$73.82</td></tr>
+      <tr><td>Miami, FL</td><td>Jupiter to the Florida Keys, plus Naples-Fort Myers</td><td>$77.63</td></tr>
+      <tr><td>Austin, TX</td><td>11 ZIP codes in six states, plus 300 miles of Austin and Los Angeles</td><td>$88.56</td></tr>
     </tbody>
   </table>
 
   <p>
-    The list is sorted by cost per lead, and the footprints do not sort with it. The cheapest account
-    in the set covers 25 ZIP codes. The second cheapest covers four states. The most expensive covers
-    75 miles and the second most expensive covers eight states.
+    The list is sorted by cost per lead, and the footprints only loosely sort with it. The cheapest
+    account covers about 80 ZIP codes scattered across the country. The cheapest account aimed at
+    one area covers 25 ZIP codes on Long Island and sits fifth. The most expensive covers a ZIP
+    list in six states plus two 300 mile circles.
   </p>
   <p>
-    Grouped, firms working from a single anchored radius ran a median of $71.44 against $54.71 for
-    firms who listed several states, so there is a lean in the direction you would expect, around
-    1.3x. With five accounts on one side and seven on the other, and exceptions as large as the
-    effect, we would not hand that number to anyone as a rule.
+    Grouped, the four firms working from a single radius around the office ran a median of $68.17
+    against $41.58 for the ten that listed several states or a national ZIP list, a lean of about
+    1.6x in the direction you would expect. With four accounts on one side, ten on the other and
+    exceptions as large as the effect, we would not hand that number to anyone as a rule.
   </p>
   <p>
     The honest version is a distinction about what is being compared. Narrowing one live campaign
     from five states to two cities does raise its cost per lead, typically by half again or more,
-    which is what three years of running these accounts has taught us. Comparing twelve different
-    firms with twelve different offers, portfolios and price points tells you very little about
+    which is what three years of running these accounts has taught us. Comparing eighteen different
+    firms with eighteen different offers, portfolios and price points tells you very little about
     geography, because geography is the smallest of the things that differ.
   </p>
   <p>
-    What did move the number, on the same accounts, was who the ads pointed at. Firms that named an
-    affluence target paid roughly 2.3 times more per lead than firms that named none, and the
-    mechanism is measurable. That analysis is in <a href="/marketing-for-high-end-residential-architects#what-a-wealthy-lead-actually-costs-from-our-own-accounts">marketing for high-end residential architects</a>. If your leads feel expensive, the income tier you are chasing is a better suspect than the radius on the map.
+    If your leads feel expensive, look at the offer and the income tier the ads point at before the
+    radius on the map. The income-tier question has its own analysis in <a href="/marketing-for-high-end-residential-architects#what-a-wealthy-lead-actually-costs-from-our-own-accounts">marketing for high-end residential architects</a>.
   </p>
 
   <h2>Region beats metro for reading the market</h2>
@@ -224,9 +235,10 @@ const description =
     makes geography a real lever for you.
   </p>
   <p>
-    A ZIP list built from property values usually beats a circle drawn around your office, and the
-    cheapest account in our table is a firm doing exactly that. Homeowners in that stretch of Long
-    Island are not a group you reach by widening a radius. The residential playbook is in <a href="/marketing-for-residential-architects">marketing for residential architects</a>.
+    A ZIP list built from income or property values usually beats a circle drawn around your
+    office, and our table shows it. About 80 high-income ZIP codes nationwide ran at $17.57 a lead,
+    and 25 ZIP codes on Long Island at $29.86, both below every account that drew a circle. Wealthy
+    homeowners are reached by naming where they live. The residential playbook is in <a href="/marketing-for-residential-architects">marketing for residential architects</a>.
   </p>
   <p>
     Commercial practice breaks the map entirely. The site is local, the decision-maker often is not.
@@ -257,9 +269,10 @@ const description =
   </p>
   <h3>Should I only target my own city?</h3>
   <p>
-    Start where you can actually service the work and get paid to travel. Beyond that, our data
-    gives no reason to believe a wider map buys cheaper leads by itself. Widen because your practice
-    can genuinely take the project, not because you are hoping the cost per lead drops.
+    Start where you can actually service the work and get paid to travel. Across our accounts the
+    firms with wider maps paid a little less per lead, but they also differ in offer, portfolio and
+    price point, so that lean is weak evidence. Widen because your practice can genuinely take the
+    project, not because you are hoping the cost per lead drops.
   </p>
   <h3>How many searches does my metro get if it is not on this list?</h3>
   <p>
@@ -270,8 +283,8 @@ const description =
   <h3>Does a bigger service radius mean cheaper leads on Meta?</h3>
   <p>
     Within one campaign, usually yes, because a wider audience gives the auction more room. Across
-    different firms, no. The 12 accounts above run from $28.59 to $94.40 with footprints in no
-    particular order, so treat radius as an operational decision and look at your offer and your
+    different firms, only loosely. The 18 accounts above run from $17.57 to $88.56 and the
+    footprints barely sort with the cost, so treat radius as an operational decision and look at your offer and your
     target income tier when the cost per lead is the thing you want to change.
   </p>
 
@@ -294,7 +307,9 @@ const description =
   </p>
   <p>
     Cost per lead figures are our own aggregate ad account data, one observation per account so that
-    no single large spender moves a median, over 15 September 2025 to 30 July 2026. Client names are
+    no single large spender moves a median, over 15 September 2025 to 11 September 2026, the same
+    21 accounts and window as our benchmark report. Accounts with fewer than 20 leads in the window
+    are left out of both tables. Client names are
     never published. We report cost per lead and cost per booked consultation because we measure
     them. We do not publish cost per signed project, because that closes in the firm's office and we
     cannot see it.
@@ -317,5 +332,5 @@ const description =
     You can wait for the 310 people in Austin, or you can go and find the 1,710 who are already
     planning something. The full map of how the channels fit together is <a href="/architecture-marketing#what-architecture-marketing-actually-is-in-four-moving-parts">architecture marketing</a>. If you would rather have the engine built and run for you than reverse-engineer your own metro between site visits, that is what we do, and we get paid when a qualified consultation actually shows up.
   </p>
-  <a class="cta-block" href="https://beam.ipqmedia.com/program">Book a call with IPQmedia</a>
+  <a class="cta-block" href="https://ipqmedia.com/book-a-call">Book a call with IPQmedia</a>
 </Base>
