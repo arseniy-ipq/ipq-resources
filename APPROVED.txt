@@ -49,6 +49,7 @@ architecture-marketing-budget-calculator
 
 # PENDING APPROVAL (written, built, committed, NOT deployed):
 #   marketing-plan-for-architects  (written 2026-09-16, autonomous cycle)
+#   consultation-booking-for-architects  (written 2026-10-14, autonomous cycle)
 #
 # Uncomment the line above to approve it and release it to the live site.
 #
