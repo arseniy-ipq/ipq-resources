@@ -10,6 +10,7 @@ const {
   published,
   updated,
   kicker = 'The IPQ Field Guide',
+  video,
 } = Astro.props;
 // ⚠ build-time internal form — publish.sh canonicalizes to https://ipqmedia.com/resources
 // at deploy. Do NOT append /resources here: new URL(pathname, site) drops subpaths.
@@ -162,6 +163,41 @@ if (published) {
   };
 }
 
+// ---- VideoObject JSON-LD for a page's video twin (STRATEGY.md ruling 7c, 2026-10-15) ----
+// Optional `video` prop: { id, name, description, uploadDate: 'YYYY-MM-DD', duration: 'm:ss',
+// chapters: [{ name, start: 'm:ss' }] }. Each chapter becomes a Clip so Google can show key
+// moments; AI Overviews already cite architect videos at a timestamp (&t=), see
+// memory/youtube-aeo-pack-2026-10-15.md. Lives in <head>, not the body, so it stays out of the
+// reading-time count and the text an AI crawler extracts. No video prop = nothing emitted.
+const secs = (t) => t.split(':').reduce((a, n) => a * 60 + Number(n), 0);
+let videoLd = null;
+if (video) {
+  const watch = `https://www.youtube.com/watch?v=${video.id}`;
+  const total = secs(video.duration);
+  const ch = video.chapters || [];
+  videoLd = {
+    '@context': 'https://schema.org',
+    '@type': 'VideoObject',
+    name: video.name,
+    description: video.description,
+    thumbnailUrl: [`https://i.ytimg.com/vi/${video.id}/maxresdefault.jpg`],
+    uploadDate: video.uploadDate,
+    duration: `PT${Math.floor(total / 60)}M${total % 60}S`,
+    embedUrl: `https://www.youtube.com/embed/${video.id}`,
+    url: watch,
+    publisher: { '@type': 'Organization', name: 'IPQmedia', url: 'https://ipqmedia.com' },
+    ...(ch.length && {
+      hasPart: ch.map((c, i) => ({
+        '@type': 'Clip',
+        name: c.name,
+        startOffset: secs(c.start),
+        endOffset: i + 1 < ch.length ? secs(ch[i + 1].start) : total,
+        url: `${watch}&t=${secs(c.start)}`,
+      })),
+    }),
+  };
+}
+
 // ---- BreadcrumbList JSON-LD (2026-08-27) ----
 // Verified against Google's structured-data gallery the day it shipped: Breadcrumb is still a
 // supported Search feature, unlike FAQ (retired 7 May 2026) and unlike Dataset, which Google
@@ -227,6 +263,7 @@ const breadcrumb = {
     <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumb)} />
     {article && <script is:inline type="application/ld+json" set:html={JSON.stringify(article)} />}
     {faq && <script is:inline type="application/ld+json" set:html={JSON.stringify(faq)} />}
+    {videoLd && <script is:inline type="application/ld+json" set:html={JSON.stringify(videoLd)} />}
   </head>
   <body>
     <header class="site-head">

@@ -1,0 +1,18 @@
+---
+// A page's video twin (STRATEGY.md ruling 7c). Renders a thumbnail that links out to YouTube,
+// so the page loads no player script and the static HTML still carries the title and caption.
+// Pair it with the `video` prop on Base, which emits the VideoObject + chapter Clips.
+// Usage: <VideoTwin id="abc123XYZ_0" title="..." caption="..." />
+const { id, title, caption } = Astro.props;
+---
+<figure class="video-twin">
+  <a href={`https://www.youtube.com/watch?v=${id}`} rel="noopener" target="_blank">
+    <img src={`https://i.ytimg.com/vi/${id}/hqdefault.jpg`} alt={`Watch on YouTube: ${title}`} width="480" height="360" loading="lazy" />
+  </a>
+  {caption && <figcaption>{caption}</figcaption>}
+</figure>
+<style>
+  .video-twin { margin: 1.5rem 0; }
+  .video-twin img { width: 100%; height: auto; border-radius: 6px; display: block; }
+  .video-twin figcaption { font-size: 0.9rem; margin-top: 0.4rem; }
+</style>
