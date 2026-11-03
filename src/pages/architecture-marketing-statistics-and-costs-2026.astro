@@ -1,10 +1,10 @@
 ---
 const published = '2026-07-25';
-const updated = '2026-10-05';
+const updated = '2026-11-03';
 import Base from '../layouts/Base.astro';
 const title = 'Architecture Marketing Statistics and Costs (2026) | IPQmedia';
 const description =
-  'What it actually costs an architecture firm to win a client in 2026: real cost per lead from 21 firm ad accounts, live Google click prices, agency retainer ranges, and the market data behind all of it.';
+  'What it actually costs an architecture firm to win a client in 2026: real cost per lead from 21 firm ad accounts, live Google click prices, what agencies charge, and the market data behind all of it.';
 ---
 
 <Base title={title} description={description} published={published} updated={updated}>
@@ -25,7 +25,7 @@ const description =
 
   <div class="answer">
     <p class="answer-label">The short answer</p>
-    <p>An architecture firm buying its own client flow in 2026 is looking at about $50 in Meta ad spend per lead and about $148 per booked consultation for the median firm, based on 2,419 leads across 21 US architecture firm ad accounts between September 2025 and September 2026. Google search clicks on architecture terms run about $4 to $18 each before anyone fills in anything, and $10 on "architect near me" itself. Agency retainers commonly run $2,500 to $12,000 a month. Set against architecture fees of 8 to 15 percent of construction cost, one signed residential project usually covers a year of all of it.</p>
+    <p>An architecture firm buying its own client flow in 2026 is looking at about $50 in Meta ad spend per lead and about $148 per booked consultation for the median firm, based on 2,419 leads across 21 US architecture firm ad accounts between September 2025 and September 2026. Google search clicks on architecture terms run about $4 to $18 each, and $10 on "architect near me" itself. Clutch puts typical agency engagements at $5,000 to $50,000 a month, and none of the 15 agencies serving architects that we checked publishes its own price. Set against architecture fees of 8 to 15 percent of construction cost, one signed residential project usually covers a year of all of it.</p>
   </div>
 
   <h2>The market you are marketing into</h2>
@@ -265,14 +265,42 @@ const description =
 
   <h2>What the help costs</h2>
   <p>
-    Last cost bucket: hiring someone. Agency retainers for a small architecture firm commonly
-    land between $2,500 and $12,000 a month in 2026, with entry-level engagements near $1,000 to
-    $3,000 and full-service shops running $15,000 and up. Brand and identity work is priced
-    separately, typically $5,000 to $20,000 for a small firm, $20,000 to $90,000 for deep
-    strategy work, and $2,500 to $10,000 for a logo on its own.
+    Last cost bucket: hiring someone. Clutch, which tracks pricing across 106,043 digital
+    marketing firms, puts typical engagements at $5,000 to $50,000 a month in its <a href="https://clutch.co/agencies/digital-marketing/pricing" rel="nofollow">digital marketing pricing guide</a> (updated 21 September 2026), with most reviewed projects landing between $10,000 and $49,999.
   </p>
   <p>
-    Those ranges say nothing about whether the money works, because a retainer bills for time
+    Branding is bought as a project rather than a retainer. Clutch's <a href="https://clutch.co/agencies/branding/pricing" rel="nofollow">branding pricing guide</a>, updated the same day, puts most branding projects at $10,000 to $49,999, the average at $71,652, and the typical timeline at eight months.
+  </p>
+  <p>
+    Both are cross-industry numbers. We wanted the architecture one, so on 3 November 2026 we
+    checked the websites of all 15 agencies in <a href="/best-marketing-agencies-for-architects">our ranking of marketing agencies for architects</a>, ours included: the homepage, any pricing, packages or plans page, and every sitemap URL with a pricing word in it.
+  </p>
+  <table>
+    <thead><tr><th>What the agency's website says about price</th><th>Agencies</th></tr></thead>
+    <tbody>
+      <tr><td>A monthly fee, package price or starting rate in dollars</td><td>0 of 15</td></tr>
+      <tr><td>A pricing page with no figure on it ("A flat monthly fee, set before you sign... The exact figure comes on the call")</td><td>1</td></tr>
+      <tr><td>Pricing described in words only ("a straightforward monthly fee", "Price follows scope, so there is no rate card")</td><td>2</td></tr>
+      <tr><td>How the agency gets paid, with no figure (that row is us: paid when a qualified consultation shows)</td><td>1</td></tr>
+      <tr><td>Nothing about the agency's own price</td><td>11</td></tr>
+    </tbody>
+  </table>
+  <p>
+    So the honest answer to what an architecture marketing agency costs is that none of us will
+    put it in writing, and we are in that zero too.
+  </p>
+  <p>
+    It is a slightly awkward finding for an
+    industry that tells architects to publish their own fees, which is exactly the case we make
+    in <a href="/website-design-for-architects#wont-talking-about-fees-scare-clients-away">website design for architects</a>. It also means that when a firm owner asks an AI engine the question, the answer gets built from cross-industry guides like Clutch's rather than from the agencies that actually serve architects.
+  </p>
+  <p>
+    Until that changes, the useful move on any agency call is to ask three things before
+    anything else: the monthly fee, whether ad spend sits on top of it, and what you pay in a
+    month when no consultations come in.
+  </p>
+  <p>
+    None of those numbers say whether the money works, because a retainer bills for time
     whether or not clients show up. The comparison of what each pricing model actually rewards is
     in <a href="/pay-per-lead-vs-retainer-for-architects#the-three-models-side-by-side">pay per lead vs retainer for architects</a>, and if you are weighing shops against each other, we ranked the field in <a href="/best-marketing-agencies-for-architects">the best marketing agencies for architects</a>. Worth saying plainly: we sell one of these models, so read our ranking knowing that.
   </p>
@@ -302,8 +330,13 @@ const description =
   </p>
   <h3>How much do architecture marketing agencies charge?</h3>
   <p>
-    Retainers for small firms commonly run $2,500 to $12,000 a month in 2026, entry engagements
-    $1,000 to $3,000, and full-service work $15,000 and up. Performance-based arrangements price
+    Clutch's September 2026 pricing data, drawn from 106,043 digital marketing firms, puts typical
+    engagements at $5,000 to $50,000 a month, and branding projects mostly at $10,000 to $49,999.
+    None of the 15 agencies serving architects that we checked in November 2026 publishes its own
+    price, so the figure only comes on a call.
+  </p>
+  <p>
+    Performance-based arrangements price
     differently: you fund the ad spend and pay the agency when a qualified consultation actually
     books. What matters more than the rate is which party carries the risk if the pipeline stays
     empty.
@@ -333,7 +366,12 @@ const description =
   </p>
   <p>
     Fee percentages: published 2026 A/E fee estimating guidelines. Search volumes and cost per
-    click: Google Ads data pulled 5 October 2026 and 25 July 2026, United States. Conversion rate reference: <a href="https://localiq.com/blog/search-advertising-benchmarks/" rel="nofollow">LocaliQ
+    click: Google Ads data pulled 5 October 2026 and 25 July 2026, United States.
+  </p>
+  <p>
+    Agency and
+    branding prices: Clutch's digital marketing and branding pricing guides, both updated 21
+    September 2026, and our own check of 15 architecture marketing agency websites on 3 November 2026. Conversion rate reference: <a href="https://localiq.com/blog/search-advertising-benchmarks/" rel="nofollow">LocaliQ
     2026 search advertising benchmarks</a>, last updated 1 June 2026.
   </p>
   <p>
