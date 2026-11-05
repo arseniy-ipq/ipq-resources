@@ -1,6 +1,6 @@
 ---
 const published = '2026-09-10';
-const updated = '2026-09-10';
+const updated = '2026-11-05';
 import Base from '../layouts/Base.astro';
 const title = 'AI Search for Architects: What ChatGPT and Google Actually Cite | IPQmedia';
 const description =
@@ -151,6 +151,41 @@ const description =
     buyer questions into pages is in <a href="/content-marketing-for-architects#the-questions-your-buyers-are-already-typing">content marketing for architects</a>, and the technical layer that lets a crawler read any of it is in <a href="/seo-for-architects#what-about-ai-answers-eating-the-clicks">SEO for architects</a>.
   </p>
 
+  <h2>What AI actually sent to our own site</h2>
+  <p>
+    We publish guides like these ourselves, so we can measure the other half: who shows up after an
+    AI engine names you. We pulled every visit to ipqmedia.com referred by ChatGPT, Perplexity,
+    Gemini, Copilot or Claude between 1 July and 4 November 2026.
+  </p>
+  <p>
+    Before counting, we removed one automated burst: eleven "visitors" who all opened the same page
+    on 18 October, nine of them from Council Bluffs, Iowa, home to a <a href="https://datacenters.google/locations/iowa/" rel="nofollow">Google data center campus</a>, plus one more on an
+    800-pixel headless screen. That left 20 real people.
+  </p>
+  <table>
+    <tr><th>AI-referred visitors</th><th>Jul to Sep</th><th>Oct to 4 Nov</th><th>Total</th></tr>
+    <tr><td>People</td><td>12</td><td>8</td><td>20</td></tr>
+    <tr><td>Landed on a guide</td><td>4</td><td>4</td><td>8</td></tr>
+    <tr><td>Landed on the homepage or a company page</td><td>8</td><td>4</td><td>12</td></tr>
+    <tr><td>Located in the US</td><td>3</td><td>2</td><td>5</td></tr>
+    <tr><td>Booked a call</td><td>1</td><td>0</td><td>1</td></tr>
+  </table>
+  <p>
+    ChatGPT sent 19 of the 20. Perplexity sent one person, who came back to our agency ranking four
+    times over three weeks. Gemini, Copilot and Claude sent nobody we could identify, which says more
+    about what those products pass along as a referrer than about whether they read the site.
+  </p>
+  <p>
+    The guide share is the part that moved. Over the summer a third of AI visitors landed on a
+    guide. Since October it is half, and the single most common landing was our <a href="/meta-ads-for-architects">Meta ads guide for architects</a>: four people in four countries, on a page that earned one Google click in the same four weeks. That is the 63% finding above, seen from the receiving end.
+  </p>
+  <p>
+    The volume is the honest part. Twenty people in four months, five of them in the US, one booking.
+    That booking was real: a US visitor arrived from ChatGPT on 28 August and booked a call about
+    four minutes after landing. Over the four weeks to 1 November, 38 of the 41 calls booked on our
+    own calendar came from paid ads. AI gets you named. Ads fill the calendar.
+  </p>
+
   <h2>The honest limits of all this</h2>
   <p>
     Being cited is not the same as being visited. Pew Research Center analyzed the browsing of 900
@@ -196,12 +231,20 @@ const description =
     that rank, written more directly, and the technical requirements overlap almost entirely. What
     changes is the payoff to expect from each page, and how you measure whether it landed.
   </p>
+  <h3>Does traffic from ChatGPT turn into clients?</h3>
+  <p>
+    Rarely, and it is worth knowing why. On our own site, 20 people arrived from AI engines between
+    July and early November 2026 and one booked a call, minutes after landing. The visit is rare because the
+    engine answers the question itself. The person who does click has usually already decided you
+    are worth a look, so make sure the page they land on has a clear next step.
+  </p>
   <h3>How would I even check whether an AI recommends my firm?</h3>
   <p>
     Ask it, in a logged-out session, the question a client would ask, and write down what it says
     and what it cites. Same day each month, same wording, so the answers are comparable. Vary the
-    wording once a quarter to see how fragile the result is. It takes twenty minutes and it is the
-    only measurement here that costs nothing.
+    wording once a quarter to see how fragile the result is. Then filter your analytics for utm_source=chatgpt.com, the tag
+    ChatGPT adds to its links. 126 of our 151 tagged pageviews carried no referrer, so untagged they
+    would pass for direct traffic.
   </p>
 
   <h2>Write the page your client is about to ask about</h2>
