@@ -1,12 +1,12 @@
 {
  "version": 1,
- "updated_at": "2026-09-23T05:20:00Z",
+ "updated_at": "2026-11-05T06:18:00Z",
  "site": "https://ipqmedia.com/resources",
  "kpis": {
   "keywords_tracked": 12,
-  "keywords_top100": 8,
+  "keywords_top100": 11,
   "keywords_top10": 0,
-  "avg_position": 41,
+  "avg_position": 46,
   "indexed_pages": 28,
   "total_pages": 32,
   "content_pages_live": 29,
@@ -18,258 +18,6 @@
   "weeks_tracked": 7
  },
  "rank_history": [
-  {
-   "date": "2026-07-25",
-   "keywords_top100": 3,
-   "keywords_top10": 1,
-   "indexed_pages": 11
-  },
-  {
-   "date": "2026-07-26",
-   "keywords_top100": 3,
-   "keywords_top10": 0,
-   "indexed_pages": 11
-  },
-  {
-   "date": "2026-07-27",
-   "keywords_top100": 2,
-   "keywords_top10": 0,
-   "indexed_pages": 14
-  },
-  {
-   "date": "2026-07-28",
-   "keywords_top100": 2,
-   "keywords_top10": 0,
-   "indexed_pages": 14
-  },
-  {
-   "date": "2026-07-29",
-   "keywords_top100": 2,
-   "keywords_top10": 0,
-   "indexed_pages": 14
-  },
-  {
-   "date": "2026-07-30",
-   "keywords_top100": 3,
-   "keywords_top10": 0,
-   "indexed_pages": 14
-  },
-  {
-   "date": "2026-07-31",
-   "keywords_top100": 3,
-   "keywords_top10": 0,
-   "indexed_pages": 14
-  },
-  {
-   "date": "2026-08-01",
-   "keywords_top100": 2,
-   "keywords_top10": 0,
-   "indexed_pages": 14
-  },
-  {
-   "date": "2026-08-02",
-   "keywords_top100": 2,
-   "keywords_top10": 0,
-   "indexed_pages": 14
-  },
-  {
-   "date": "2026-08-03",
-   "keywords_top100": 2,
-   "keywords_top10": 0,
-   "indexed_pages": 14
-  },
-  {
-   "date": "2026-08-04",
-   "keywords_top100": 2,
-   "keywords_top10": 0,
-   "indexed_pages": 14
-  },
-  {
-   "date": "2026-08-05",
-   "keywords_top100": 2,
-   "keywords_top10": 0,
-   "indexed_pages": 14
-  },
-  {
-   "date": "2026-08-06",
-   "keywords_top100": 3,
-   "keywords_top10": 0,
-   "indexed_pages": 14
-  },
-  {
-   "date": "2026-08-07",
-   "keywords_top100": 2,
-   "keywords_top10": 0,
-   "indexed_pages": 14
-  },
-  {
-   "date": "2026-08-09",
-   "keywords_top100": 2,
-   "keywords_top10": 0,
-   "indexed_pages": 14
-  },
-  {
-   "date": "2026-08-10",
-   "keywords_top100": 2,
-   "keywords_top10": 0,
-   "indexed_pages": 15
-  },
-  {
-   "date": "2026-08-11",
-   "keywords_top100": 3,
-   "keywords_top10": 0,
-   "indexed_pages": 15
-  },
-  {
-   "date": "2026-08-12",
-   "keywords_top100": 2,
-   "keywords_top10": 0,
-   "indexed_pages": 15
-  },
-  {
-   "date": "2026-08-13",
-   "keywords_top100": 3,
-   "keywords_top10": 0,
-   "indexed_pages": 15
-  },
-  {
-   "date": "2026-08-14",
-   "keywords_top100": 2,
-   "keywords_top10": 0,
-   "indexed_pages": 15
-  },
-  {
-   "date": "2026-08-15",
-   "keywords_top100": 2,
-   "keywords_top10": 0,
-   "indexed_pages": 15
-  },
-  {
-   "date": "2026-08-16",
-   "keywords_top100": 2,
-   "keywords_top10": 0,
-   "indexed_pages": 17
-  },
-  {
-   "date": "2026-08-17",
-   "keywords_top100": 2,
-   "keywords_top10": 0,
-   "indexed_pages": 17
-  },
-  {
-   "date": "2026-08-18",
-   "keywords_top100": 2,
-   "keywords_top10": 0,
-   "indexed_pages": 17
-  },
-  {
-   "date": "2026-08-19",
-   "keywords_top100": 1,
-   "keywords_top10": 0,
-   "indexed_pages": 17
-  },
-  {
-   "date": "2026-08-20",
-   "keywords_top100": 2,
-   "keywords_top10": 0,
-   "indexed_pages": 17
-  },
-  {
-   "date": "2026-08-21",
-   "keywords_top100": 2,
-   "keywords_top10": 0,
-   "indexed_pages": 22
-  },
-  {
-   "date": "2026-08-22",
-   "keywords_top100": 7,
-   "keywords_top10": 0,
-   "indexed_pages": 22
-  },
-  {
-   "date": "2026-08-23",
-   "keywords_top100": 7,
-   "keywords_top10": 0,
-   "indexed_pages": 22
-  },
-  {
-   "date": "2026-08-24",
-   "keywords_top100": 7,
-   "keywords_top10": 0,
-   "indexed_pages": 22
-  },
-  {
-   "date": "2026-08-25",
-   "keywords_top100": 7,
-   "keywords_top10": 0,
-   "indexed_pages": 22
-  },
-  {
-   "date": "2026-08-26",
-   "keywords_top100": 7,
-   "keywords_top10": 0,
-   "indexed_pages": 22
-  },
-  {
-   "date": "2026-08-27",
-   "keywords_top100": 8,
-   "keywords_top10": 0,
-   "indexed_pages": 28
-  },
-  {
-   "date": "2026-08-28",
-   "keywords_top100": 8,
-   "keywords_top10": 0,
-   "indexed_pages": 28
-  },
-  {
-   "date": "2026-08-29",
-   "keywords_top100": 8,
-   "keywords_top10": 0,
-   "indexed_pages": 28
-  },
-  {
-   "date": "2026-08-30",
-   "keywords_top100": 8,
-   "keywords_top10": 0,
-   "indexed_pages": 28
-  },
-  {
-   "date": "2026-08-31",
-   "keywords_top100": 8,
-   "keywords_top10": 0,
-   "indexed_pages": 28
-  },
-  {
-   "date": "2026-09-01",
-   "keywords_top100": 8,
-   "keywords_top10": 0,
-   "indexed_pages": 28
-  },
-  {
-   "date": "2026-09-02",
-   "keywords_top100": 8,
-   "keywords_top10": 0,
-   "indexed_pages": 28
-  },
-  {
-   "date": "2026-09-03",
-   "keywords_top100": 8,
-   "keywords_top10": 0,
-   "indexed_pages": 28
-  },
-  {
-   "date": "2026-09-04",
-   "keywords_top100": 8,
-   "keywords_top10": 0,
-   "indexed_pages": 28
-  },
-  {
-   "date": "2026-09-05",
-   "keywords_top100": 8,
-   "keywords_top10": 0,
-   "indexed_pages": 28
-  },
   {
    "date": "2026-09-06",
    "keywords_top100": 8,
@@ -377,139 +125,383 @@
    "keywords_top100": 8,
    "keywords_top10": 0,
    "indexed_pages": 28
+  },
+  {
+   "date": "2026-09-24",
+   "keywords_top100": 8,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-09-25",
+   "keywords_top100": 8,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-09-26",
+   "keywords_top100": 9,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-09-27",
+   "keywords_top100": 9,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-09-28",
+   "keywords_top100": 9,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-09-29",
+   "keywords_top100": 9,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-09-30",
+   "keywords_top100": 10,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-01",
+   "keywords_top100": 10,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-02",
+   "keywords_top100": 10,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-03",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-04",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-05",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-06",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-07",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-08",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-09",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-10",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-11",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-12",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-13",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-14",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-15",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-16",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-17",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-18",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-19",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-20",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-21",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-22",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-23",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-24",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-25",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-26",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-27",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-28",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-29",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-30",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-10-31",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-11-01",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-11-02",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
+  },
+  {
+   "date": "2026-11-03",
+   "keywords_top100": 11,
+   "keywords_top10": 0,
+   "indexed_pages": 28
   }
  ],
  "keywords": [
   {
    "keyword": "architect marketing",
-   "position": 48,
-   "top_organic": "www.marketingarchitects.com",
+   "position": 41,
+   "top_organic": "www.archdaily.com",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
    "ranking_url": "https://ipqmedia.com/resources/architecture-marketing",
-   "impressions": 565,
+   "impressions": 448,
    "clicks": 0,
-   "gsc_position": 47.0,
-   "position_stale_since": "2026-09-23"
+   "gsc_position": 47.3
   },
   {
    "keyword": "architecture marketing firms",
-   "position": 46,
+   "position": 49,
    "top_organic": "www.archmark.co",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
    "ranking_url": "https://ipqmedia.com/resources/best-marketing-agencies-for-architects",
-   "impressions": 363,
+   "impressions": 220,
    "clicks": 0,
-   "gsc_position": 52.6,
-   "position_stale_since": "2026-09-23"
+   "gsc_position": 48.9,
+   "position_stale_since": "2026-10-21"
   },
   {
    "keyword": "architect marketing agency",
-   "position": 57,
-   "top_organic": "www.marketingarchitects.com",
+   "position": 48,
+   "top_organic": "www.thirdandarch.com",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
    "ranking_url": "https://ipqmedia.com/resources/best-marketing-agencies-for-architects",
-   "impressions": 399,
+   "impressions": 280,
    "clicks": 0,
-   "gsc_position": 58.4,
-   "position_stale_since": "2026-09-22"
+   "gsc_position": 54.9,
+   "position_stale_since": "2026-10-21"
   },
   {
    "keyword": "architecture marketing agency",
-   "position": 45,
+   "position": 55,
    "top_organic": "www.marketingarchitects.com",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
    "ranking_url": "https://ipqmedia.com/resources/best-marketing-agencies-for-architects",
-   "impressions": 383,
+   "impressions": 295,
    "clicks": 0,
-   "gsc_position": 56.9,
-   "position_stale_since": "2026-09-23"
+   "gsc_position": 56.4
   },
   {
    "keyword": "lead generation for architects",
-   "position": 24,
+   "position": 56,
    "top_organic": "archmarketing.org",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
-   "impressions": 447,
+   "impressions": 401,
    "clicks": 0,
-   "gsc_position": 54.5,
-   "ranking_url": "https://ipqmedia.com/resources/lead-generation-for-architects",
-   "position_stale_since": "2026-09-23"
+   "gsc_position": 55.9,
+   "ranking_url": "https://ipqmedia.com/resources/lead-generation-for-architects"
   },
   {
    "keyword": "marketing agency for architects",
-   "position": 46,
+   "position": 57,
    "top_organic": "www.marketingarchitects.com",
    "ai_overview_present": false,
    "cited_in_ai_overview": false,
    "ranking_url": "https://ipqmedia.com/resources/best-marketing-agencies-for-architects",
-   "impressions": 429,
+   "impressions": 312,
    "clicks": 0,
-   "gsc_position": 57.5
+   "gsc_position": 57.8,
+   "position_stale_since": "2026-10-21"
   },
   {
    "keyword": "facebook ads for architects",
-   "position": 35,
+   "position": 26,
    "top_organic": "www.reddit.com",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
-   "impressions": 83,
+   "impressions": 16,
    "clicks": 0,
-   "gsc_position": 23.7,
+   "gsc_position": 32.4,
    "ranking_url": "https://ipqmedia.com/resources/meta-ads-for-architects",
-   "position_stale_since": "2026-09-23"
+   "position_stale_since": "2026-10-21"
   },
   {
    "keyword": "architecture marketing",
-   "position": 29,
-   "top_organic": "archmarketing.org",
+   "position": 73,
+   "top_organic": "www.youtube.com",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
-   "impressions": 123,
+   "impressions": 425,
    "clicks": 0,
-   "gsc_position": 54.0,
-   "position_stale_since": "2026-09-23"
+   "gsc_position": 48.3
   },
   {
    "keyword": "architecture firm marketing",
-   "position": null,
+   "position": 34,
    "top_organic": "www.reddit.com",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
-   "impressions": 20,
+   "impressions": 304,
    "clicks": 0,
-   "gsc_position": 54.1
+   "gsc_position": 46.8
   },
   {
    "keyword": "marketing for architects",
-   "position": null,
+   "position": 32,
    "top_organic": "www.aia.org",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
-   "impressions": 20,
+   "impressions": 141,
    "clicks": 0,
-   "gsc_position": 58.5
+   "gsc_position": 53.9,
+   "position_stale_since": "2026-10-21"
   },
   {
    "keyword": "seo for architects",
    "position": null,
-   "top_organic": "www.seo-arch.com",
+   "top_organic": "seoforarchitects.com",
    "ai_overview_present": true,
    "cited_in_ai_overview": false
   },
   {
    "keyword": "how to market an architecture firm",
-   "position": null,
+   "position": 35,
    "top_organic": "archmarketing.org",
    "ai_overview_present": true,
    "cited_in_ai_overview": false,
-   "impressions": 1,
+   "impressions": 209,
    "clicks": 0,
-   "gsc_position": 52
+   "gsc_position": 54.0
   }
  ],
  "content": [
@@ -1214,200 +1206,200 @@
   }
  ],
  "search": {
-  "window": "2026-08-24 to 2026-09-20",
+  "window": "2026-10-06 to 2026-11-02",
   "source": "Google Search Console",
   "total": {
-   "impressions": 11585,
-   "clicks": 26,
-   "queries": 209,
-   "avg_position": 55.2
+   "impressions": 19268,
+   "clicks": 30,
+   "queries": 237,
+   "avg_position": 51.6
   },
   "brand": {
-   "impressions": 43,
-   "clicks": 26,
-   "queries": 5,
-   "avg_position": 6.4
+   "impressions": 44,
+   "clicks": 30,
+   "queries": 2,
+   "avg_position": 1.0
   },
   "non_brand": {
-   "impressions": 11542,
+   "impressions": 19224,
    "clicks": 0,
-   "queries": 204,
-   "avg_position": 55.4
+   "queries": 235,
+   "avg_position": 51.7
   },
   "top_queries": [
    {
-    "query": "facebook ads library nattoku jutaku architect office",
-    "impressions": 755,
-    "clicks": 0,
-    "position": 10.1
-   },
-   {
     "query": "architect marketing",
-    "impressions": 565,
+    "impressions": 448,
     "clicks": 0,
-    "position": 47.0
+    "position": 47.3
    },
    {
-    "query": "architecture and marketing",
-    "impressions": 513,
+    "query": "architectural marketing",
+    "impressions": 444,
     "clicks": 0,
-    "position": 59.0
+    "position": 52.7
+   },
+   {
+    "query": "architecture marketing",
+    "impressions": 425,
+    "clicks": 0,
+    "position": 48.3
    },
    {
     "query": "lead generation for architects",
-    "impressions": 447,
+    "impressions": 401,
     "clicks": 0,
-    "position": 54.5
+    "position": 55.9
    },
    {
-    "query": "marketing agency for architects",
-    "impressions": 429,
+    "query": "marketing strategies for architects",
+    "impressions": 357,
     "clicks": 0,
-    "position": 57.5
+    "position": 46.7
    },
    {
-    "query": "architect marketing agency",
-    "impressions": 399,
+    "query": "marketing strategy for architects",
+    "impressions": 357,
     "clicks": 0,
-    "position": 58.4
+    "position": 52.5
    },
    {
-    "query": "architecture marketing agency",
-    "impressions": 383,
+    "query": "architects marketing strategy",
+    "impressions": 354,
     "clicks": 0,
-    "position": 56.9
+    "position": 51.4
    },
    {
-    "query": "architecture firms marketing",
-    "impressions": 381,
+    "query": "architecture and marketing",
+    "impressions": 351,
     "clicks": 0,
-    "position": 54.5
-   },
-   {
-    "query": "marketing architecture",
-    "impressions": 378,
-    "clicks": 0,
-    "position": 64.2
-   },
-   {
-    "query": "architecture marketing firms",
-    "impressions": 363,
-    "clicks": 0,
-    "position": 52.6
+    "position": 54.7
    },
    {
     "query": "architecture lead generation",
-    "impressions": 330,
+    "impressions": 340,
     "clicks": 0,
-    "position": 61.3
+    "position": 66.3
    },
    {
-    "query": "leads for architects",
-    "impressions": 320,
+    "query": "marketing strategies for architecture firms",
+    "impressions": 340,
     "clicks": 0,
-    "position": 59.0
+    "position": 41.9
+   },
+   {
+    "query": "marketing strategy architecture firm",
+    "impressions": 333,
+    "clicks": 0,
+    "position": 50.9
+   },
+   {
+    "query": "marketing in architecture",
+    "impressions": 324,
+    "clicks": 0,
+    "position": 48.9
    }
   ],
   "top_pages": [
    {
     "url": "/resources/architecture-marketing",
-    "impressions": 5499,
+    "impressions": 14263,
     "clicks": 1,
-    "position": 61.7,
-    "variants": 2
+    "position": 50.8,
+    "variants": 1
    },
    {
     "url": "/resources/best-marketing-agencies-for-architects",
-    "impressions": 4501,
-    "clicks": 3,
-    "position": 57.6,
+    "impressions": 3956,
+    "clicks": 1,
+    "position": 54.9,
     "variants": 1
    },
    {
     "url": "/resources/lead-generation-for-architects",
-    "impressions": 1555,
+    "impressions": 1376,
     "clicks": 0,
-    "position": 59.4,
-    "variants": 2
-   },
-   {
-    "url": "/resources/meta-ads-for-architects",
-    "impressions": 879,
-    "clicks": 3,
-    "position": 11.5,
-    "variants": 1
-   },
-   {
-    "url": "/resources/rfp-for-architects",
-    "impressions": 183,
-    "clicks": 0,
-    "position": 64.6,
-    "variants": 1
-   },
-   {
-    "url": "/resources",
-    "impressions": 70,
-    "clicks": 0,
-    "position": 19.4,
-    "variants": 1
-   },
-   {
-    "url": "/resources/marketing-for-landscape-architects",
-    "impressions": 39,
-    "clicks": 0,
-    "position": 33.1,
-    "variants": 1
-   },
-   {
-    "url": "/resources/architecture-marketing-statistics-and-costs-2026",
-    "impressions": 32,
-    "clicks": 0,
-    "position": 16.6,
+    "position": 61.4,
     "variants": 1
    },
    {
     "url": "/resources/branding-for-architects",
-    "impressions": 30,
+    "impressions": 189,
     "clicks": 0,
-    "position": 37.1,
+    "position": 56.3,
     "variants": 1
    },
    {
-    "url": "/resources/google-business-profile-for-architects",
-    "impressions": 30,
+    "url": "/resources/marketing-for-landscape-architects",
+    "impressions": 163,
     "clicks": 0,
-    "position": 17.2,
-    "variants": 2
+    "position": 38.9,
+    "variants": 1
    },
    {
-    "url": "/resources/partnerships-for-architects",
-    "impressions": 24,
+    "url": "/resources/meta-ads-for-architects",
+    "impressions": 135,
+    "clicks": 1,
+    "position": 13.1,
+    "variants": 1
+   },
+   {
+    "url": "/resources",
+    "impressions": 99,
     "clicks": 0,
-    "position": 52.7,
-    "variants": 2
+    "position": 24.0,
+    "variants": 1
+   },
+   {
+    "url": "/resources/marketing-for-residential-architects",
+    "impressions": 15,
+    "clicks": 0,
+    "position": 21.2,
+    "variants": 1
+   },
+   {
+    "url": "/resources/rfp-for-architects",
+    "impressions": 15,
+    "clicks": 0,
+    "position": 6.3,
+    "variants": 1
    },
    {
     "url": "/resources/referral-systems-for-architects",
-    "impressions": 24,
+    "impressions": 14,
     "clicks": 0,
-    "position": 25.4,
-    "variants": 2
+    "position": 6.1,
+    "variants": 1
+   },
+   {
+    "url": "/resources/arseniy-volosevich",
+    "impressions": 12,
+    "clicks": 2,
+    "position": 3.6,
+    "variants": 1
+   },
+   {
+    "url": "/resources/partnerships-for-architects",
+    "impressions": 11,
+    "clicks": 0,
+    "position": 25.5,
+    "variants": 1
    }
   ],
   "cluster": {
    "note": "the /resources guides only, counted by GSC page dimension. Higher than the query totals above because GSC hides anonymized queries from the query dimension. Grade the cluster on these numbers.",
-   "impressions": 12955,
-   "clicks": 9,
-   "pages": 29,
-   "avg_position": 55.6
+   "impressions": 20315,
+   "clicks": 5,
+   "pages": 30,
+   "avg_position": 51.6
   },
   "url_forms": {
    "note": "impressions by URL form over the same 28d window as search.window (so it runs behind the weekly figure). canonical = https://ipqmedia.com/resources/<slug>. slash forms serve the funnel homepage; legacy = the old subdomain, 301s here.",
-   "apex_canonical": 11969,
-   "apex_slash": 49,
+   "apex_canonical": 20310,
+   "apex_slash": 1,
    "legacy_canonical": 0,
-   "legacy_slash": 937,
-   "slash_share_pct": 7.6
+   "legacy_slash": 4,
+   "slash_share_pct": 0.0
   }
  },
  "behavior": {
