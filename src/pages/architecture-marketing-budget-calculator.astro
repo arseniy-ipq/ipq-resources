@@ -1,6 +1,6 @@
 ---
 const published = '2026-09-14';
-const updated = '2026-09-29';
+const updated = '2026-11-06';
 import Base from '../layouts/Base.astro';
 const title = 'Architecture Marketing Budget Calculator: Ad Spend to Booked Consultations | IPQmedia';
 const description =
@@ -76,7 +76,7 @@ const description =
       <tr><td data-b="5000">$5,000</td><td class="l-lead">99</td><td class="l-book">34</td><td class="l-band">21 to 48</td></tr>
       <tr><td data-b="10000">$10,000</td><td class="l-lead">198</td><td class="l-book">68</td><td class="l-band">42 to 95</td></tr>
     </table>
-    <p class="calc-note">Ad spend only, before anyone's fee. The four settings were measured separately, so stacking the best of each gives you a ceiling rather than a forecast.</p>
+    <p class="calc-note">Ad spend only, before anyone's fee. The four settings were measured separately, so stacking the best of each gives you a ceiling rather than a forecast. The ladder scales in a straight line, and real budget raises did not (see below).</p>
   </div>
 
   <h2>What these numbers are, and what they are not</h2>
@@ -156,6 +156,59 @@ const description =
     figure inherits the assumption rather than proving it.
   </p>
 
+  <h2>Does doubling the budget double the consultations?</h2>
+  <p>
+    Not in our accounts, and the firms asking already suspect it. One owner put it to us on a sales
+    call in July 2026: "It seems like we're in a diminishing marginal return where 200 per day isn't
+    going to get you twice as much as 100." The calculator above scales in a straight line, so we
+    went looking for what actually happened when a firm raised its budget.
+  </p>
+  <p>
+    We scanned every architecture and design account from 1 October 2025 to 5 November 2026 for a
+    raise: four weeks averaging at least 40% more spend than the four weeks before, both windows
+    live for 24 days or more, and at least five leads before the raise to compare against. Five
+    accounts made one.
+  </p>
+  <table>
+    <tr><th>Raise</th><th>Daily spend, before to after</th><th>Leads in four weeks</th><th>Cost per lead</th></tr>
+    <tr><td>Late October 2025</td><td>$51 to $74</td><td>19 to 20</td><td>$74.51 to $103.52</td></tr>
+    <tr><td>Late October 2025</td><td>$48 to $71</td><td>28 to 37</td><td>$48.22 to $53.93</td></tr>
+    <tr><td>Late January 2026</td><td>$27 to $41</td><td>17 to 18</td><td>$44.13 to $64.44</td></tr>
+    <tr><td>Mid February 2026</td><td>$28 to $49</td><td>12 to 22</td><td>$66.45 to $62.14</td></tr>
+    <tr><td>Early August 2026</td><td>$63 to $107</td><td>87 to 76</td><td>$20.33 to $39.26</td></tr>
+    <tr><td>All five together</td><td>$6,082 to $9,576 in four weeks</td><td>163 to 173</td><td>$37.31 to $55.35</td></tr>
+  </table>
+  <p>
+    Together the five spent 57% more and got 6% more leads. The price of a lead rose in four of the
+    five, by a median of 39%. Only one account, the February raise, bought roughly what the extra
+    money should have bought. The calendar does not explain it either: each raise sits almost
+    entirely inside a single quarter of the seasonal index above.
+  </p>
+  <p>
+    Five accounts is a pattern, not a law. Our read is that a raise mostly pushes more money through
+    the same ads to the same audience, and new money needs new creative and often a wider audience
+    to buy at the old price. So read the $5,000 and $10,000 rows of the calculator as
+    a ceiling on day one, and expect to earn your way back toward it over the following months.
+  </p>
+
+  <h2>What is the minimum ad budget for an architecture firm?</h2>
+  <p>
+    Lower than the usual advice says. That advice is built on Meta's learning phase, and <a href="https://www.facebook.com/business/help/112167992830700">Meta's own help page on it</a> (read 4 November 2026) says an ad set exits learning "after about 50 results in the week after the ad set's last significant edit." At our median $50.41 a lead, that is about $2,500 a week, or $360 a day, for every ad set.
+  </p>
+  <p>
+    Almost none of our accounts ever got there. Across the 24 accounts in the twelve months to 5
+    November 2026, the typical one averaged $79 a day, and exactly one of 350 account weeks produced
+    50 leads, with every ad set in the account added together. The medians this whole page is built
+    on came from accounts running below the threshold the whole year.
+  </p>
+  <p>
+    So the real floor is not the algorithm, it is your own patience with small numbers. Another
+    owner asked us in October 2026: "Is 50 bucks a day going to take us a year to get a good
+    project versus a thousand a day?" At the median, $50 a day is about 30 leads and 10 booked
+    consultations a month, with the first lead usually inside a day. Below about $1,000 a month you
+    get so few leads that a slow month and a weak offer look identical.
+  </p>
+
   <h2>Why this stops at the booked consultation</h2>
   <p>
     Because that is where our data stops being trustworthy. 48 of 1,023 booked consultations in our
@@ -181,8 +234,8 @@ const description =
   <p>
     Work backwards from consultations rather than forwards from a percentage. Decide how many
     qualified calls a month your firm can actually take, multiply by roughly $150, and that is your
-    ad budget before anyone's fee. Budgets under about $1,000 a month struggle for a separate
-    reason: the platform cannot learn on that little volume, so the price per lead stays high.
+    ad budget before anyone's fee. Then pick a number you can hold for three months, because a
+    budget cut off after eight weeks has only just told you which end of the spread you sit on.
   </p>
   <h3>What does a lead cost for an architecture firm?</h3>
   <p>
@@ -198,6 +251,12 @@ const description =
     accounts between 21 and 48. Where you land depends far more on your offer, creative and
     follow-up speed than on the budget. A firm at the expensive end of our range gets a third of
     what a firm at the cheap end gets from identical spend.
+  </p>
+  <h3>If I double my ad budget, will I get twice the leads?</h3>
+  <p>
+    Probably not at first. In the five budget raises in our data, spend went up 57% and leads went
+    up 6%, and the cost of a lead rose in four of the five. Raise in steps, add new creative with
+    each step, and judge the new level after four weeks rather than four days.
   </p>
   <h3>Why is the range so wide?</h3>
   <p>
