@@ -35,7 +35,7 @@ Canonical URL form for every page below is without a trailing slash. Index of al
 - [PR and press for architects](https://ipqmedia.com/resources/pr-and-press-for-architects): Press and awards as a credibility layer. Includes what 16 AI answers to four architect-selection questions cited (Sep 2026: 0 of 275 sources from design press, awards mentioned in 2 of 16 answers), Nielsen trust figures (editorial 67%, branded websites 69%) and Muck Rack's 2026 journalist survey on pitches.
 - [Website design for architects](https://ipqmedia.com/resources/website-design-for-architects): Fixing the portfolio that doesn't convert, plus what four AI engines tell buyers to check before they call an architect, and who those engines quote on architect fees (Sept 2026 pull).
 - [Video marketing for architects](https://ipqmedia.com/resources/video-marketing-for-architects): Film as ad creative first, owned library second. October 2026 pull: YouTube videos were 20 of 74 sources cited in Google AI Overviews across 9 architect marketing queries, median 636 views.
-- [Branding for architects](https://ipqmedia.com/resources/branding-for-architects): What a brand fixes, what it cannot, and what it costs.
+- [Branding for architects](https://ipqmedia.com/resources/branding-for-architects): What a brand fixes, what it cannot, and what it costs. Includes what ChatGPT and Perplexity said about 28 map-pack firms (Nov 2026): 43% and 30% of citations from the firms' own sites, Houzz in 17 of 28 ChatGPT answers, 1 of 28 prices taken from the firm's own words.
 
 ## Comparisons
 

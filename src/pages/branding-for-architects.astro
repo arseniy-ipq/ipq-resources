@@ -1,10 +1,10 @@
 ---
 const published = '2026-07-16';
-const updated = '2026-10-04';
+const updated = '2026-11-10';
 import Base from '../layouts/Base.astro';
 const title = 'Branding for Architects: A Multiplier, Not an Engine | IPQmedia';
 const description =
-  'Firms keep buying rebrands to fix lead problems. We read the homepages of 28 firms in Google\'s map pack: 7 said who they build for and 1 said anything about cost. What architecture firm branding does, what it costs in 2026, and where it stops working.';
+  'We read the homepages of 28 firms in Google\'s map pack, then asked ChatGPT and Perplexity about the same firms: under half of what they cited came from the firm\'s own site. What architecture firm branding fixes, what it costs in 2026, and where it stops.';
 ---
 
 <Base title={title} description={description} published={published} updated={updated}>
@@ -24,7 +24,7 @@ const description =
 
   <div class="answer">
     <p class="answer-label">The short answer</p>
-    <p>Branding for architects is a multiplier, not an engine. Your brand is everything a buyer finds in the first minute after they hear your name: who you build for, what the work looks like, what hiring you is like. Done well, it raises the percentage of people who inquire once they find you. It cannot raise the number who find you. Fix discovery with a lead engine, then make what they discover match the quality of your work. For most firms that means sharper positioning and better project photography, not a new logo. The bar is low: of 28 map-pack firm homepages we read in October 2026, 7 said who they build for and 1 mentioned cost.</p>
+    <p>Branding for architects is a multiplier, not an engine. Your brand is everything a buyer finds in the first minute after they hear your name: who you build for, what the work looks like, what hiring you is like. Done well, it raises the percentage of people who inquire once they find you. It cannot raise the number who find you. Fix discovery with a lead engine, then make what they discover match the quality of your work. For most firms that means sharper positioning and better project photography, not a new logo. The bar is low: of 28 map-pack firm homepages we read in October 2026, 7 said who they build for and 1 mentioned cost. Asked about the same firms in November, ChatGPT took 43% of its sources from the firms' own sites and Perplexity 30%.</p>
   </div>
   <p>
     This page is where the brand layer sits in the larger system mapped in <a href="/architecture-marketing">architecture marketing</a>, and how to spend on it without buying the wrong fix.
@@ -102,6 +102,47 @@ const description =
   </p>
   <p>
     The limits: one day, homepages only, text only, from a searcher placed in each city center. The packs had already reshuffled in five metros since our 3 October count. Read the counts as the shape of the market, not a leaderboard.
+  </p>
+
+  <h2>What ChatGPT and Perplexity say about the same 28 firms</h2>
+  <p>
+    A buyer with your name on a shortlist now often asks an AI about you before they call. So on 10 November 2026 we took the same 28 firms and put one question to ChatGPT (gpt-5.5) and Perplexity (sonar), web search on: "I'm thinking about hiring [firm] in [city]. What kind of projects do they do, who are their typical clients, what do past clients say about them, and roughly what does it cost to hire them?"
+  </p>
+  <table>
+    <thead>
+      <tr><th>Across 28 answers each</th><th>ChatGPT</th><th>Perplexity</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Sources cited</td><td>356</td><td>280</td></tr>
+      <tr><td>Cited from the firm's own website</td><td>153 (43.0%)</td><td>83 (29.6%)</td></tr>
+      <tr><td>Answers citing Houzz</td><td>17 of 28 (75 citations)</td><td>8 of 28 (21)</td></tr>
+      <tr><td>Answers citing "best of" listing sites</td><td>6 of 28 (15 citations)</td><td>20 of 28 (55)</td></tr>
+      <tr><td>Answers that put a number on the cost</td><td>28 of 28</td><td>28 of 28</td></tr>
+    </tbody>
+  </table>
+  <p>
+    Read the second row twice. Less than half of what ChatGPT used to describe each firm came from the firm, and on Perplexity it was under a third. The rest of the brand, in the version an AI hands a buyer, was written by Houzz, listing sites, LinkedIn, Procore and city council agendas.
+  </p>
+  <p>
+    Then the price. ChatGPT gave one in every answer. Exactly one firm supplied it: Winn Wittman Architecture in Austin says on its about page that a good-fit client's "construction budget is at least $3m", and ChatGPT led with that.
+  </p>
+  <p>
+    For 9 others it used the "typical job cost" range from the firm's Houzz profile. For Synthesis Design + Architecture it quoted a price list from TrustAnalytica, a listing site. The rest got a generic percentage of construction cost. Perplexity did the same for Winn Wittman, printing a nine-row fee list from a third-party listing next to the firm's own $3m line.
+  </p>
+  <p>
+    That is the bottom row of the homepage table coming back with interest. Twenty-seven homepages said nothing about cost, so the engine said it for them.
+  </p>
+  <p>
+    Thin homepages paid for it too, mostly on Perplexity. For the 8 firms serving under 200 words, 17.5% of Perplexity's citations were the firm's own site; for the 10 serving 500 or more, 36.0%. ChatGPT was messier (39.8% against 56.4%, with the middle group lowest at 33.8%), so read it as a lean, not a law. GO'C in Seattle, 25 words on its homepage, supplied 4 of 16 ChatGPT citations about itself.
+  </p>
+  <p>
+    If you do <strong>residential</strong> work, your Houzz profile is part of your brand whether you look after it or not. It was the most cited site in the ChatGPT set after the firms' own, and its "typical job cost" field became the price line. Fill it in with ranges you would stand behind; the rest of that argument is in <a href="/houzz-for-architects">Houzz for architects</a>.
+  </p>
+  <p>
+    If you do <strong>commercial</strong> work, the engine goes to the public record. For designLAB in Boston it found a city contract at a fixed fee of 8.5% of construction. For SmithGroup in Phoenix it cited an average Procore project size of about $100 million. A developer gets your fee history from documents you never wrote, so the project pages you do write (building type, size, delivered date, an owner on the record) are the version you control.
+  </p>
+  <p>
+    The limits: one question per firm, one run per engine, one day, and AI answers change from run to run. We sorted the cited domains ourselves; the listing-site group is TrustAnalytica, BestInHood, Poyst, ThreeBestRated, ArchitectsList, Zabalist and a handful of city "best of" pages. It cost us $3.79 to run.
   </p>
 
   <h2>What branding for architecture firms can fix, and what it cannot</h2>
@@ -223,6 +264,13 @@ const description =
   </p>
   <p>
     And for residential work, some honest signal of what hiring you costs, even a "projects typically start at" line; for commercial, the building types and counts you have delivered. Of 28 homepages Google put in the map pack on 4 October 2026, 7 named who they build for, 3 quoted a client and 1 touched on price.
+  </p>
+  <h3>What does ChatGPT say about my architecture firm?</h3>
+  <p>
+    Mostly what other sites say about you. When we asked ChatGPT about 28 map-pack firms in November 2026, 43% of its sources were the firms' own websites; Perplexity was at 30%. Houzz, "best of" listing sites, LinkedIn and public records filled the rest, and both engines put a number on what the firm costs every time.
+  </p>
+  <p>
+    Ask it yourself, the way a buyer would: your firm name, your city, what you do and what you cost. Whatever it gets wrong, publish the right version on your own site in plain text (who you build for, typical project sizes, a budget floor, client quotes), and fix the Houzz or directory profile it leaned on.
   </p>
   <h3>Should I rebrand my architecture firm?</h3>
   <p>
