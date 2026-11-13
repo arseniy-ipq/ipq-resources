@@ -1,10 +1,10 @@
 ---
 const published = '2026-07-30';
-const updated = '2026-10-11';
+const updated = '2026-11-13';
 import Base from '../layouts/Base.astro';
 const title = 'Architecture Client Demand by Metro (2026): What 16 US Markets Actually Search | IPQmedia';
 const description =
-  'Google search data for 16 US metros next to our own ad account costs in five of them. Architect demand is small everywhere, click prices vary 4x with no relation to demand, and two firms in the same metro differ more than the metros do.';
+  'Google search data for 16 US metros, pulled in July and again in November 2026, next to our own ad account costs. Architect demand is small and steady everywhere. Click prices are neither, and two firms in the same metro differ more than the metros do.';
 ---
 
 <Base title={title} description={description} published={published} updated={updated}>
@@ -18,18 +18,18 @@ const description =
 
   <p>
     Start with the number that reframes the question. In the New York metro, the largest market in
-    the country, roughly 3,340 people a month search for an architect across the six terms buyers
-    actually use. In Austin, 310. Not 310 clients. 310 searches, shared out across every firm in the
+    the country, roughly 3,690 people a month search for an architect across the six terms buyers
+    actually use. In Austin, 340. Not 340 clients. 340 searches, shared out across every firm in the
     market, most of which end in a closed tab.
   </p>
 
   <div class="answer">
     <p class="answer-label">The short answer</p>
-    <p>Search demand for architects is small in every US metro. Across 16 of the largest, all architect-intent searches together come to about 13,040 a month, from 3,340 in New York down to 260 in Nashville. In the same 16 metros the adjacent trades people hire instead, general contractors, custom builders, kitchen remodelers and interior designers, draw 68,990 searches, more than five times as many. Google's click price for the same intent swings from $3.98 to $17.17 depending on the metro, with no relationship to how much demand is there. And in our own ad accounts, two firms in the same metro differ more in cost per lead than the metro medians do, so the market explains less than firms assume.</p>
+    <p>Search demand for architects is small in every US metro, and it barely moves. Across 16 of the largest, all architect-intent searches together come to about 14,110 a month in the year to October 2026, from 3,690 in New York down to 240 in Nashville, within 8% of what the same pull showed in July. In the same 16 metros the builders, contractors and designers people hire instead draw 102,880 searches, more than seven times as many. Google's click price is the unstable part: between July and November it moved more than 20% in 13 of the 16 metros, and the cheapest and most expensive markets swapped places. In our own ad accounts, two firms in the same metro differ more in cost per lead than the metro medians do, so the market explains less than firms assume.</p>
   </div>
 
   <p>
-    Everything below is either Google's own volume and click-cost data, pulled on 30 July 2026 at metro level, or aggregate numbers from the architecture firm ad accounts we run. It is the geographic companion to the <a href="/architecture-marketing-benchmark-report-2026">architecture firm marketing benchmark report</a> and the market-wide costs in <a href="/architecture-marketing-statistics-and-costs-2026">architecture marketing statistics and costs</a>.
+    Everything below is either Google's own volume and click-cost data, pulled at metro level on 30 July and again on 13 November 2026, or aggregate numbers from the architecture firm ad accounts we run. It is the geographic companion to the <a href="/architecture-marketing-benchmark-report-2026">architecture firm marketing benchmark report</a> and the market-wide costs in <a href="/architecture-marketing-statistics-and-costs-2026">architecture marketing statistics and costs</a>.
   </p>
 
   <h2>How many people search for an architect in your city</h2>
@@ -48,36 +48,38 @@ const description =
       <tr><th>Metro</th><th>Architect searches / mo</th><th>CPC, "architect near me"</th><th>Adjacent trades / mo</th><th>Ratio</th></tr>
     </thead>
     <tbody>
-      <tr><td>New York, NY</td><td>3,340</td><td>$8.04</td><td>11,070</td><td>3.3x</td></tr>
-      <tr><td>Los Angeles, CA</td><td>2,190</td><td>$14.71</td><td>8,310</td><td>3.8x</td></tr>
-      <tr><td>Chicago, IL</td><td>920</td><td>$14.80</td><td>6,220</td><td>6.8x</td></tr>
-      <tr><td>Dallas-Ft. Worth, TX</td><td>850</td><td>$7.87</td><td>4,320</td><td>5.1x</td></tr>
-      <tr><td>Boston, MA</td><td>800</td><td>$8.31</td><td>4,670</td><td>5.8x</td></tr>
-      <tr><td>Houston, TX</td><td>650</td><td>$7.29</td><td>3,910</td><td>6.0x</td></tr>
-      <tr><td>Seattle-Tacoma, WA</td><td>590</td><td>$10.44</td><td>3,970</td><td>6.7x</td></tr>
-      <tr><td>Denver, CO</td><td>590</td><td>$13.85</td><td>4,500</td><td>7.6x</td></tr>
-      <tr><td>Atlanta, GA</td><td>560</td><td>$12.78</td><td>4,070</td><td>7.3x</td></tr>
-      <tr><td>Tampa-St. Petersburg, FL</td><td>510</td><td>$4.99</td><td>4,100</td><td>8.0x</td></tr>
-      <tr><td>Phoenix, AZ</td><td>450</td><td>$11.33</td><td>3,660</td><td>8.1x</td></tr>
-      <tr><td>Miami-Ft. Lauderdale, FL</td><td>410</td><td>$10.63</td><td>2,970</td><td>7.2x</td></tr>
-      <tr><td>Charlotte, NC</td><td>330</td><td>$13.03</td><td>2,190</td><td>6.6x</td></tr>
-      <tr><td>Austin, TX</td><td>310</td><td>$17.17</td><td>1,710</td><td>5.5x</td></tr>
-      <tr><td>Salt Lake City, UT</td><td>280</td><td>$15.43</td><td>2,150</td><td>7.7x</td></tr>
-      <tr><td>Nashville, TN</td><td>260</td><td>$3.98</td><td>1,170</td><td>4.5x</td></tr>
+      <tr><td>New York, NY</td><td>3,690</td><td>$10.77</td><td>17,190</td><td>4.7x</td></tr>
+      <tr><td>Los Angeles, CA</td><td>2,310</td><td>$11.08</td><td>13,340</td><td>5.8x</td></tr>
+      <tr><td>Chicago, IL</td><td>1,130</td><td>$19.29</td><td>8,460</td><td>7.5x</td></tr>
+      <tr><td>Boston, MA</td><td>850</td><td>$15.37</td><td>7,600</td><td>8.9x</td></tr>
+      <tr><td>Dallas-Ft. Worth, TX</td><td>840</td><td>$7.90</td><td>6,650</td><td>7.9x</td></tr>
+      <tr><td>Houston, TX</td><td>680</td><td>$4.57</td><td>5,260</td><td>7.7x</td></tr>
+      <tr><td>Seattle-Tacoma, WA</td><td>640</td><td>$18.17</td><td>5,960</td><td>9.3x</td></tr>
+      <tr><td>Atlanta, GA</td><td>610</td><td>$10.45</td><td>5,390</td><td>8.8x</td></tr>
+      <tr><td>Denver, CO</td><td>580</td><td>$10.87</td><td>6,870</td><td>11.8x</td></tr>
+      <tr><td>Tampa-St. Petersburg, FL</td><td>580</td><td>$12.45</td><td>5,650</td><td>9.7x</td></tr>
+      <tr><td>Miami-Ft. Lauderdale, FL</td><td>500</td><td>$12.17</td><td>4,310</td><td>8.6x</td></tr>
+      <tr><td>Phoenix, AZ</td><td>470</td><td>$6.49</td><td>5,250</td><td>11.2x</td></tr>
+      <tr><td>Charlotte, NC</td><td>360</td><td>$7.26</td><td>3,870</td><td>10.8x</td></tr>
+      <tr><td>Austin, TX</td><td>340</td><td>$6.24</td><td>2,540</td><td>7.5x</td></tr>
+      <tr><td>Salt Lake City, UT</td><td>290</td><td>$1.52</td><td>3,150</td><td>10.9x</td></tr>
+      <tr><td>Nashville, TN</td><td>240</td><td>$8.79</td><td>1,390</td><td>5.8x</td></tr>
     </tbody>
   </table>
 
   <p>
-    Across all 16 metros, architect intent adds up to 13,040 searches a month. The adjacent trades
-    add up to 68,990. The median metro sends six and a half times more people looking for a builder
-    or a remodeler than for the person who could design the thing properly.
+    Across all 16 metros, architect intent adds up to 14,110 searches a month. The adjacent trades
+    add up to 102,880. The median metro sends almost nine times more people looking for a builder
+    or a remodeler than for the person who could design the thing properly. Part of that is an
+    October surge in contractor searches covered further down. Leave October out and the median is
+    still above seven to one.
   </p>
 
   <h2>Your market is searching. It is searching for someone else</h2>
   <p>
     That ratio is the most useful column in the table, because it puts a number on something firms
-    already suspect. Chicago produces 920 architect searches a month and 2,400 for kitchen
-    remodeling alone. In Denver the ratio is nearly eight to one.
+    already suspect. Chicago produces 1,130 architect searches a month and 3,600 for kitchen
+    remodeling alone. In Denver the ratio is nearly twelve to one.
   </p>
   <p>
     Those people are not cheap prospects. Somebody searching "custom home builder near me" in Dallas
@@ -85,22 +87,98 @@ const description =
     call, because nobody told them a different order exists. That gap is the whole argument in <a href="/referral-systems-for-architects">referral systems for architects</a> and it is why demand you generate beats demand you wait for.
   </p>
   <p>
-    Which is also why the map above is not a shopping list of keywords to chase. You can win the 260
-    searches in Nashville, and you should, through <a href="/google-business-profile-for-architects">your Google Business Profile</a> and <a href="/seo-for-architects">SEO for architects</a>. It will not fill a calendar. Reaching the other 1,170 people who never type your job title is what paid social is for, and that is covered in <a href="/meta-ads-for-architects">Meta ads for architects</a>.
+    Which is also why the map above is not a shopping list of keywords to chase. You can win the 240
+    searches in Nashville, and you should, through <a href="/google-business-profile-for-architects">your Google Business Profile</a> and <a href="/seo-for-architects">SEO for architects</a>. It will not fill a calendar. Reaching the other 1,390 people who never type your job title is what paid social is for, and that is covered in <a href="/meta-ads-for-architects">Meta ads for architects</a>.
   </p>
 
   <h2>The click price has almost nothing to do with the demand</h2>
   <p>
-    Sort the table by cost instead of volume and it scrambles. Austin has the smallest architect
-    demand of the big Texas metros and the most expensive click in the whole set at $17.17. Tampa
-    has 65% more demand than Austin and charges $4.99. Nashville is the cheapest click on the board
-    at $3.98.
+    Sort the table by cost instead of volume and it scrambles. Chicago, the third biggest market,
+    has the most expensive click at $19.29. Seattle, with about a quarter of Los Angeles's demand, is second
+    at $18.17. Houston has twice Austin's demand and the second cheapest click on the board at $4.57.
   </p>
   <p>
-    A 4.3x spread on the same search intent means the local auction, not local demand, sets what you
-    pay. In Austin that auction contains national design-build firms, home builders and every
-    remodeler in Travis County bidding on the same phrase. In Nashville it does not, yet. The
-    trade-off between buying that click and creating your own demand is worked through in <a href="/meta-ads-vs-google-ads-for-architects#the-real-question-capture-versus-create">Meta ads vs Google Ads for architects</a>.
+    Google's estimates are thinnest at the bottom of the table. Salt Lake City's $1.52 sits on about
+    170 searches a month for "architect near me", while Google's own range for a top-of-page bid
+    there runs from $3.80 to $18.82, so read the small metros as a direction rather than a quote. </p>
+  <p>
+    The spread on the same search intent still says the local auction, not local demand, sets what you
+    pay. The trade-off between buying that click and creating your own demand is worked through in <a href="/meta-ads-vs-google-ads-for-architects#the-real-question-capture-versus-create">Meta ads vs Google Ads for architects</a>.
+  </p>
+
+  <h2>Four months later: the demand held, the prices did not</h2>
+  <p>
+    We first pulled these 16 metros on 30 July 2026 and pulled them again, with the same terms and
+    the same method, on 13 November. The two pulls cover overlapping twelve-month windows, so the
+    demand figures should barely move. They did not. The click prices are another story.
+  </p>
+
+  <table>
+    <thead>
+      <tr><th>Metro</th><th>Architect searches / mo, July</th><th>November</th><th>CPC, July</th><th>CPC, November</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>New York, NY</td><td>3,340</td><td>3,690</td><td>$8.04</td><td>$10.77</td></tr>
+      <tr><td>Los Angeles, CA</td><td>2,190</td><td>2,310</td><td>$14.71</td><td>$11.08</td></tr>
+      <tr><td>Chicago, IL</td><td>920</td><td>1,130</td><td>$14.80</td><td>$19.29</td></tr>
+      <tr><td>Boston, MA</td><td>800</td><td>850</td><td>$8.31</td><td>$15.37</td></tr>
+      <tr><td>Dallas-Ft. Worth, TX</td><td>850</td><td>840</td><td>$7.87</td><td>$7.90</td></tr>
+      <tr><td>Houston, TX</td><td>650</td><td>680</td><td>$7.29</td><td>$4.57</td></tr>
+      <tr><td>Seattle-Tacoma, WA</td><td>590</td><td>640</td><td>$10.44</td><td>$18.17</td></tr>
+      <tr><td>Atlanta, GA</td><td>560</td><td>610</td><td>$12.78</td><td>$10.45</td></tr>
+      <tr><td>Denver, CO</td><td>590</td><td>580</td><td>$13.85</td><td>$10.87</td></tr>
+      <tr><td>Tampa-St. Petersburg, FL</td><td>510</td><td>580</td><td>$4.99</td><td>$12.45</td></tr>
+      <tr><td>Miami-Ft. Lauderdale, FL</td><td>410</td><td>500</td><td>$10.63</td><td>$12.17</td></tr>
+      <tr><td>Phoenix, AZ</td><td>450</td><td>470</td><td>$11.33</td><td>$6.49</td></tr>
+      <tr><td>Charlotte, NC</td><td>330</td><td>360</td><td>$13.03</td><td>$7.26</td></tr>
+      <tr><td>Austin, TX</td><td>310</td><td>340</td><td>$17.17</td><td>$6.24</td></tr>
+      <tr><td>Salt Lake City, UT</td><td>280</td><td>290</td><td>$15.43</td><td>$1.52</td></tr>
+      <tr><td>Nashville, TN</td><td>260</td><td>240</td><td>$3.98</td><td>$8.79</td></tr>
+    </tbody>
+  </table>
+
+  <p>
+    Demand held: 12 of the 16 metros landed within 10% of their July figure, and the total rose from
+    13,040 to 14,110. Prices moved: 13 of the 16 clicks changed by more than 20%. Austin went from
+    the most expensive click in the set to the third cheapest. Tampa and Nashville, the two cheapest
+    in July, both more than doubled. Dallas moved three cents.
+  </p>
+  <p>
+    So a click price you looked up in the summer tells you very little about what you would pay
+    this winter. If a firm chose its market, or its channel, from one keyword-tool screenshot, it
+    chose on a number that had a shelf life of a few months. Houston and Dallas are the only two
+    metros that stayed under $8 in both pulls.
+  </p>
+
+  <h2>When people search for an architect during the year</h2>
+  <p>
+    The November pull also gives a full month-by-month year for each metro, November 2025 to October
+    2026. Added across all 16, architect searches bottomed out last winter at 9,800 in November and
+    9,520 in December, jumped 54% to 14,650 in January, and peaked at 18,260 in March. </p>
+  <p>
+    July shows a similar figure, but most of the bump is one term: "custom home architect" spiked to 4,820
+    searches that month against roughly 500 in a normal one, and Google's national number shows the
+    same one-month spike. Take it out and July is an ordinary 13,390.
+  </p>
+  <p>
+    Which means the next two months are the quietest of the year for people typing your job title,
+    and January is when it comes back. </p>
+  <p>
+    The projects do not disappear in December. The planning
+    carries on at the kitchen table and in a developer's spreadsheet, and it shows up as searches
+    once the holidays are over. Ads that reach those people before they search are the part of the
+    calendar a firm controls, which is the case made in <a href="/meta-ads-for-architects">Meta ads for architects</a>, and the
+    budget side of it is in the <a href="/architecture-marketing-budget-calculator">architecture marketing budget calculator</a>.
+  </p>
+  <p>
+    The adjacent trades did something stranger. Across the 16 metros their searches went from
+    152,330 in September to 287,740 in October, nearly double, led by "kitchen remodeling near me"
+    and "general contractor near me". Google's national figures show the same jump, 135,000 to
+    301,000 for kitchen remodeling. </p>
+  <p>
+    Architect searches rose 8% over the same month. We have one
+    month of it and no way yet to tell a real autumn rush from a quirk in how Google reports, so it
+    sits in this paragraph and not in a headline. The next pull will say which.
   </p>
 
   <h2>What our own accounts cost in five of these metros</h2>
@@ -119,23 +197,26 @@ const description =
 
   <table>
     <thead>
-      <tr><th>Metro</th><th>Our accounts</th><th>Our median cost per lead</th><th>Google CPC</th><th>Architect searches / mo</th></tr>
+      <tr><th>Metro</th><th>Our accounts</th><th>Our median cost per lead</th><th>Google CPC, July / Nov</th><th>Architect searches / mo</th></tr>
     </thead>
     <tbody>
-      <tr><td>Miami-Ft. Lauderdale, FL</td><td>1</td><td>$77.63</td><td>$10.63</td><td>410</td></tr>
-      <tr><td>Denver, CO</td><td>2</td><td>$73.02</td><td>$13.85</td><td>590</td></tr>
-      <tr><td>Tampa-St. Petersburg, FL</td><td>1</td><td>$61.51</td><td>$4.99</td><td>510</td></tr>
-      <tr><td>Los Angeles, CA</td><td>2 (1 commercial)</td><td>$57.87</td><td>$14.71</td><td>2,190</td></tr>
-      <tr><td>New York, NY</td><td>3</td><td>$53.30</td><td>$8.04</td><td>3,340</td></tr>
+      <tr><td>Miami-Ft. Lauderdale, FL</td><td>1</td><td>$77.63</td><td>$10.63 / $12.17</td><td>500</td></tr>
+      <tr><td>Denver, CO</td><td>2</td><td>$73.02</td><td>$13.85 / $10.87</td><td>580</td></tr>
+      <tr><td>Tampa-St. Petersburg, FL</td><td>1</td><td>$61.51</td><td>$4.99 / $12.45</td><td>580</td></tr>
+      <tr><td>Los Angeles, CA</td><td>2 (1 commercial)</td><td>$57.87</td><td>$14.71 / $11.08</td><td>2,310</td></tr>
+      <tr><td>New York, NY</td><td>3</td><td>$53.30</td><td>$8.04 / $10.77</td><td>3,690</td></tr>
     </tbody>
   </table>
 
   <p>
     One to three accounts per metro is an anecdote, so read this as a reason to check your own
-    market rather than as a law. Even so, Google's click price does not predict ours. Los Angeles
-    has the second most expensive click of the five and our second cheapest leads. Tampa has the
-    cheapest click by a distance and sits in the middle on ours. Denver is the only metro that is
-    expensive in both auctions.
+    market rather than as a law. </p>
+  <p>
+    Even so, Google's click price does not predict ours in either pull.
+    In July, Los Angeles had the second most expensive click of the five and our second cheapest
+    leads, and Tampa had the cheapest click by a distance while sitting in the middle on ours. By
+    November all five clicks sat between $10.77 and $12.45, and our medians still span $53.30 to
+    $77.63.
   </p>
   <p>
     The sharper finding is inside a single metro. Our three New York accounts ran from $29.86 to
@@ -210,20 +291,27 @@ const description =
   <h2>Region beats metro for reading the market</h2>
   <p>
     For the wider question of whether work is coming, region is the unit that actually has data
-    behind it. The AIA and Deltek publish the Architecture Billings Index monthly, and the <a href="https://www.aia.org/resource-center/abi-august-2026-architecture-firm-billings-continue-decline" rel="nofollow">August 2026 reading</a> put the national score at 47.2, with three-month regional averages of Midwest 50.7, West 49.8, South 46.1 and Northeast 40.7. Anything under 50 means more firms reported billings falling than rising.
+    behind it. The AIA and Deltek publish the Architecture Billings Index monthly, and the <a href="https://www.aia.org/about-aia/press/architecture-billings-decline-further-amid-weak-market-conditions" rel="nofollow">September 2026 reading</a>, released 21 October, put the national score at 44.7, down from 47.2 in August, with three-month regional averages of West 50.7, Midwest 50.6, South 43.1 and Northeast 39.1. Anything under 50 means more firms reported billings falling than rising.
   </p>
   <p>
     By the <a href="https://www.aia.org/resource-center/abi-july-2026-architecture-firm-billings-remain-weak" rel="nofollow">AIA's own count</a> the slump has run nearly three and a half years, the longest
-    in the index's history. The map inside it moved over the summer. In June the South was
+    in the index's history. </p>
+  <p>
+    The map inside it moved over the summer. In June the South was
     closest to flat; by August the Midwest posted its first growth in nearly a year, the West sat
-    about flat, and the Northeast fell to its lowest level since 2020. That puts the weakest
+    about flat, and the Northeast fell to its lowest level since 2020. </p>
+  <p>
+    September pushed the South
+    down to 43.1 and the Northeast to 39.1, with the West and Midwest the only regions near flat.
+    That puts the weakest
     billings in the region holding the single biggest search market, New York, which leads the
     table above by a wide margin.
   </p>
   <p>
-    The line in that same release worth pinning above your desk: new project inquiries came in at
-    50.8 while billings sat at 47.2. Inquiries are still expanding, if barely, down from 56.1 in
-    June. Signed work is not. Firms are being
+    The line worth pinning above your desk: in September new project inquiries rose to 53.2 while
+    billings fell to 44.7 and the value of newly signed design contracts dropped to 43.7. </p>
+  <p>
+    Inquiries read 56.1 in June, 50.8 in August and 53.2 in September, all above 50. Signed work is not. Firms are being
     asked to quote and losing the work, which is a conversion problem sitting downstream of a
     marketing one, and it is the same gap the <a href="/architecture-marketing-benchmark-report-2026#from-lead-to-booked-consultation">benchmark report</a> found between leads and booked consultations.
   </p>
@@ -255,15 +343,19 @@ const description =
   <h3>What are the best cities for architects?</h3>
   <p>
     By search demand, New York and Los Angeles are far ahead of everywhere else and the drop after
-    them is steep. By cost, the cheap markets to advertise in right now are Nashville, Tampa,
-    Houston and Dallas. Those two lists barely overlap, so asking which city is best in general gets
+    them is steep. By click cost, the answer depends on the month you ask. </p>
+  <p>
+    In July the cheapest were Nashville,
+    Tampa, Houston and Dallas. In November they were Salt Lake City, Houston, Austin and Phoenix.
+    The demand list and the price list barely overlap, so asking which city is best in general gets
     you nowhere. Ask instead whether your city's demand is small enough that you have to create your
     own. In 14 of these 16 metros, it is.
   </p>
   <h3>Is it more expensive to advertise in a big city?</h3>
   <p>
-    Not reliably. Austin is one of the smaller markets in our table and the most expensive click in
-    it. New York is the largest and sits mid-table at $8.04. What drives the price is how many
+    Not reliably. In July, Austin was one of the smaller markets in our table and the most expensive
+    click in it. By November it was the third cheapest, and Chicago had taken the top spot at
+    $19.29. New York is the largest market and sits mid-table at $10.77. What drives the price is how many
     advertisers are bidding on the same intent, which is a local competitive question you can only
     answer by checking your own metro.
   </p>
@@ -290,14 +382,15 @@ const description =
 
   <h2>Where these numbers come from</h2>
   <p>
-    Search volumes and click costs are Google Ads data pulled through DataForSEO on 30 July 2026, at
+    Search volumes and click costs are Google Ads data pulled through DataForSEO on 30 July 2026
+    and again on 13 November 2026, each the average of the twelve months before the pull, at
     Nielsen DMA level, so each metro includes its suburbs rather than the city limits alone. The six
     architect-intent terms are "architect near me", "residential architect", "commercial architect",
     "custom home architect", "architect cost" and "home architect".
   </p>
   <p>
     Google reports "architect near me" and "architects near me" with identical volumes in every one
-    of the 16 metros, because it groups close variants together. We counted that demand once instead
+    of the 16 metros, in both pulls, because it groups close variants together. We counted that demand once instead
     of twice, which is why our totals are lower than a keyword tool export would give you.
   </p>
   <p>
@@ -308,7 +401,9 @@ const description =
   <p>
     Cost per lead figures are our own aggregate ad account data, one observation per account so that
     no single large spender moves a median, over 15 September 2025 to 11 September 2026, the same
-    21 accounts and window as our benchmark report. Accounts with fewer than 20 leads in the window
+    21 accounts and window as our benchmark report. </p>
+  <p>
+    Accounts with fewer than 20 leads in the window
     are left out of both tables. Client names are
     never published. We report cost per lead and cost per booked consultation because we measure
     them. We do not publish cost per signed project, because that closes in the firm's office and we
@@ -329,7 +424,7 @@ const description =
     projects are out there searching for someone else to call first.
   </p>
   <p>
-    You can wait for the 310 people in Austin, or you can go and find the 1,710 who are already
+    You can wait for the 340 people in Austin, or you can go and find the 2,540 who are already
     planning something. The full map of how the channels fit together is <a href="/architecture-marketing#what-architecture-marketing-actually-is-in-four-moving-parts">architecture marketing</a>. If you would rather have the engine built and run for you than reverse-engineer your own metro between site visits, that is what we do, and we get paid when a qualified consultation actually shows up.
   </p>
   <a class="cta-block" href="https://ipqmedia.com/book-a-call">Book a call with IPQmedia</a>
