@@ -39,7 +39,7 @@ Canonical URL form for every page below is without a trailing slash. Index of al
 
 ## Comparisons
 
-- [Meta ads vs Google Ads for architects](https://ipqmedia.com/resources/meta-ads-vs-google-ads-for-architects): Creating demand against capturing it, with real click costs for both.
+- [Meta ads vs Google Ads for architects](https://ipqmedia.com/resources/meta-ads-vs-google-ads-for-architects): Creating demand against capturing it: Google click costs re-pulled Nov 2026, Meta cost per lead and per booked consultation from 21 firm accounts, what ChatGPT and Perplexity recommend (Google first, 6 of 6) against 2,026 Meta leads' stated start dates.
 - [Pay per lead vs retainer for architects](https://ipqmedia.com/resources/pay-per-lead-vs-retainer-for-architects): The three ways firms pay for marketing, who carries the risk in each, and first-party data from 12 firms showing 2.5 to 14 leads per booked consultation on the same ad channel.
 
 ## Original data and benchmarks
