@@ -1,10 +1,10 @@
 ---
 const published = '2026-07-26';
-const updated = '2026-10-09';
+const updated = '2026-11-18';
 import Base from '../layouts/Base.astro';
 const title = 'Architecture Marketing Benchmark Report 2026 | IPQmedia';
 const description =
-  'Real Meta ads performance benchmarks for architecture firms: cost per lead, cost per click, click-to-lead rate and cost per booked consultation, in quartiles, from 21 US firm ad accounts and a full twelve months of spend.';
+  'Real Meta ads benchmarks for architecture firms: cost per lead, cost per click, click-to-lead rate and cost per booked consultation, in quartiles, from 26 US firm ad accounts and twelve months of spend to November 2026.';
 ---
 
 <Base title={title} description={description} published={published} updated={updated}>
@@ -25,20 +25,21 @@ const description =
   <p>
     This report is our attempt to fix that for our own corner of the market. Every figure below
     comes out of ad accounts we run for US architecture and design firms, re-pulled from the
-    reporting tables on 11 September 2026. Aggregate and anonymized, with the sample size attached to
+    reporting tables on 18 November 2026. Aggregate and anonymized, with the sample size attached to
     each claim, including the claims that make us look expensive.
   </p>
 
   <p>
-    Second edition. The first ran in July on sixteen accounts and ten months of spend. The window
-    is now a full twelve months across twenty-one accounts, which was enough to overturn two of
-    the July findings. Both corrections are below in their own section rather than quietly swapped
-    out.
+    Third edition. July ran on sixteen accounts and ten months of spend. September ran on
+    twenty-one accounts and a full twelve months, and overturned two of the July findings. This
+    edition covers the twelve months to 17 November 2026 across twenty-six accounts, and it
+    downgrades one more finding. What moved since September has its own section below, with the
+    old figures left on the page so anything that quoted them can still be checked.
   </p>
 
   <div class="answer">
     <p class="answer-label">The short answer</p>
-    <p>Across 21 US architecture and design firm Meta ad accounts, $117,656 of spend and 2,419 leads between 15 September 2025 and 11 September 2026: the median firm paid $50 per lead, with the middle half landing between $28 and $71 and the full range running $13 to $113. About 9 in 100 people who clicked through filled in the form. Roughly 31 percent of leads turned into a booked consultation, at about $159 of ad spend each. A typical full month was $1,453 of spend and 22 leads.</p>
+    <p>Across 26 US architecture and design firm Meta ad accounts, $161,236 of spend and 3,427 leads between 18 November 2025 and 17 November 2026: the median firm paid $52 per lead, with the middle half landing between $30 and $69 and the full range running $13 to $88. About 9 in 100 people who clicked through filled in the form. Roughly 35 percent of leads turned into a booked consultation, at about $136 of ad spend each. A typical full month was $1,529 of spend and 24 leads.</p>
   </div>
 
   <h2>Why nobody has published this before</h2>
@@ -61,25 +62,26 @@ const description =
   <h2>The benchmark table</h2>
   <p>
     Quartiles, not averages. One loud account can drag an average anywhere, so each row below
-    is built from the 21 accounts as 21 separate results and then cut at the 25th, 50th and 75th
-    percentile. If your own number sits at or under the median column, you are in the better
-    half of the accounts we run.
+    is built from the accounts as separate results and then cut at the 25th, 50th and 75th
+    percentile. Twenty-four of the 26 accounts produced at least ten leads in the window, and
+    those 24 are the rows. If your own number sits at or under the median column, you are in the
+    better half of the accounts we run.
   </p>
 
   <table>
     <thead>
-      <tr><th>Metric (per firm)</th><th>Better quarter</th><th>Median firm</th><th>Costlier quarter</th></tr>
+      <tr><th>Metric (per firm, n=24)</th><th>Better quarter</th><th>Median firm</th><th>Costlier quarter</th></tr>
     </thead>
     <tbody>
-      <tr><td>Cost per lead</td><td>under $28</td><td>$50</td><td>over $71</td></tr>
-      <tr><td>Cost per link click</td><td>under $2.90</td><td>$3.60</td><td>over $5.25</td></tr>
-      <tr><td>Cost per click, all clicks</td><td>under $1.72</td><td>$2.11</td><td>over $2.87</td></tr>
-      <tr><td>Cost per 1,000 impressions</td><td>under $47</td><td>$64</td><td>over $86</td></tr>
-      <tr><td>Link click-through rate</td><td>over 2.11%</td><td>1.71%</td><td>under 1.42%</td></tr>
-      <tr><td>Clicks that became a lead</td><td>over 12.5%</td><td>9.1%</td><td>under 5.6%</td></tr>
-      <tr><td>Leads per $1,000 of spend</td><td>over 35</td><td>19.8</td><td>under 14.2</td></tr>
-      <tr><td>Leads that booked a consultation</td><td>over 45%</td><td>32%</td><td>under 15%</td></tr>
-      <tr><td>Cost per booked consultation</td><td>under $105</td><td>$148</td><td>over $240</td></tr>
+      <tr><td>Cost per lead</td><td>under $30</td><td>$52</td><td>over $69</td></tr>
+      <tr><td>Cost per link click</td><td>under $2.87</td><td>$3.94</td><td>over $5.57</td></tr>
+      <tr><td>Cost per click, all clicks</td><td>under $1.74</td><td>$2.62</td><td>over $2.99</td></tr>
+      <tr><td>Cost per 1,000 impressions</td><td>under $57</td><td>$73</td><td>over $99</td></tr>
+      <tr><td>Link click-through rate</td><td>over 2.40%</td><td>1.89%</td><td>under 1.59%</td></tr>
+      <tr><td>Clicks that became a lead</td><td>over 12.2%</td><td>9.2%</td><td>under 6.7%</td></tr>
+      <tr><td>Leads per $1,000 of spend</td><td>over 33</td><td>19.4</td><td>under 14.5</td></tr>
+      <tr><td>Leads that booked a consultation</td><td>over 45%</td><td>31%</td><td>under 17%</td></tr>
+      <tr><td>Cost per booked consultation</td><td>under $102</td><td>$177</td><td>over $277</td></tr>
     </tbody>
   </table>
 
@@ -90,14 +92,13 @@ const description =
     destination.
   </p>
   <p>
-    In these accounts the median firm paid $2.11 for the first kind and $3.60 for the second, so
-    the number worth planning against runs about 70 percent higher than the number the dashboard
-    shows you first. Our July edition quoted the all-clicks figure without saying so, which is
-    the kind of thing a benchmark should be explicit about.
+    In these accounts the median firm paid $2.62 for the first kind and $3.94 for the second, so
+    the number worth planning against runs about half again higher than the number the dashboard
+    shows you first.
   </p>
   <p>
-    The full cost per lead range across the 21 accounts was $12.58 to $112.94. That is a factor
-    of nine between the cheapest and the most expensive practice buying leads in the same
+    The full cost per lead range across the 24 accounts was $12.58 to $88.33. That is a factor
+    of seven between the cheapest and the most expensive practice buying leads in the same
     country, in the same year, on the same platform.
   </p>
   <p>
@@ -105,104 +106,162 @@ const description =
     any agency quoting you one number with a straight face is quoting you a median at best.
   </p>
 
+  <h2>What moved since the September edition</h2>
+  <p>
+    Ten weeks, six new accounts, and the window slid forward to take in this autumn. One account
+    left the sample on purpose: September counted an engineering firm, and this edition excludes it
+    as a different profession. The September figures are on the left so that any page still quoting
+    them, ours included, can be traced back to a number that was published here.
+  </p>
+
+  <table>
+    <thead>
+      <tr><th>Metric</th><th>September edition (21 accounts, to 11 Sep 2026)</th><th>November edition (26 accounts, to 17 Nov 2026)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Ad spend in the window</td><td>$117,656</td><td>$161,236</td></tr>
+      <tr><td>Leads</td><td>2,419</td><td>3,427</td></tr>
+      <tr><td>Median cost per lead</td><td>$50</td><td>$52</td></tr>
+      <tr><td>Middle half of cost per lead</td><td>$28 to $71</td><td>$30 to $69</td></tr>
+      <tr><td>Median cost per 1,000 impressions</td><td>$64</td><td>$73</td></tr>
+      <tr><td>Median cost per link click</td><td>$3.60</td><td>$3.94</td></tr>
+      <tr><td>Median click-to-lead rate</td><td>9.1%</td><td>9.2%</td></tr>
+      <tr><td>Leads that booked, pooled</td><td>31%</td><td>35%</td></tr>
+      <tr><td>Cost per booked consultation, pooled</td><td>$159</td><td>$136</td></tr>
+      <tr><td>Cost per booked consultation, median firm</td><td>$148</td><td>$177</td></tr>
+      <tr><td>Live days with no lead</td><td>41%</td><td>37%</td></tr>
+    </tbody>
+  </table>
+
+  <p>
+    Reaching people got more expensive. The median account now pays $73 per thousand
+    impressions against $64 in September, about 14 percent more. The people who clicked turned
+    into leads at the same rate as before, 9.2 percent against 9.1, so the ads themselves did not
+    get worse. Most of the extra cost of a click came from the price of the audience.
+  </p>
+  <p>
+    The median cost per lead barely moved through all of that, $50 to $52, and the middle half
+    of the table actually narrowed. A lead is roughly the price it was in September even though
+    the attention that produces it costs more.
+  </p>
+  <p>
+    The booking rows pull in opposite directions, and both are true. Pooled across every lead,
+    more of them booked and each booking cost less, $136 against $159, because several of the
+    larger accounts that joined over the summer book a high share of their leads.
+  </p>
+  <p>
+    The median firm went the other way, from $148 to $177. Six accounts launched after the
+    September pull, five of them have enough leads to count, and their median is $198 per booked
+    consultation against $126 for the rest.
+    Part of that is timing: a booking trails its lead, and those accounts have had weeks rather
+    than months for the bookings to land. We will know how much of it is timing at the next edition.
+  </p>
+
   <h2>What a normal month looks like</h2>
   <p>
-    Across 42 full calendar months of account activity, the median month was $1,453 of ad spend
-    producing 22 leads. The quieter quarter of months came in at $1,141 and 18 leads. The busier
-    quarter ran $2,534 and 40 leads. That is the honest shape of a small firm's advertising
+    Across 42 full calendar months of account activity, the median month was $1,529 of ad spend
+    producing 24 leads. The quieter quarter of months came in at $1,170 and 19 leads. The busier
+    quarter ran $3,053 and 49 leads. That is the honest shape of a small firm's advertising
     month, and it is a long way from the volume language used in most pitches.
   </p>
   <p>
-    Twenty-two leads a month sounds thin until you price it against the work. One signed residential project at a typical 8 to 15 percent fee usually pays for a year of that spend several times over, which is the whole argument for <a href="/lead-generation-for-architects#how-much-should-you-spend">running a lead generation system at all</a> rather than waiting for the phone.
+    Twenty-four leads a month sounds thin until you price it against the work. One signed residential project at a typical 8 to 15 percent fee usually pays for a year of that spend several times over, which is the whole argument for <a href="/lead-generation-for-architects#how-much-should-you-spend">running a lead generation system at all</a> rather than waiting for the phone.
   </p>
 
   <h2>Leads arrive faster than firms expect, then stop for days</h2>
   <p>
-    Two numbers that sit uncomfortably next to each other. The median account got its first lead
-    one day after launch, 17 of the 21 got one inside the first week, and the slowest took 12
-    days. Every account in the sample eventually produced leads. So the machine tends to prove
-    itself quickly.
+    Two numbers that sit uncomfortably next to each other. Twenty-two accounts launched inside
+    this window. Of the 21 that have produced a lead, the median got its first one a day after
+    launch, 20 got one inside a week, and the slowest took 9 days. The 22nd went live four days
+    before this pull and had not produced one yet. So the machine tends to prove itself quickly.
   </p>
   <p>
-    Then, across 1,839 account days of live spend, 41 percent produced no leads at all. Nearly
+    Then, across 2,253 account days of live spend, 37 percent produced no leads at all. Nearly
     every account we run has weeks with a two day silence in the middle of a perfectly healthy
     month. Firms who check the dashboard daily read that silence as failure and start turning
     things off, which is the single most expensive habit in this whole business.
   </p>
   <p>
-    July put that figure at 47 percent on ten months of data. More accounts and more months moved
-    it six points in the firms' favor, and it is still two days in five.
+    July put that figure at 47 percent and September at 41. It keeps falling as the sample grows,
+    and it is still better than one day in three.
   </p>
 
-  <h2>Two things we got wrong in the July edition</h2>
+  <h2>Findings we have taken back</h2>
   <p>
-    A benchmark that never contradicts itself is a benchmark nobody is re-running. Two of the July
-    findings did not survive a sample a third larger, and the shape of each error is more useful
-    than the original claim was.
+    A benchmark that never contradicts itself is a benchmark nobody is re-running. Three findings
+    across two editions did not survive a larger sample, and the shape of each error is more
+    useful than the original claim was.
   </p>
   <p>
     <strong>Cost per lead does not reliably climb as an account ages.</strong> July reported a
-    drift from about $41 in month one to about $71 in month four, and said the drift survived
-    correcting for seasonality. On twelve months it mostly does not.
+    drift from about $41 in month one to about $71 in month four. September showed that was mostly
+    an artifact of when accounts launched: most of the newest ones started in a cheap stretch of
+    summer, which flattered month one and made everything after it look like decay.
   </p>
   <p>
-    Indexing every account month against what the whole sample paid in that same calendar month,
-    months one to three sit at 1.00 times the sample (27 account months), months four to six at
-    1.03 (15 account months) and months seven and later at 1.29 (10 account months, across three
-    accounts).
+    This edition indexes every account month against what the whole sample paid in that same
+    calendar month. Months one to three and months four to six both sit at 1.14 times the sample
+    (20 and 18 account months). Months seven and later sit at 1.46 (16 account months across five
+    accounts), with the middle account month at 1.17.
   </p>
   <p>
-    The early part of the July curve turned out to be an artifact of when accounts launched. Most
-    of the newest ones started in a cheap stretch of summer, which flattered month one and made
-    everything after it look like decay.
+    So there is a late-tenure signal, it now rests on five accounts instead of three, and it is
+    modest once one or two expensive months stop dominating the average. Creative fatigue and a
+    thinning local audience are real and worth getting ahead of. We are still not willing to tell
+    you they arrive on a schedule.
   </p>
   <p>
-    What is left is a late-tenure signal on three accounts, which is not enough to plan a budget
-    around. Creative fatigue and a thinning local audience are still real and still worth getting
-    ahead of. We are no longer willing to tell you they arrive on a schedule.
+    <strong>Daily budget does not predict cost per lead.</strong> July found the accounts spending
+    under $40 a day had the lowest cost per lead. September had them highest. This edition puts the
+    $40 to $80 band highest at a $59 median, against $50 above $80 a day and $48 under $40 (two
+    accounts). Three editions, three different orders. Spend level is not the lever, and we cannot
+    find one in this data.
   </p>
   <p>
-    <strong>Daily budget does not predict cost per lead either.</strong> July found the accounts
-    spending under $40 a day had the lowest cost per lead. In this cut they have the highest, at
-    a $64 median against $37 for the $40 to $80 band and $55 above it. A relationship that flips
-    direction in seven weeks was never a relationship. Spend level is not the lever, so the
-    honest version is that we cannot find one in this data.
+    <strong>Spring is not reliably the expensive quarter.</strong> September said the same account
+    pays about a quarter more per lead in April through June than in January through March. On
+    this window the cheap half of that held up and the expensive half did not, which is the next
+    section.
   </p>
 
-  <h2>Spring is the expensive quarter</h2>
+  <h2>Winter is the cheap quarter. Spring is less clear than we said</h2>
   <p>
-    This is what the twelve month window bought, and we could not have published it in July.
     Compare each account month against that same account's own average for the year, so a firm's
-    local market and offer cancel out and only the timing is left.
+    local market and offer cancel out and only the timing is left. January through March runs at
+    0.91 times an account's own year at the middle account month (10 account months, four
+    accounts). All four accounts that advertised through the winter had their cheapest month of
+    the window between December and March.
   </p>
   <p>
-    April through June runs at 1.12 times an account's own year (16 account months). October
-    through December runs at 0.89 (10), January through March at 0.87 (11), July through
-    September at 0.92 (15). The same firm, the same ads, the same county, pays roughly a quarter
-    more for a lead in late spring than it does in the first quarter.
+    April through June averages 1.47, which looks dramatic, and the middle account month is 1.08.
+    Three account months carry almost all of that average: two from one account in its early
+    months, and one bad May at another. Take them out and the spring average drops to 1.08, in
+    line with the rest of the year.
+    July through September sits at 0.92 and October through December at 1.13 (eight accounts each).
   </p>
   <p>
-    Our read, and it is a read rather than a proven mechanism: spring is when everyone in the home
-    and building trades turns their advertising on, so an architecture firm is bidding against
-    remodelers and builders and landscape designers for the same attention.
+    Our read on winter, and it is a read rather than a proven mechanism: fewer businesses in the
+    home and building trades advertise in the dead of winter, so an architecture firm is bidding
+    against fewer remodelers and builders for the same attention. The people planning a building
+    project are still online.
   </p>
   <p>
-    The practical version is unglamorous. Do not launch a new account in May and judge the channel on it, and do not cut budget in January because it looks quiet when it is actually the cheapest month you will get. The wider seasonal pattern in buyer demand itself is mapped in <a href="/architecture-client-demand-by-metro-2026">architecture client demand by metro</a>.
+    The practical version is unglamorous. Do not cut budget in January because it looks quiet when it is typically the cheapest stretch you will get, and do not judge a channel on one expensive month in any season. The wider seasonal pattern in buyer demand itself is mapped in <a href="/architecture-client-demand-by-metro-2026">architecture client demand by metro</a>.
   </p>
 
   <h2>Lead forms against landing pages</h2>
   <p>
-    Splitting campaigns by where the lead was actually captured, 39 campaigns across 20 accounts
-    ran on Facebook's own lead forms and produced 1,867 leads at $40.55 blended. Nine campaigns
-    across 7 accounts sent traffic to a landing page and produced 439 leads at $70.18 blended.
-    Across the whole sample, 78 percent of leads arrived through an in-platform form.
+    Splitting campaigns by where the lead was actually captured, 36 campaigns across 20 accounts
+    ran only on Facebook's own lead forms and produced 1,683 leads at $41.84 blended. Eleven campaigns
+    across 8 accounts sent traffic only to a landing page and produced 617 leads at $67.96 blended.
+    Another 8 campaigns ran both and came in at $41.60. Across the whole sample, 72 percent of leads
+    arrived through an in-platform form.
   </p>
   <p>
-    So in-platform forms typically come in around 40 percent cheaper per lead, and the gap is
-    wider than the 07-26 cut showed. That is not an argument that landing pages are wrong, and the
-    volume difference here is real enough to say loudly: nine campaigns is a small sample. A
-    landing page also asks for more effort, which tends to hand you a better conversation with
-    fewer people.
+    So in-platform forms typically come in around 40 percent cheaper per lead, the same gap
+    September found. That is not an argument that landing pages are wrong, and eleven campaigns is
+    still a small sample. A landing page also asks for more effort, which tends to hand you a better
+    conversation with fewer people.
   </p>
   <p>
     Firms with strong <a href="/website-design-for-architects#what-a-site-that-converts-actually-has">web pages built to convert rather than to impress</a> often do better on the page route than this table suggests. The full method behind both routes is in <a href="/meta-ads-for-architects">Meta ads for architects</a>.
@@ -210,14 +269,14 @@ const description =
 
   <h2>One campaign does most of the work</h2>
   <p>
-    Restricting to the nine accounts that ran three or more campaigns, so the number is not just
-    an artifact of accounts that only ever ran one, the single best campaign produced 84 percent
-    of that account's leads at the median. The weakest concentration in that group was still 46
-    percent from one campaign, and the strongest was 97 percent.
+    Restricting to the ten accounts that ran three or more campaigns, so the number is not just
+    an artifact of accounts that only ever ran one, the single best campaign produced 80 percent
+    of that account's leads at the median. The weakest concentration in that group was 37
+    percent from one campaign, and the strongest was 98 percent.
   </p>
   <p>
-    Across the whole sample, 33 percent of spend went to campaigns that were not the account's
-    best one, and 8 of 59 campaigns produced no leads at all on $2,449 between them. Most of that
+    Across the whole sample, 23 percent of spend went to campaigns that were not the account's
+    best one, and 8 of 63 campaigns produced no leads at all on $2,009 between them. Most of that
     spend bought the search rather than the result. You cannot know which campaign is the one
     until several have run.
   </p>
@@ -226,17 +285,16 @@ const description =
   </p>
   <p>
     Method note for anyone comparing editions: July reported this at the individual ad level and
-    found 56 percent of ads produced zero leads. Our current export holds performance at campaign
-    level only, so this edition reports campaigns, and we have not restated the July figure as
-    though the two were interchangeable.
+    found 56 percent of ads produced zero leads. September and this edition report campaigns, and we
+    have not restated the July figure as though the two were interchangeable.
   </p>
 
   <h2>From lead to booked consultation</h2>
   <p>
-    Of 2,419 leads, 742 became a booked consultation inside the client's own advertising window.
-    That is 31 percent pooled, at about $159 of ad spend per booked consultation. Per account,
-    the median was 32 percent, the better quarter cleared 45 percent and the weaker quarter came
-    in under 15 percent.
+    Of 3,427 leads, 1,187 became a booked consultation inside the client's own advertising window.
+    That is 35 percent pooled, at about $136 of ad spend per booked consultation. Per account,
+    the median was 31 percent, the better quarter cleared 45 percent and the weaker quarter came
+    in under 17 percent.
   </p>
   <p>
     Read that spread carefully, because part of it is measurement rather than performance. Some
@@ -245,59 +303,55 @@ const description =
     tracking. When those bookings happen, by hour, weekday and how far ahead, is broken out in <a href="/consultation-booking-for-architects">consultation booking for architects</a>.
   </p>
   <p>
-    We are also still not publishing a cost per consultation that actually showed up, and we
-    checked again for this edition rather than repeating the July line. Of 1,023 booked
-    consultations in the tracked calendars, only 48 carry a recorded outcome, and 18 of the 24
-    calendars record none at all. A show rate built on that would be a number about our
+    We are still not publishing a cost per consultation that actually showed up, and we checked
+    again for this edition. Of the 1,187 bookings, 97 were later canceled and only 6 carry a
+    recorded outcome of held or no-show. A show rate built on that would be a number about our
     record-keeping. When it is solid it goes on this page.
   </p>
   <p>
-    What the spread does establish is where the money leaks. A firm at 15 percent and a firm at 45 percent are usually buying the same leads at the same price, and the difference is speed of response and who picks up the phone, which is the part of <a href="/lead-generation-for-architects#content-and-follow-up">the follow-up system</a> nobody wants to own.
+    What the spread does establish is where the money leaks. A firm at 17 percent and a firm at 45 percent are usually buying the same leads at the same price, and the difference is speed of response and who picks up the phone, which is the part of <a href="/lead-generation-for-architects#content-and-follow-up">the follow-up system</a> nobody wants to own.
   </p>
 
   <h2>Residential and commercial read differently</h2>
   <p>
-    Ten of the 21 accounts carry a segment on their record, seven residential and three
-    commercial, and this is the first edition where the commercial side has enough accounts to
-    say anything at all. In July it was one.
+    Ten of the 26 accounts carry a segment on their record, eight residential and two
+    commercial. September had three commercial accounts, and one of them was the engineering firm
+    this edition excludes, so this section is a direction and nothing firmer.
   </p>
   <p>
-    The residential accounts paid $39.92 per lead and booked 34.8 percent of those leads, landing
-    at $114.65 per booked consultation. The commercial accounts paid $53.43 per lead, 34 percent
-    more, on a $63.02 cost per thousand impressions against $51.45. Then they booked 43.2 percent
-    of those leads and landed at $123.63 per booked consultation. Fewer, more expensive, and
-    considerably more serious once they arrive.
+    The residential accounts paid $41.51 per lead and booked 38.3 percent of those leads, landing
+    at $108.47 per booked consultation. The commercial accounts paid $46.25 per lead, about 11
+    percent more, then booked 51.9 percent of those leads and landed at $89.09 per booked
+    consultation.
   </p>
   <p>
-    The two segments converge at the metric that matters. A commercial lead costs a third more and
-    earns more than a third back, because a materially higher share of them turn into a meeting. A
-    firm reading only the cost per lead column will conclude commercial work is expensive to
-    market, and the booking column says otherwise.
+    The direction matches September's. A commercial lead costs more, and a larger share of
+    commercial leads turn into a meeting, so the two segments converge or cross at the metric that
+    matters. A firm reading only the cost per lead column will conclude commercial work is expensive
+    to market, and the booking column says otherwise.
   </p>
   <p>
-    If you design homes, expect the shape in this report: a cheap first week, a $28 to $71 cost per lead band, a lot of unqualified curiosity mixed in, and homeowners who need several conversations before they are a project. The detail work for that segment sits in <a href="/marketing-for-residential-architects">marketing for residential architects</a>.
+    If you design homes, expect the shape in this report: a cheap first week, a $30 to $69 cost per lead band, a lot of unqualified curiosity mixed in, and homeowners who need several conversations before they are a project. The detail work for that segment sits in <a href="/marketing-for-residential-architects">marketing for residential architects</a>.
   </p>
   <p>
-    If you design for developers, owners and businesses, expect a higher cost per lead, a longer evaluation, and a better show of intent per inquiry. All three commercial accounts here ran a specific offer aimed at someone comparing firms rather than a soft form, which fits what we see in <a href="/marketing-for-commercial-architects">marketing for commercial architects</a>: the same engine aimed at a buyer who is evaluating rather than dreaming.
-  </p>
-  <p>
-    Caveat stated plainly, because three accounts is three accounts. Treat the commercial figures
-    as a direction, and re-read this section when the next edition lands.
+    If you design for developers, owners and businesses, expect a higher cost per lead, a longer evaluation, and a better show of intent per inquiry. Both commercial accounts here ran a specific offer aimed at someone comparing firms rather than a soft form, which fits what we see in <a href="/marketing-for-commercial-architects">marketing for commercial architects</a>: the same engine aimed at a buyer who is evaluating rather than dreaming.
   </p>
 
   <h2>How these numbers compare to the published ones</h2>
   <p>
-    Our median firm pays $2.11 a click on the same all-clicks basis the published studies use,
-    where the published all-industry Facebook figure for lead campaigns is $1.80. Our median account converts 9.1
+    Our median firm pays $2.62 a click on the same all-clicks basis the published studies use,
+    where the published all-industry Facebook figure for lead campaigns is $1.80. Our median account converts 9.2
     percent of link clicks into leads where the published click-to-lead figure is 8.54 percent.
-    So the ads themselves perform normally. Our median cost per lead of $50 sits well above the
+    So the ads themselves perform normally.
+  </p>
+  <p>
+    Our median cost per lead of $52 sits well above the
     published all-industry $27.39 and above the $42.95 for Home and Home Improvement.
   </p>
   <p>
-    An earlier version of this report put part of that gap down to timing, since the previous
-    edition's data closed well before ours. The 2026 edition, published 23 September 2026, rules
-    that out: the all-industry figure slipped slightly, from $27.66 to $27.39, while Home and Home
-    Improvement edged up from $41.26 to $42.95. A fresher benchmark barely moved the gap.
+    The published study's 2026 edition barely moved from the one before it: the all-industry
+    figure slipped from $27.66 to $27.39, while Home and Home Improvement edged up from $41.26 to
+    $42.95. Fresher benchmarks do not close the gap.
   </p>
   <p>
     Most of it is the market. An architecture firm advertises to one or two counties, not a
@@ -313,9 +367,9 @@ const description =
 
   <h3>How many leads should an architecture firm expect from Facebook ads?</h3>
   <p>
-    In our accounts the median full month produced 22 leads on $1,453 of spend, with the middle
-    band running 18 to 40 leads. Expressed per dollar, the median account got 19.8 leads per
-    $1,000 and the best quarter got over 35.
+    In our accounts the median full month produced 24 leads on $1,529 of spend, with the middle
+    band running 19 to 49 leads. Expressed per dollar, the median account got 19.4 leads per
+    $1,000 and the best quarter got over 33.
   </p>
   <p>
     If someone promises you 100 leads a month at a small firm's budget, ask what they count as a
@@ -324,35 +378,47 @@ const description =
 
   <h3>How long does it take for architecture ads to start producing leads?</h3>
   <p>
-    Faster than most principals expect. The median account in this sample saw its first lead one
-    day after launch and 17 of 21 saw one within the first week, with the slowest at 12 days.
+    Faster than most principals expect. The median account launched in this window saw its first
+    lead one day after launch and 20 of 21 saw one within a week, with the slowest at 9 days.
   </p>
   <p>
     The harder wait is the one after that. Judging a campaign inside its first two weeks of
-    volume is how firms talk themselves out of a channel, and 41 percent of live account days
+    volume is how firms talk themselves out of a channel, and 37 percent of live account days
     produced no leads at all, so a quiet stretch means very little on its own.
   </p>
 
   <h3>Why did my cost per lead go up after a few months?</h3>
   <p>
-    Check the calendar before you blame the account. Our July edition said cost per lead climbs
-    with account age, and a full year of data mostly took that back: once every account month is
-    compared against what the whole sample paid in the same calendar month, the first six months
-    are flat.
+    Check the calendar and the market before you blame the account. Compared against what the
+    whole sample paid in the same calendar month, months one to six are flat in our data, and the
+    later months show a modest rise on five accounts.
   </p>
   <p>
-    What does move is the season. The same account typically pays about a quarter more per lead in
-    April through June than in January through March. Creative fatigue and a thinning local
-    audience still bite, and new creative and a wider radius are still the fix.
+    Across the whole sample, the price of reaching people rose about 14 percent between September
+    and November while click-to-lead held steady, so some of what feels like an account getting
+    worse is the platform getting dearer. Creative fatigue and a thinning local audience still bite,
+    and new creative and a wider radius are still the fix.
   </p>
   <p>
     Ad by ad the picture is the same: our longest-running winners lost only about 12 percent of their efficiency after week eight, measured in <a href="/facebook-ad-fatigue-for-architects">how often architects should change their Facebook ads</a>.
   </p>
 
+  <h3>Is there a cheap time of year to advertise an architecture firm?</h3>
+  <p>
+    Winter, typically. January through March came in at 0.91 times an account's own yearly cost
+    per lead, and all four accounts that advertised through the winter had their cheapest month
+    between December and March.
+  </p>
+  <p>
+    We used to say spring was the expensive quarter. On a larger sample that rested on three bad
+    account months, so we no longer say it. At the middle account month, every quarter sits within
+    about 15 percent of an account's own average.
+  </p>
+
   <h3>Are Facebook lead forms better than a landing page for architects?</h3>
   <p>
-    Cheaper per lead, typically. Lead form campaigns in this sample came in at $40.55 per lead
-    against $70.18 for landing page campaigns, and 78 percent of all leads arrived through a
+    Cheaper per lead, typically. Lead form campaigns in this sample came in at $41.84 per lead
+    against $67.96 for landing page campaigns, and 72 percent of all leads arrived through a
     form.
   </p>
   <p>
@@ -363,9 +429,9 @@ const description =
 
   <h3>What does a booked consultation cost an architecture firm?</h3>
   <p>
-    About $159 of ad spend at the pooled rate, and $148 for the median account, with the middle
-    half of accounts between $105 and $240. Residential accounts landed at $114.65 and commercial
-    accounts at $123.63.
+    About $136 of ad spend at the pooled rate, and $177 for the median account, with the middle
+    half of accounts between $102 and $277. Residential accounts landed at $108.47 and commercial
+    accounts at $89.09.
   </p>
   <p>
     That is the number worth holding. A lead is an intermediate metric and a consultation in the
@@ -375,37 +441,43 @@ const description =
 
   <h2>How this report was built</h2>
   <p>
-    Sample: 21 US architecture and design firm Meta ad accounts managed by IPQmedia, all spend
-    between 15 September 2025 and 11 September 2026, re-pulled from our reporting tables on 11
-    September 2026. Totals: $117,656 of ad spend, 2,151,042 impressions, 81,038 link clicks,
-    2,419 leads, 742 booked consultations. Two construction contractor accounts in the same
-    reporting tables were excluded, because they are a different profession and a different
-    buyer.
+    Sample: 26 US architecture and design firm Meta ad accounts managed by IPQmedia, all spend
+    between 18 November 2025 and 17 November 2026, re-pulled from our reporting tables on 18
+    November 2026. Totals: $161,236 of ad spend, 2,460,210 impressions, 43,829 link clicks,
+    3,427 leads, 1,187 booked consultations.
+  </p>
+  <p>
+    Two construction contractor accounts and one
+    engineering firm in the same reporting tables were excluded, because they are a different
+    profession and a different buyer. The engineering firm was inside the September edition's 21
+    accounts, so the two editions differ by that account as well as by the window.
   </p>
   <p>
     Method notes. Per-firm figures treat each account as one observation and report quartiles, so
-    a single high-volume account cannot move the median. Pooled figures divide total spend by
-    total results and are labeled as such wherever they appear. Booked consultations are counted
-    only inside each account's own advertising window.
+    a single high-volume account cannot move the median. The quartile table uses the 24 accounts
+    with at least ten leads in the window. Pooled figures divide total spend by total results and
+    are labeled as such wherever they appear. Booked consultations are counted only inside each
+    account's own advertising window, including the ones later canceled.
   </p>
   <p>
-    Click-based rows exclude 25 account days, out of 2,091, where the export reported more link
-    clicks than total clicks. That is a reporting artifact rather than a result, and leaving it in
-    would have pulled the pooled cost per link click down by more than half. Those days remain in
-    the spend and lead figures, which are unaffected.
+    Click-based rows exclude 9 account days where the export reported more link clicks than total
+    clicks, which is a reporting artifact rather than a result. A correction while we are here: the
+    September edition's total of 81,038 link clicks included its 25 artifact days, most of them in
+    one account's first weeks in September 2025. Its click rows excluded them and were right. The
+    total was inflated, and this window no longer contains those days.
   </p>
   <p>
     The tenure analysis normalizes each account month against the whole sample's cost per lead for
     that calendar month, which is how we separated account age from seasonality. The seasonal
     analysis does the reverse, normalizing each account month against that account's own annual
     cost per lead, which is how we separated season from account mix. Both restrict to account
-    months with at least 20 days of spend and at least 5 leads.
+    months with at least 20 days of spend and at least 5 leads, 54 in this window.
   </p>
   <p>
-    Limits, stated up front because a benchmark without them is marketing. Twenty-one accounts is
-    a small sample and the commercial segment rests on three of them. Only three accounts have run
-    long enough to say anything about month seven and beyond, which is exactly why the July tenure
-    finding was retired rather than restated.
+    Limits, stated up front because a benchmark without them is marketing. Twenty-six accounts is
+    a small sample and the commercial segment rests on two of them. Only four accounts advertised
+    through the winter and only one ran in every month of the window, which is why the seasonal
+    section names medians and counts rather than one clean curve.
   </p>
   <p>
     The rules we apply to every figure on this site, our own and everyone else's, are written down in <a href="/editorial-standards">our editorial standards</a>,
@@ -427,12 +499,15 @@ const description =
     month of work is. Turning these quartiles into a twelve-month sequence with a price on every line is the job of the <a href="/marketing-plan-for-architects">marketing plan for an architecture firm</a>.
   </p>
   <p>
-    If you are not running ads yet, the number to hold onto is the $148 per booked consultation, set against what one signed project pays you, because that ratio is why firms keep the channel on through the quiet weeks. To turn a budget you are considering into the leads and consultations these figures imply, the <a href="/architecture-marketing-budget-calculator">architecture marketing budget calculator</a> runs the arithmetic on this same dataset. The alternative is <a href="/referral-systems-for-architects#the-ceiling-nobody-mentions-at-the-networking-event">waiting for referrals</a> and calling the wait a strategy.
+    If you are not running ads yet, the number to hold onto is the cost per booked consultation, $136 pooled and $177 at the median firm, set against what one signed project pays you, because that ratio is why firms keep the channel on through the quiet weeks.
+  </p>
+  <p>
+    To turn a budget you are considering into the leads and consultations it implies, the <a href="/architecture-marketing-budget-calculator">architecture marketing budget calculator</a> runs the arithmetic on the September cut of this dataset. The alternative is <a href="/referral-systems-for-architects#the-ceiling-nobody-mentions-at-the-networking-event">waiting for referrals</a> and calling the wait a strategy.
   </p>
   <p>
     Running that engine for US architecture firms is what we do all day, and we charge for it
     when a qualified consultation actually shows up. If you want your own row to sit in the
     better quarter of this table, that is the conversation.
   </p>
-  <a class="cta-block" href="https://beam.ipqmedia.com/program">Book a call with IPQmedia</a>
+  <a class="cta-block" href="https://ipqmedia.com/book-a-call">Book a call with IPQmedia</a>
 </Base>
