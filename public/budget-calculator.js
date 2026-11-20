@@ -1,12 +1,14 @@
-// Architecture marketing budget calculator. Constants come from the benchmark report v1 pull
-// (21 US architecture firm accounts, 15 Sep 2025 to 11 Sep 2026). The static HTML already
+// Architecture marketing budget calculator. Constants come from the benchmark report November pull
+// (26 US architecture firm accounts, 24 with 10+ leads, 18 Nov 2025 to 17 Nov 2026; re-based 2026-11-20).
+// all = median account; res/com = pooled per segment; CAP = capture CPL / pooled CPL $47.05;
+// SEA = median account-month index; LO/HI = p25 and p75 cost per booked over the median. The static HTML already
 // carries the default-state numbers, so the page is correct with JavaScript disabled and this
 // only takes over when a setting changes.
 (function () {
-  var SEG = { all: { cpl: 50.41, cpb: 147.76 }, res: { cpl: 39.92, cpb: 114.65 }, com: { cpl: 53.43, cpb: 123.63 } };
-  var CAP = { mixed: 1, form: 0.878, landing: 1.519 };
-  var SEA = { year: 1, q1: 0.87, q2: 1.12, q3: 0.92, q4: 0.89 };
-  var LO = 0.7091, HI = 1.6213;
+  var SEG = { all: { cpl: 51.50, cpb: 177.19 }, res: { cpl: 41.51, cpb: 108.47 }, com: { cpl: 46.25, cpb: 89.09 } };
+  var CAP = { mixed: 1, form: 0.889, landing: 1.444 };
+  var SEA = { year: 1, q1: 0.91, q2: 1.08, q3: 0.92, q4: 1.13 };
+  var LO = 0.5760, HI = 1.5620;
   var $ = function (id) { return document.getElementById(id); };
   var el = { b: $('c-budget'), s: $('c-seg'), c: $('c-cap'), q: $('c-season') };
   if (!el.b) return;
